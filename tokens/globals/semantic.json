@@ -1,0 +1,1958 @@
+{
+  "color": {
+    "semantic": {
+      "FINN light": {
+        "Semantic/Text/Default": {
+          "value": null
+        },
+        "Semantic/Text/Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Placeholder": {
+          "value": null
+        },
+        "Semantic/Text/Inverted": {
+          "value": null
+        },
+        "Semantic/Text/Inverted-Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Link": {
+          "value": null
+        },
+        "Semantic/Text/Disabled": {
+          "value": null
+        },
+        "Semantic/Text/Negative": {
+          "value": null
+        },
+        "Semantic/Text/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Default": {
+          "value": null
+        },
+        "Semantic/Background/Hover": {
+          "value": null
+        },
+        "Semantic/Background/Active": {
+          "value": null
+        },
+        "Semantic/Background/Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Disabled-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Selected": {
+          "value": null
+        },
+        "Semantic/Background/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Inverted": {
+          "value": null
+        },
+        "Semantic/Background/Primary": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info": {
+          "value": null
+        },
+        "Semantic/Background/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Default": {
+          "value": null
+        },
+        "Semantic/Border/Hover": {
+          "value": null
+        },
+        "Semantic/Border/Active": {
+          "value": null
+        },
+        "Semantic/Border/Disabled": {
+          "value": null
+        },
+        "Semantic/Border/Selected": {
+          "value": null
+        },
+        "Semantic/Border/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Secondary": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info": {
+          "value": null
+        },
+        "Semantic/Border/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Default": {
+          "value": null
+        },
+        "Semantic/Icon/Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Active": {
+          "value": null
+        },
+        "Semantic/Icon/Selected": {
+          "value": null
+        },
+        "Semantic/Icon/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Disabled": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Primary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Positive": {
+          "value": null
+        },
+        "Semantic/Icon/Negative": {
+          "value": null
+        },
+        "Semantic/Icon/Warning": {
+          "value": null
+        },
+        "Semantic/Icon/Info": {
+          "value": null
+        },
+        "Semantic/Focus/Default": {
+          "value": null
+        },
+        "Semantic/Background/Transparent-0": {
+          "value": null
+        },
+        "Semantic/Background/Notification": {
+          "value": null
+        },
+        "Semantic/Icon/Notification": {
+          "value": null
+        },
+        "Semantic/Background/Overlay": {
+          "value": null
+        },
+        "Components/Avatar/Background": {
+          "value": null
+        },
+        "Components/Avatar/Icon": {
+          "value": null
+        },
+        "Components/Badge/Neutral/Background": {
+          "value": null
+        },
+        "Components/Badge/Info/Background": {
+          "value": null
+        },
+        "Components/Badge/Positive/Background": {
+          "value": null
+        },
+        "Components/Badge/Warning/Background": {
+          "value": null
+        },
+        "Components/Badge/Negative/Background": {
+          "value": null
+        },
+        "Components/Badge/Sponsored/Background": {
+          "value": null
+        },
+        "Components/Badge/Price/Background": {
+          "value": null
+        },
+        "Components/Badge/Notification/Background": {
+          "value": null
+        },
+        "Components/Button/Pill/Background-Hover": {
+          "value": null
+        },
+        "Components/Callout/Text": {
+          "value": null
+        },
+        "Components/Callout/Background": {
+          "value": null
+        },
+        "Components/Callout/Border": {
+          "value": null
+        },
+        "Components/Card/Default/Background": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Border-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Hovert": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Selected": {
+          "value": null
+        },
+        "Components/Modal/Text-Title": {
+          "value": null
+        },
+        "Components/Modal/Text-Paragraph": {
+          "value": null
+        },
+        "Components/Modal/Background": {
+          "value": null
+        },
+        "Components/Navbar/Icon-Selected": {
+          "value": null
+        },
+        "Components/Navbar/Border-Selected": {
+          "value": null
+        },
+        "Components/Page Indicator/Background": {
+          "value": null
+        },
+        "Components/Page Indicator/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Active": {
+          "value": null
+        },
+        "Components/Step Indicator/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Hover": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Secondary": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Active": {
+          "value": null
+        }
+      },
+      "FINN dark": {
+        "Semantic/Text/Default": {
+          "value": null
+        },
+        "Semantic/Text/Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Placeholder": {
+          "value": null
+        },
+        "Semantic/Text/Inverted": {
+          "value": null
+        },
+        "Semantic/Text/Inverted-Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Link": {
+          "value": null
+        },
+        "Semantic/Text/Disabled": {
+          "value": null
+        },
+        "Semantic/Text/Negative": {
+          "value": null
+        },
+        "Semantic/Text/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Default": {
+          "value": null
+        },
+        "Semantic/Background/Hover": {
+          "value": null
+        },
+        "Semantic/Background/Active": {
+          "value": null
+        },
+        "Semantic/Background/Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Disabled-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Selected": {
+          "value": null
+        },
+        "Semantic/Background/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Inverted": {
+          "value": null
+        },
+        "Semantic/Background/Primary": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info": {
+          "value": null
+        },
+        "Semantic/Background/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Default": {
+          "value": null
+        },
+        "Semantic/Border/Hover": {
+          "value": null
+        },
+        "Semantic/Border/Active": {
+          "value": null
+        },
+        "Semantic/Border/Disabled": {
+          "value": null
+        },
+        "Semantic/Border/Selected": {
+          "value": null
+        },
+        "Semantic/Border/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Secondary": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info": {
+          "value": null
+        },
+        "Semantic/Border/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Default": {
+          "value": null
+        },
+        "Semantic/Icon/Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Active": {
+          "value": null
+        },
+        "Semantic/Icon/Selected": {
+          "value": null
+        },
+        "Semantic/Icon/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Disabled": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Primary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Positive": {
+          "value": null
+        },
+        "Semantic/Icon/Negative": {
+          "value": null
+        },
+        "Semantic/Icon/Warning": {
+          "value": null
+        },
+        "Semantic/Icon/Info": {
+          "value": null
+        },
+        "Semantic/Focus/Default": {
+          "value": null
+        },
+        "Semantic/Background/Transparent-0": {
+          "value": null
+        },
+        "Semantic/Background/Notification": {
+          "value": null
+        },
+        "Semantic/Icon/Notification": {
+          "value": null
+        },
+        "Semantic/Background/Overlay": {
+          "value": null
+        },
+        "Components/Avatar/Background": {
+          "value": null
+        },
+        "Components/Avatar/Icon": {
+          "value": null
+        },
+        "Components/Badge/Neutral/Background": {
+          "value": null
+        },
+        "Components/Badge/Info/Background": {
+          "value": null
+        },
+        "Components/Badge/Positive/Background": {
+          "value": null
+        },
+        "Components/Badge/Warning/Background": {
+          "value": null
+        },
+        "Components/Badge/Negative/Background": {
+          "value": null
+        },
+        "Components/Badge/Sponsored/Background": {
+          "value": null
+        },
+        "Components/Badge/Price/Background": {
+          "value": null
+        },
+        "Components/Badge/Notification/Background": {
+          "value": null
+        },
+        "Components/Button/Pill/Background-Hover": {
+          "value": null
+        },
+        "Components/Callout/Text": {
+          "value": null
+        },
+        "Components/Callout/Background": {
+          "value": null
+        },
+        "Components/Callout/Border": {
+          "value": null
+        },
+        "Components/Card/Default/Background": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Border-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Hovert": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Selected": {
+          "value": null
+        },
+        "Components/Modal/Text-Title": {
+          "value": null
+        },
+        "Components/Modal/Text-Paragraph": {
+          "value": null
+        },
+        "Components/Modal/Background": {
+          "value": null
+        },
+        "Components/Navbar/Icon-Selected": {
+          "value": null
+        },
+        "Components/Navbar/Border-Selected": {
+          "value": null
+        },
+        "Components/Page Indicator/Background": {
+          "value": null
+        },
+        "Components/Page Indicator/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Active": {
+          "value": null
+        },
+        "Components/Step Indicator/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Hover": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Secondary": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Active": {
+          "value": null
+        }
+      },
+      "Tori light": {
+        "Semantic/Text/Default": {
+          "value": null
+        },
+        "Semantic/Text/Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Placeholder": {
+          "value": null
+        },
+        "Semantic/Text/Inverted": {
+          "value": null
+        },
+        "Semantic/Text/Inverted-Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Link": {
+          "value": null
+        },
+        "Semantic/Text/Disabled": {
+          "value": null
+        },
+        "Semantic/Text/Negative": {
+          "value": null
+        },
+        "Semantic/Text/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Default": {
+          "value": null
+        },
+        "Semantic/Background/Hover": {
+          "value": null
+        },
+        "Semantic/Background/Active": {
+          "value": null
+        },
+        "Semantic/Background/Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Disabled-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Selected": {
+          "value": null
+        },
+        "Semantic/Background/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Inverted": {
+          "value": null
+        },
+        "Semantic/Background/Primary": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info": {
+          "value": null
+        },
+        "Semantic/Background/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Default": {
+          "value": null
+        },
+        "Semantic/Border/Hover": {
+          "value": null
+        },
+        "Semantic/Border/Active": {
+          "value": null
+        },
+        "Semantic/Border/Disabled": {
+          "value": null
+        },
+        "Semantic/Border/Selected": {
+          "value": null
+        },
+        "Semantic/Border/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Secondary": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info": {
+          "value": null
+        },
+        "Semantic/Border/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Default": {
+          "value": null
+        },
+        "Semantic/Icon/Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Active": {
+          "value": null
+        },
+        "Semantic/Icon/Selected": {
+          "value": null
+        },
+        "Semantic/Icon/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Disabled": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Primary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Positive": {
+          "value": null
+        },
+        "Semantic/Icon/Negative": {
+          "value": null
+        },
+        "Semantic/Icon/Warning": {
+          "value": null
+        },
+        "Semantic/Icon/Info": {
+          "value": null
+        },
+        "Semantic/Focus/Default": {
+          "value": null
+        },
+        "Semantic/Background/Transparent-0": {
+          "value": null
+        },
+        "Semantic/Background/Notification": {
+          "value": null
+        },
+        "Semantic/Icon/Notification": {
+          "value": null
+        },
+        "Semantic/Background/Overlay": {
+          "value": "rgba(255, 255, 255, 1)"
+        },
+        "Components/Avatar/Background": {
+          "value": null
+        },
+        "Components/Avatar/Icon": {
+          "value": null
+        },
+        "Components/Badge/Neutral/Background": {
+          "value": null
+        },
+        "Components/Badge/Info/Background": {
+          "value": null
+        },
+        "Components/Badge/Positive/Background": {
+          "value": null
+        },
+        "Components/Badge/Warning/Background": {
+          "value": null
+        },
+        "Components/Badge/Negative/Background": {
+          "value": null
+        },
+        "Components/Badge/Sponsored/Background": {
+          "value": null
+        },
+        "Components/Badge/Price/Background": {
+          "value": null
+        },
+        "Components/Badge/Notification/Background": {
+          "value": null
+        },
+        "Components/Button/Pill/Background-Hover": {
+          "value": null
+        },
+        "Components/Callout/Text": {
+          "value": null
+        },
+        "Components/Callout/Background": {
+          "value": null
+        },
+        "Components/Callout/Border": {
+          "value": null
+        },
+        "Components/Card/Default/Background": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Border-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Hovert": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Selected": {
+          "value": null
+        },
+        "Components/Modal/Text-Title": {
+          "value": null
+        },
+        "Components/Modal/Text-Paragraph": {
+          "value": null
+        },
+        "Components/Modal/Background": {
+          "value": null
+        },
+        "Components/Navbar/Icon-Selected": {
+          "value": null
+        },
+        "Components/Navbar/Border-Selected": {
+          "value": null
+        },
+        "Components/Page Indicator/Background": {
+          "value": null
+        },
+        "Components/Page Indicator/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Active": {
+          "value": null
+        },
+        "Components/Step Indicator/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Hover": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Secondary": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Active": {
+          "value": null
+        }
+      },
+      "DBA light": {
+        "Semantic/Text/Default": {
+          "value": null
+        },
+        "Semantic/Text/Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Placeholder": {
+          "value": null
+        },
+        "Semantic/Text/Inverted": {
+          "value": null
+        },
+        "Semantic/Text/Inverted-Subtle": {
+          "value": null
+        },
+        "Semantic/Text/Link": {
+          "value": null
+        },
+        "Semantic/Text/Disabled": {
+          "value": null
+        },
+        "Semantic/Text/Negative": {
+          "value": null
+        },
+        "Semantic/Text/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Default": {
+          "value": null
+        },
+        "Semantic/Background/Hover": {
+          "value": null
+        },
+        "Semantic/Background/Active": {
+          "value": null
+        },
+        "Semantic/Background/Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Disabled-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Selected": {
+          "value": null
+        },
+        "Semantic/Background/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Inverted": {
+          "value": null
+        },
+        "Semantic/Background/Primary": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected": {
+          "value": null
+        },
+        "Semantic/Background/Positive-Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info": {
+          "value": null
+        },
+        "Semantic/Background/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Active": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Default": {
+          "value": null
+        },
+        "Semantic/Border/Hover": {
+          "value": null
+        },
+        "Semantic/Border/Active": {
+          "value": null
+        },
+        "Semantic/Border/Disabled": {
+          "value": null
+        },
+        "Semantic/Border/Selected": {
+          "value": null
+        },
+        "Semantic/Border/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Primary-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Secondary": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Active": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Positive-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Active": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Negative-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Active": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Warning-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info": {
+          "value": null
+        },
+        "Semantic/Border/Info-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Active": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Border/Info-Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Default": {
+          "value": null
+        },
+        "Semantic/Icon/Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Active": {
+          "value": null
+        },
+        "Semantic/Icon/Selected": {
+          "value": null
+        },
+        "Semantic/Icon/Selected-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Disabled": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Subtle-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Inverted-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Primary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Icon/Secondary-Active": {
+          "value": null
+        },
+        "Semantic/Icon/Positive": {
+          "value": null
+        },
+        "Semantic/Icon/Negative": {
+          "value": null
+        },
+        "Semantic/Icon/Warning": {
+          "value": null
+        },
+        "Semantic/Icon/Info": {
+          "value": null
+        },
+        "Semantic/Focus/Default": {
+          "value": null
+        },
+        "Semantic/Background/Transparent-0": {
+          "value": null
+        },
+        "Semantic/Background/Notification": {
+          "value": null
+        },
+        "Semantic/Icon/Notification": {
+          "value": null
+        },
+        "Semantic/Background/Overlay": {
+          "value": null
+        },
+        "Components/Avatar/Background": {
+          "value": null
+        },
+        "Components/Avatar/Icon": {
+          "value": null
+        },
+        "Components/Badge/Neutral/Background": {
+          "value": null
+        },
+        "Components/Badge/Info/Background": {
+          "value": null
+        },
+        "Components/Badge/Positive/Background": {
+          "value": null
+        },
+        "Components/Badge/Warning/Background": {
+          "value": null
+        },
+        "Components/Badge/Negative/Background": {
+          "value": null
+        },
+        "Components/Badge/Sponsored/Background": {
+          "value": null
+        },
+        "Components/Badge/Price/Background": {
+          "value": null
+        },
+        "Components/Badge/Notification/Background": {
+          "value": null
+        },
+        "Components/Button/Pill/Background-Hover": {
+          "value": null
+        },
+        "Components/Callout/Text": {
+          "value": null
+        },
+        "Components/Callout/Background": {
+          "value": null
+        },
+        "Components/Callout/Border": {
+          "value": null
+        },
+        "Components/Card/Default/Background": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Default/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Default/Border-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Hovert": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected": {
+          "value": null
+        },
+        "Components/Card/Flat/Background-Selected-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Hover": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Active": {
+          "value": null
+        },
+        "Components/Card/Flat/Border-Selected": {
+          "value": null
+        },
+        "Components/Modal/Text-Title": {
+          "value": null
+        },
+        "Components/Modal/Text-Paragraph": {
+          "value": null
+        },
+        "Components/Modal/Background": {
+          "value": null
+        },
+        "Components/Navbar/Icon-Selected": {
+          "value": null
+        },
+        "Components/Navbar/Border-Selected": {
+          "value": null
+        },
+        "Components/Page Indicator/Background": {
+          "value": null
+        },
+        "Components/Page Indicator/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Hover": {
+          "value": null
+        },
+        "Components/Pill/Suggestion/Background-Active": {
+          "value": null
+        },
+        "Components/Step Indicator/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Hover": {
+          "value": null
+        },
+        "Components/Switch/Background-Track-Disabled": {
+          "value": null
+        },
+        "Semantic/Background/Secondary": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Hover": {
+          "value": null
+        },
+        "Semantic/Background/Secondary-Active": {
+          "value": null
+        }
+      }
+    }
+  }
+}

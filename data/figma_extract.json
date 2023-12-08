@@ -1,0 +1,121 @@
+{
+  "status": 200,
+  "error": false,
+  "meta": {
+    "variableCollections": {
+      "VariableCollectionId:3325:4171": {
+        "defaultModeId": "3325:1",
+        "id": "VariableCollectionId:3325:4171",
+        "name": "Primitives-Default (FINN)",
+        "remote": false,
+        "modes": [{ "modeId": "3325:1", "name": "FINN" }],
+        "key": "223fbc23eb92a7ab43701d8a78159bc6787a88a3",
+        "hiddenFromPublishing": false,
+        "variableIds": [
+          "VariableID:3325:4172",
+          "VariableID:3325:4173",
+          "VariableID:3325:4244",
+          "VariableID:5589:6065"
+        ]
+      },
+      "VariableCollectionId:4546:841": {
+        "defaultModeId": "4546:0",
+        "id": "VariableCollectionId:4546:841",
+        "name": "Tokens",
+        "remote": false,
+        "modes": [
+          { "modeId": "4546:0", "name": "FINN light" },
+          { "modeId": "4546:1", "name": "FINN dark" },
+          { "modeId": "4671:4", "name": "Tori light" },
+          { "modeId": "5185:0", "name": "DBA light" }
+        ],
+        "key": "227b5f83b063eebb216c486b4b16f72f08c7c259",
+        "hiddenFromPublishing": false,
+        "variableIds": [
+          "VariableID:4546:842",
+          "VariableID:4546:843",
+          "VariableID:4546:844",
+          "VariableID:5562:19750"
+        ]
+      }
+    },
+    "variables": {
+      "VariableID:3325:4185": {
+        "id": "VariableID:3325:4185",
+        "name": "FINN/Blue/100",
+        "remote": false,
+        "key": "9cb7730c8f14e3aeb1c86a8741a61066a294f96c",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.8823529481887817,
+            "g": 0.929411768913269,
+            "b": 0.9960784316062927,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:3325:4186": {
+        "id": "VariableID:3325:4186",
+        "name": "FINN/Blue/200",
+        "remote": false,
+        "key": "74aadc4921f3e483a16023473dba1753873a74a5",
+        "variableCollectionId": "VariableCollectionId:3325:4171",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "3325:1": {
+            "r": 0.7607843279838562,
+            "g": 0.8549019694328308,
+            "b": 0.9960784316062927,
+            "a": 1
+          }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      },
+      "VariableID:4546:850": {
+        "id": "VariableID:4546:850",
+        "name": "Semantic/Text/Positive",
+        "remote": false,
+        "key": "f5481f455615833281474052470ede7dee7e1907",
+        "variableCollectionId": "VariableCollectionId:4546:841",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "4546:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:3325:4210" },
+          "4546:1": { "type": "VARIABLE_ALIAS", "id": "VariableID:3325:4209" },
+          "4671:4": { "type": "VARIABLE_ALIAS", "id": "VariableID:4671:16555" },
+          "5185:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:5185:40931" }
+        },
+        "scopes": ["TEXT_FILL"],
+        "codeSyntax": {}
+      },
+      "VariableID:4546:973": {
+        "id": "VariableID:4546:973",
+        "name": "Components/Badge/Sponsored/Background",
+        "remote": false,
+        "key": "4dea22d3866a03c1ea8d93cd3fa83d37e7cb7be8",
+        "variableCollectionId": "VariableCollectionId:4546:841",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "4546:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:3325:4196" },
+          "4546:1": { "type": "VARIABLE_ALIAS", "id": "VariableID:3325:4200" },
+          "4671:4": { "type": "VARIABLE_ALIAS", "id": "VariableID:4671:16541" },
+          "5185:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:5185:40906" }
+        },
+        "scopes": ["ALL_SCOPES"],
+        "codeSyntax": {}
+      }
+    }
+  }
+}
