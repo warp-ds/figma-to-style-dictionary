@@ -1,647 +1,177 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "status": {
-        "type": "integer"
-      },
-      "error": {
-        "type": "boolean"
-      },
-      "meta": {
-        "type": "object",
-        "properties": {
-          "variableCollections": {
-            "type": "object",
-            "properties": {
-              "VariableCollectionId:3325:4171": {
-                "type": "object",
-                "properties": {
-                  "defaultModeId": {
-                    "type": "string"
-                  },
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "modes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "object",
-                        "properties": {
-                          "modeId": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "modeId",
-                          "name"
-                        ]
-                      }
-                    ]
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "variableIds": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  }
-                },
-                "required": [
-                  "defaultModeId",
-                  "id",
-                  "name",
-                  "remote",
-                  "modes",
-                  "key",
-                  "hiddenFromPublishing",
-                  "variableIds"
-                ]
-              },
-              "VariableCollectionId:4546:841": {
-                "type": "object",
-                "properties": {
-                  "defaultModeId": {
-                    "type": "string"
-                  },
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "modes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "object",
-                        "properties": {
-                          "modeId": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "modeId",
-                          "name"
-                        ]
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "modeId": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "modeId",
-                          "name"
-                        ]
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "modeId": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "modeId",
-                          "name"
-                        ]
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "modeId": {
-                            "type": "string"
-                          },
-                          "name": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "modeId",
-                          "name"
-                        ]
-                      }
-                    ]
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "variableIds": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  }
-                },
-                "required": [
-                  "defaultModeId",
-                  "id",
-                  "name",
-                  "remote",
-                  "modes",
-                  "key",
-                  "hiddenFromPublishing",
-                  "variableIds"
-                ]
-              }
-            },
-            "required": [
-              "VariableCollectionId:3325:4171",
-              "VariableCollectionId:4546:841"
-            ]
-          },
-          "variables": {
-            "type": "object",
-            "properties": {
-              "VariableID:3325:4185": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "variableCollectionId": {
-                    "type": "string"
-                  },
-                  "resolvedType": {
-                    "type": "string"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "valuesByMode": {
-                    "type": "object",
-                    "properties": {
-                      "3325:1": {
-                        "type": "object",
-                        "properties": {
-                          "r": {
-                            "type": "number"
-                          },
-                          "g": {
-                            "type": "number"
-                          },
-                          "b": {
-                            "type": "number"
-                          },
-                          "a": {
-                            "type": "integer"
-                          }
-                        },
-                        "required": [
-                          "r",
-                          "g",
-                          "b",
-                          "a"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "3325:1"
-                    ]
-                  },
-                  "scopes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  },
-                  "codeSyntax": {
-                    "type": "object"
-                  }
-                },
-                "required": [
-                  "id",
-                  "name",
-                  "remote",
-                  "key",
-                  "variableCollectionId",
-                  "resolvedType",
-                  "description",
-                  "hiddenFromPublishing",
-                  "valuesByMode",
-                  "scopes",
-                  "codeSyntax"
-                ]
-              },
-              "VariableID:3325:4186": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "variableCollectionId": {
-                    "type": "string"
-                  },
-                  "resolvedType": {
-                    "type": "string"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "valuesByMode": {
-                    "type": "object",
-                    "properties": {
-                      "3325:1": {
-                        "type": "object",
-                        "properties": {
-                          "r": {
-                            "type": "number"
-                          },
-                          "g": {
-                            "type": "number"
-                          },
-                          "b": {
-                            "type": "number"
-                          },
-                          "a": {
-                            "type": "integer"
-                          }
-                        },
-                        "required": [
-                          "r",
-                          "g",
-                          "b",
-                          "a"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "3325:1"
-                    ]
-                  },
-                  "scopes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  },
-                  "codeSyntax": {
-                    "type": "object"
-                  }
-                },
-                "required": [
-                  "id",
-                  "name",
-                  "remote",
-                  "key",
-                  "variableCollectionId",
-                  "resolvedType",
-                  "description",
-                  "hiddenFromPublishing",
-                  "valuesByMode",
-                  "scopes",
-                  "codeSyntax"
-                ]
-              },
-              "VariableID:4546:850": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "variableCollectionId": {
-                    "type": "string"
-                  },
-                  "resolvedType": {
-                    "type": "string"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "valuesByMode": {
-                    "type": "object",
-                    "properties": {
-                      "4546:0": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "4546:1": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "4671:4": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "5185:0": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "4546:0",
-                      "4546:1",
-                      "4671:4",
-                      "5185:0"
-                    ]
-                  },
-                  "scopes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  },
-                  "codeSyntax": {
-                    "type": "object"
-                  }
-                },
-                "required": [
-                  "id",
-                  "name",
-                  "remote",
-                  "key",
-                  "variableCollectionId",
-                  "resolvedType",
-                  "description",
-                  "hiddenFromPublishing",
-                  "valuesByMode",
-                  "scopes",
-                  "codeSyntax"
-                ]
-              },
-              "VariableID:4546:973": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "remote": {
-                    "type": "boolean"
-                  },
-                  "key": {
-                    "type": "string"
-                  },
-                  "variableCollectionId": {
-                    "type": "string"
-                  },
-                  "resolvedType": {
-                    "type": "string"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "hiddenFromPublishing": {
-                    "type": "boolean"
-                  },
-                  "valuesByMode": {
-                    "type": "object",
-                    "properties": {
-                      "4546:0": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "4546:1": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "4671:4": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      },
-                      "5185:0": {
-                        "type": "object",
-                        "properties": {
-                          "type": {
-                            "type": "string"
-                          },
-                          "id": {
-                            "type": "string"
-                          }
-                        },
-                        "required": [
-                          "type",
-                          "id"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "4546:0",
-                      "4546:1",
-                      "4671:4",
-                      "5185:0"
-                    ]
-                  },
-                  "scopes": {
-                    "type": "array",
-                    "items": [
-                      {
-                        "type": "string"
-                      }
-                    ]
-                  },
-                  "codeSyntax": {
-                    "type": "object"
-                  }
-                },
-                "required": [
-                  "id",
-                  "name",
-                  "remote",
-                  "key",
-                  "variableCollectionId",
-                  "resolvedType",
-                  "description",
-                  "hiddenFromPublishing",
-                  "valuesByMode",
-                  "scopes",
-                  "codeSyntax"
-                ]
-              }
-            },
-            "required": [
-              "VariableID:3325:4185",
-              "VariableID:3325:4186",
-              "VariableID:4546:850",
-              "VariableID:4546:973"
-            ]
-          }
-        },
-        "required": [
-          "variableCollections",
-          "variables"
-        ]
-      }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "integer"
     },
-    "required": [
-      "status",
-      "error",
-      "meta"
-    ]
-  }
+    "error": {
+      "type": "boolean"
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "variableCollections": {
+          "type": "object",
+          "properties": {
+            "VariableCollectionId": {
+              "type": "object",
+              "properties": {
+                "defaultModeId": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "remote": {
+                  "type": "boolean"
+                },
+                "modes": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "modeId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["modeId", "name"]
+                    }
+                  ]
+                },
+                "key": {
+                  "type": "string"
+                },
+                "hiddenFromPublishing": {
+                  "type": "boolean"
+                },
+                "variableIds": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "defaultModeId",
+                "id",
+                "name",
+                "remote",
+                "modes",
+                "key",
+                "hiddenFromPublishing",
+                "variableIds"
+              ]
+            }
+          },
+          "required": [
+            "VariableCollectionIds"
+          ]
+        },
+        "variables": {
+          "type": "object",
+          "properties": {
+            "VariableID": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "remote": {
+                  "type": "boolean"
+                },
+                "key": {
+                  "type": "string"
+                },
+                "variableCollectionId": {
+                  "type": "string"
+                },
+                "resolvedType": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "hiddenFromPublishing": {
+                  "type": "boolean"
+                },
+                "valuesByMode": {
+                  "type": "object",
+                  "properties": {
+                    "3325:1": {
+                      "type": "object",
+                      "properties": {
+                        "r": {
+                          "type": "number"
+                        },
+                        "g": {
+                          "type": "number"
+                        },
+                        "b": {
+                          "type": "number"
+                        },
+                        "a": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": ["r", "g", "b", "a"]
+                    }
+                  },
+                  "required": ["3325:1"]
+                },
+                "scopes": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "codeSyntax": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "remote",
+                "key",
+                "variableCollectionId",
+                "resolvedType",
+                "description",
+                "hiddenFromPublishing",
+                "valuesByMode",
+                "scopes",
+                "codeSyntax"
+              ]
+            }
+          },
+          "required": ["VariableIDs"]
+        }
+      },
+      "required": ["variableCollections", "variables"]
+    }
+  },
+  "required": ["status", "error", "meta"]
+}

@@ -1,6 +1,7 @@
-// Brand-specific Color Tokens
-// finn.json and tori.json inside a brands directory:
+# Brand-specific Color Tokens
+finn.json and tori.json inside a brands directory:
 
+```
 {
   "color": {
     "brand": {
@@ -12,10 +13,12 @@
     }
   }
 }
+```
 
-// Semantic tokens
-// One json file, for example tokens/globals/semantic.json:
+# Semantic tokens
+One json file, for example tokens/globals/semantic.json:
 
+```
 {
   "color": {
     "semantic": {
@@ -30,9 +33,12 @@
     }
   }
 }
+```
 
 
-// Style Dictionary Configuration
+# Style Dictionary Configuration
+
+```
 {
   "source": [
     "tokens/brands/*.json",
@@ -40,3 +46,4 @@
   ],
   // ... other configuration settings
 }
+```
