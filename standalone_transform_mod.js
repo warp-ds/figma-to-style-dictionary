@@ -4,7 +4,24 @@ const path = require("path");
 
 const sourceData = require("./data/figma.json");
 
-// Helper function to convert RGBA object to CSS color string
+
+// Convert RGBA object to hex
+
+function rgbaToHex(r, g, b, a) {
+  // Convert each component to a two-digit hexadecimal string
+  const toHex = c => Math.round(c * 255).toString(16).padStart(2, '0');
+
+  // Convert RGB to Hex
+  let hex = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+  // Append alpha value in hex only if it's not 1
+  if (a !== 1) {
+    hex += toHex(a);
+  }
+
+  return hex;
+}
+
 function rgbaToString(rgba) {
   if (
     rgba &&
@@ -13,10 +30,8 @@ function rgbaToString(rgba) {
     rgba.b !== undefined &&
     rgba.a !== undefined
   ) {
-    return `rgba(${rgba.r * 255}, ${rgba.g * 255}, ${rgba.b * 255}, ${rgba.a})`;
+    return rgbaToHex(rgba.r, rgba.g, rgba.b, rgba.a);
   }
-  // If rgba is not valid
-  return rgba;
   return null;
 }
 
