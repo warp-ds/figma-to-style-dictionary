@@ -6,24 +6,16 @@
           "id": "VariableID:4546:842",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4181"
+              "value": "color.FINN.Gray.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16527"
+              "value": "color.Tori.Gray.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40962"
+              "value": "color.DBA.Gray.700.value"
             }
           }
         },
@@ -31,24 +23,16 @@
           "id": "VariableID:4546:843",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4179"
+              "value": "color.FINN.Gray.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4175"
+              "value": "color.FINN.Gray.100.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16524"
+              "value": "color.Tori.Gray.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40960"
+              "value": "color.DBA.Gray.500.value"
             }
           }
         },
@@ -56,24 +40,16 @@
           "id": "VariableID:4546:844",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4239"
+              "value": "color.FINN.Bluegray.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -81,24 +57,16 @@
           "id": "VariableID:4546:845",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.White.value",
-              "hex": null,
-              "id": "VariableID:4671:16517"
+              "value": "color.Tori.White.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.White.value",
-              "hex": null,
-              "id": "VariableID:5185:40902"
+              "value": "color.DBA.White.value"
             }
           }
         },
@@ -106,24 +74,16 @@
           "id": "VariableID:4546:846",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4174"
+              "value": "color.FINN.Gray.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Gray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4182"
+              "value": "color.FINN.Gray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16519"
+              "value": "color.Tori.Gray.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40955"
+              "value": "color.DBA.Gray.50.value"
             }
           }
         },
@@ -131,24 +91,16 @@
           "id": "VariableID:4546:847",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -156,24 +108,16 @@
           "id": "VariableID:4546:848",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4239"
+              "value": "color.FINN.Bluegray.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -181,24 +125,16 @@
           "id": "VariableID:4546:849",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16575"
+              "value": "color.Tori.Red.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40951"
+              "value": "color.DBA.Red.600.value"
             }
           }
         },
@@ -206,24 +142,16 @@
           "id": "VariableID:4546:850",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4209"
+              "value": "color.FINN.Green.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16555"
+              "value": "color.Tori.Green.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40931"
+              "value": "color.DBA.Green.600.value"
             }
           }
         }
@@ -233,24 +161,16 @@
           "id": "VariableID:4546:851",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.White.value",
-              "hex": null,
-              "id": "VariableID:4671:16517"
+              "value": "color.Tori.White.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.White.value",
-              "hex": null,
-              "id": "VariableID:5185:40902"
+              "value": "color.DBA.White.value"
             }
           }
         },
@@ -258,24 +178,16 @@
           "id": "VariableID:4546:865",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4235"
+              "value": "color.FINN.Bluegray.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16520"
+              "value": "color.Tori.Gray.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40956"
+              "value": "color.DBA.Gray.100.value"
             }
           }
         },
@@ -283,24 +195,16 @@
           "id": "VariableID:4546:866",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16521"
+              "value": "color.Tori.Gray.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40957"
+              "value": "color.DBA.Gray.200.value"
             }
           }
         },
@@ -308,24 +212,16 @@
           "id": "VariableID:4546:853",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -333,24 +229,16 @@
           "id": "VariableID:5209:53280",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16521"
+              "value": "color.Tori.Gray.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40957"
+              "value": "color.DBA.Gray.200.value"
             }
           }
         },
@@ -358,24 +246,16 @@
           "id": "VariableID:4546:852",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4234"
+              "value": "color.FINN.Bluegray.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16519"
+              "value": "color.Tori.Gray.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40955"
+              "value": "color.DBA.Gray.50.value"
             }
           }
         },
@@ -383,24 +263,16 @@
           "id": "VariableID:4546:867",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4235"
+              "value": "color.FINN.Bluegray.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16520"
+              "value": "color.Tori.Gray.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40956"
+              "value": "color.DBA.Gray.100.value"
             }
           }
         },
@@ -408,24 +280,16 @@
           "id": "VariableID:4546:868",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16521"
+              "value": "color.Tori.Gray.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40957"
+              "value": "color.DBA.Gray.200.value"
             }
           }
         },
@@ -433,24 +297,16 @@
           "id": "VariableID:4546:854",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4184"
+              "value": "color.FINN.Blue.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4193"
+              "value": "color.FINN.Blue.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16529"
+              "value": "color.Tori.Petroleum.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40903"
+              "value": "color.DBA.Jean Blue.50.value"
             }
           }
         },
@@ -458,24 +314,16 @@
           "id": "VariableID:4546:869",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4185"
+              "value": "color.FINN.Blue.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4192"
+              "value": "color.FINN.Blue.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16530"
+              "value": "color.Tori.Petroleum.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40905"
+              "value": "color.DBA.Jean Blue.100.value"
             }
           }
         },
@@ -483,24 +331,16 @@
           "id": "VariableID:4546:1215",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4183"
+              "value": "color.FINN.Gray.900.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Gray/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4174"
+              "value": "color.FINN.Gray.50.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/900.value",
-              "hex": null,
-              "id": "VariableID:4671:16528"
+              "value": "color.Tori.Gray.900.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/900.value",
-              "hex": null,
-              "id": "VariableID:5185:40964"
+              "value": "color.DBA.Gray.900.value"
             }
           }
         },
@@ -508,24 +348,16 @@
           "id": "VariableID:4546:855",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -533,24 +365,16 @@
           "id": "VariableID:4546:870",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16536"
+              "value": "color.Tori.Petroleum.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -558,24 +382,16 @@
           "id": "VariableID:4546:871",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4192"
+              "value": "color.FINN.Blue.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16537"
+              "value": "color.Tori.Petroleum.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40912"
+              "value": "color.DBA.Jean Blue.800.value"
             }
           }
         },
@@ -583,24 +399,16 @@
           "id": "VariableID:4546:856",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4184"
+              "value": "color.FINN.Blue.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4192"
+              "value": "color.FINN.Blue.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16529"
+              "value": "color.Tori.Petroleum.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40903"
+              "value": "color.DBA.Jean Blue.50.value"
             }
           }
         },
@@ -608,24 +416,16 @@
           "id": "VariableID:4546:872",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4185"
+              "value": "color.FINN.Blue.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4193"
+              "value": "color.FINN.Blue.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16530"
+              "value": "color.Tori.Petroleum.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40905"
+              "value": "color.DBA.Jean Blue.100.value"
             }
           }
         },
@@ -633,24 +433,16 @@
           "id": "VariableID:4546:873",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4186"
+              "value": "color.FINN.Blue.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4193"
+              "value": "color.FINN.Blue.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16531"
+              "value": "color.Tori.Petroleum.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40906"
+              "value": "color.DBA.Jean Blue.200.value"
             }
           }
         },
@@ -658,24 +450,16 @@
           "id": "VariableID:4546:857",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4209"
+              "value": "color.FINN.Green.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16555"
+              "value": "color.Tori.Green.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40931"
+              "value": "color.DBA.Green.600.value"
             }
           }
         },
@@ -683,24 +467,16 @@
           "id": "VariableID:4546:874",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4211"
+              "value": "color.FINN.Green.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16556"
+              "value": "color.Tori.Green.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40932"
+              "value": "color.DBA.Green.700.value"
             }
           }
         },
@@ -708,24 +484,16 @@
           "id": "VariableID:4546:875",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4211"
+              "value": "color.FINN.Green.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16557"
+              "value": "color.Tori.Green.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40933"
+              "value": "color.DBA.Green.800.value"
             }
           }
         },
@@ -733,24 +501,16 @@
           "id": "VariableID:4546:858",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4204"
+              "value": "color.FINN.Green.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4213"
+              "value": "color.FINN.Green.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16549"
+              "value": "color.Tori.Green.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40925"
+              "value": "color.DBA.Green.50.value"
             }
           }
         },
@@ -758,24 +518,16 @@
           "id": "VariableID:4546:876",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4205"
+              "value": "color.FINN.Green.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16550"
+              "value": "color.Tori.Green.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40926"
+              "value": "color.DBA.Green.100.value"
             }
           }
         },
@@ -783,24 +535,16 @@
           "id": "VariableID:4546:877",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4206"
+              "value": "color.FINN.Green.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4213"
+              "value": "color.FINN.Green.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16551"
+              "value": "color.Tori.Green.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40927"
+              "value": "color.DBA.Green.200.value"
             }
           }
         },
@@ -808,24 +552,16 @@
           "id": "VariableID:4546:1227",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4204"
+              "value": "color.FINN.Green.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4213"
+              "value": "color.FINN.Green.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16549"
+              "value": "color.Tori.Green.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40925"
+              "value": "color.DBA.Green.50.value"
             }
           }
         },
@@ -833,24 +569,16 @@
           "id": "VariableID:4546:1228",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4205"
+              "value": "color.FINN.Green.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16550"
+              "value": "color.Tori.Green.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40926"
+              "value": "color.DBA.Green.100.value"
             }
           }
         },
@@ -858,24 +586,16 @@
           "id": "VariableID:4546:859",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16575"
+              "value": "color.Tori.Red.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40951"
+              "value": "color.DBA.Red.600.value"
             }
           }
         },
@@ -883,24 +603,16 @@
           "id": "VariableID:4546:878",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4231"
+              "value": "color.FINN.Red.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16576"
+              "value": "color.Tori.Red.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40952"
+              "value": "color.DBA.Red.700.value"
             }
           }
         },
@@ -908,24 +620,16 @@
           "id": "VariableID:4546:880",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4232"
+              "value": "color.FINN.Red.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4231"
+              "value": "color.FINN.Red.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16577"
+              "value": "color.Tori.Red.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40953"
+              "value": "color.DBA.Red.800.value"
             }
           }
         },
@@ -933,24 +637,16 @@
           "id": "VariableID:4546:860",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4224"
+              "value": "color.FINN.Red.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4233"
+              "value": "color.FINN.Red.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16569"
+              "value": "color.Tori.Red.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40945"
+              "value": "color.DBA.Red.50.value"
             }
           }
         },
@@ -958,24 +654,16 @@
           "id": "VariableID:4546:879",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4225"
+              "value": "color.FINN.Red.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4232"
+              "value": "color.FINN.Red.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16570"
+              "value": "color.Tori.Red.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40946"
+              "value": "color.DBA.Red.100.value"
             }
           }
         },
@@ -983,24 +671,16 @@
           "id": "VariableID:4546:881",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4226"
+              "value": "color.FINN.Red.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4233"
+              "value": "color.FINN.Red.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16571"
+              "value": "color.Tori.Red.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40947"
+              "value": "color.DBA.Red.200.value"
             }
           }
         },
@@ -1008,24 +688,16 @@
           "id": "VariableID:4546:861",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4220"
+              "value": "color.FINN.Yellow.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4219"
+              "value": "color.FINN.Yellow.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16565"
+              "value": "color.Tori.Yellow.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40941"
+              "value": "color.DBA.Yellow.600.value"
             }
           }
         },
@@ -1033,24 +705,16 @@
           "id": "VariableID:4546:882",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4221"
+              "value": "color.FINN.Yellow.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4220"
+              "value": "color.FINN.Yellow.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16566"
+              "value": "color.Tori.Yellow.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40942"
+              "value": "color.DBA.Yellow.700.value"
             }
           }
         },
@@ -1058,24 +722,16 @@
           "id": "VariableID:4546:883",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4222"
+              "value": "color.FINN.Yellow.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4221"
+              "value": "color.FINN.Yellow.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16567"
+              "value": "color.Tori.Yellow.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40943"
+              "value": "color.DBA.Yellow.800.value"
             }
           }
         },
@@ -1083,24 +739,16 @@
           "id": "VariableID:4546:862",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4214"
+              "value": "color.FINN.Yellow.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4223"
+              "value": "color.FINN.Yellow.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16559"
+              "value": "color.Tori.Yellow.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40935"
+              "value": "color.DBA.Yellow.50.value"
             }
           }
         },
@@ -1108,24 +756,16 @@
           "id": "VariableID:4546:884",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4215"
+              "value": "color.FINN.Yellow.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4222"
+              "value": "color.FINN.Yellow.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16560"
+              "value": "color.Tori.Yellow.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40936"
+              "value": "color.DBA.Yellow.100.value"
             }
           }
         },
@@ -1133,24 +773,16 @@
           "id": "VariableID:4546:885",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4216"
+              "value": "color.FINN.Yellow.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4223"
+              "value": "color.FINN.Yellow.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16561"
+              "value": "color.Tori.Yellow.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40937"
+              "value": "color.DBA.Yellow.200.value"
             }
           }
         },
@@ -1158,24 +790,16 @@
           "id": "VariableID:4546:863",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16545"
+              "value": "color.Tori.Blue.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -1183,24 +807,16 @@
           "id": "VariableID:4546:886",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4201"
+              "value": "color.FINN.Aqua.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16546"
+              "value": "color.Tori.Blue.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -1208,24 +824,16 @@
           "id": "VariableID:4546:887",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4202"
+              "value": "color.FINN.Aqua.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4201"
+              "value": "color.FINN.Aqua.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16547"
+              "value": "color.Tori.Blue.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40912"
+              "value": "color.DBA.Jean Blue.800.value"
             }
           }
         },
@@ -1233,24 +841,16 @@
           "id": "VariableID:4546:864",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/50.value",
-              "hex": null,
-              "id": "VariableID:3325:4194"
+              "value": "color.FINN.Aqua.50.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4203"
+              "value": "color.FINN.Aqua.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/50.value",
-              "hex": null,
-              "id": "VariableID:4671:16539"
+              "value": "color.Tori.Blue.50.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/50.value",
-              "hex": null,
-              "id": "VariableID:5185:40903"
+              "value": "color.DBA.Jean Blue.50.value"
             }
           }
         },
@@ -1258,24 +858,16 @@
           "id": "VariableID:4546:888",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4195"
+              "value": "color.FINN.Aqua.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4202"
+              "value": "color.FINN.Aqua.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16540"
+              "value": "color.Tori.Blue.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40905"
+              "value": "color.DBA.Jean Blue.100.value"
             }
           }
         },
@@ -1283,24 +875,16 @@
           "id": "VariableID:4546:889",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4196"
+              "value": "color.FINN.Aqua.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4203"
+              "value": "color.FINN.Aqua.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16541"
+              "value": "color.Tori.Blue.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40906"
+              "value": "color.DBA.Jean Blue.200.value"
             }
           }
         },
@@ -1308,24 +892,16 @@
           "id": "VariableID:4546:1211",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Transparent.value",
-              "hex": null,
-              "id": "VariableID:3325:4244"
+              "value": "color.FINN.Transparent.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Transparent.value",
-              "hex": null,
-              "id": "VariableID:3325:4244"
+              "value": "color.FINN.Transparent.value"
             },
             "Tori light": {
-              "value": "color.brand.FINN.Transparent.value",
-              "hex": null,
-              "id": "VariableID:3325:4244"
+              "value": "color.FINN.Transparent.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Transparent.value",
-              "hex": null,
-              "id": "VariableID:5185:40966"
+              "value": "color.DBA.Transparent.value"
             }
           }
         },
@@ -1333,24 +909,16 @@
           "id": "VariableID:4546:1229",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16575"
+              "value": "color.Tori.Red.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40951"
+              "value": "color.DBA.Red.600.value"
             }
           }
         },
@@ -1358,23 +926,16 @@
           "id": "VariableID:5144:11092",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Tori.White.value",
-              "hex": null,
-              "id": "VariableID:4671:16517"
+              "value": "color.Tori.White.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4241"
+              "value": "color.FINN.Bluegray.700.value"
             },
             "Tori light": {
-              "value": "color.brand.unknown.unknown.value",
-              "hex": null
+              "value": "color.unknown.unknown.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.White.value",
-              "hex": null,
-              "id": "VariableID:5185:40902"
+              "value": "color.DBA.White.value"
             }
           }
         },
@@ -1382,24 +943,16 @@
           "id": "VariableID:5562:19748",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/600.value",
-              "hex": null,
-              "id": "VariableID:4671:20829"
+              "value": "color.Tori.Watermelon.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40920"
+              "value": "color.DBA.Phthalo Blue.600.value"
             }
           }
         },
@@ -1407,24 +960,16 @@
           "id": "VariableID:5562:19749",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/700.value",
-              "hex": null,
-              "id": "VariableID:4671:20827"
+              "value": "color.Tori.Watermelon.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40921"
+              "value": "color.DBA.Phthalo Blue.700.value"
             }
           }
         },
@@ -1432,24 +977,16 @@
           "id": "VariableID:5562:19750",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/800.value",
-              "hex": null,
-              "id": "VariableID:4671:20832"
+              "value": "color.Tori.Watermelon.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40922"
+              "value": "color.DBA.Phthalo Blue.800.value"
             }
           }
         }
@@ -1459,24 +996,16 @@
           "id": "VariableID:4546:890",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4240"
+              "value": "color.FINN.Bluegray.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -1484,24 +1013,16 @@
           "id": "VariableID:4546:902",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4238"
+              "value": "color.FINN.Bluegray.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4241"
+              "value": "color.FINN.Bluegray.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16523"
+              "value": "color.Tori.Gray.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40959"
+              "value": "color.DBA.Gray.400.value"
             }
           }
         },
@@ -1509,24 +1030,16 @@
           "id": "VariableID:4546:903",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4239"
+              "value": "color.FINN.Bluegray.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16524"
+              "value": "color.Tori.Gray.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40960"
+              "value": "color.DBA.Gray.500.value"
             }
           }
         },
@@ -1534,24 +1047,16 @@
           "id": "VariableID:4546:891",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4241"
+              "value": "color.FINN.Bluegray.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16526"
+              "value": "color.Tori.Gray.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40962"
+              "value": "color.DBA.Gray.700.value"
             }
           }
         },
@@ -1559,24 +1064,16 @@
           "id": "VariableID:4546:1212",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -1584,24 +1081,16 @@
           "id": "VariableID:4546:1213",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16536"
+              "value": "color.Tori.Petroleum.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -1609,24 +1098,16 @@
           "id": "VariableID:4546:892",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -1634,24 +1115,16 @@
           "id": "VariableID:4546:904",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16536"
+              "value": "color.Tori.Petroleum.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -1659,24 +1132,16 @@
           "id": "VariableID:4546:905",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4192"
+              "value": "color.FINN.Blue.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16537"
+              "value": "color.Tori.Petroleum.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40912"
+              "value": "color.DBA.Jean Blue.800.value"
             }
           }
         },
@@ -1684,24 +1149,16 @@
           "id": "VariableID:4546:897",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4187"
+              "value": "color.FINN.Blue.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16532"
+              "value": "color.Tori.Petroleum.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40907"
+              "value": "color.DBA.Jean Blue.300.value"
             }
           }
         },
@@ -1709,24 +1166,16 @@
           "id": "VariableID:4546:914",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4188"
+              "value": "color.FINN.Blue.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4192"
+              "value": "color.FINN.Blue.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16533"
+              "value": "color.Tori.Petroleum.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40908"
+              "value": "color.DBA.Jean Blue.400.value"
             }
           }
         },
@@ -1734,24 +1183,16 @@
           "id": "VariableID:4546:915",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4193"
+              "value": "color.FINN.Blue.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16534"
+              "value": "color.Tori.Petroleum.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40909"
+              "value": "color.DBA.Jean Blue.500.value"
             }
           }
         },
@@ -1759,24 +1200,16 @@
           "id": "VariableID:5562:41330",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/600.value",
-              "hex": null,
-              "id": "VariableID:4671:20829"
+              "value": "color.Tori.Watermelon.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40920"
+              "value": "color.DBA.Phthalo Blue.600.value"
             }
           }
         },
@@ -1784,24 +1217,16 @@
           "id": "VariableID:5562:41331",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/700.value",
-              "hex": null,
-              "id": "VariableID:4671:20827"
+              "value": "color.Tori.Watermelon.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40921"
+              "value": "color.DBA.Phthalo Blue.700.value"
             }
           }
         },
@@ -1809,24 +1234,16 @@
           "id": "VariableID:5562:41332",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/800.value",
-              "hex": null,
-              "id": "VariableID:4671:20832"
+              "value": "color.Tori.Watermelon.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40922"
+              "value": "color.DBA.Phthalo Blue.800.value"
             }
           }
         },
@@ -1834,24 +1251,16 @@
           "id": "VariableID:4546:893",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4209"
+              "value": "color.FINN.Green.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16555"
+              "value": "color.Tori.Green.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40931"
+              "value": "color.DBA.Green.600.value"
             }
           }
         },
@@ -1859,24 +1268,16 @@
           "id": "VariableID:4546:906",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4211"
+              "value": "color.FINN.Green.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16556"
+              "value": "color.Tori.Green.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40932"
+              "value": "color.DBA.Green.700.value"
             }
           }
         },
@@ -1884,24 +1285,16 @@
           "id": "VariableID:4546:907",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4211"
+              "value": "color.FINN.Green.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16557"
+              "value": "color.Tori.Green.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40933"
+              "value": "color.DBA.Green.800.value"
             }
           }
         },
@@ -1909,24 +1302,16 @@
           "id": "VariableID:4546:898",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4207"
+              "value": "color.FINN.Green.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4211"
+              "value": "color.FINN.Green.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16552"
+              "value": "color.Tori.Green.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40928"
+              "value": "color.DBA.Green.300.value"
             }
           }
         },
@@ -1934,24 +1319,16 @@
           "id": "VariableID:4546:916",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4208"
+              "value": "color.FINN.Green.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16553"
+              "value": "color.Tori.Green.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40929"
+              "value": "color.DBA.Green.400.value"
             }
           }
         },
@@ -1959,24 +1336,16 @@
           "id": "VariableID:4546:917",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4209"
+              "value": "color.FINN.Green.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4213"
+              "value": "color.FINN.Green.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16554"
+              "value": "color.Tori.Green.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40930"
+              "value": "color.DBA.Green.500.value"
             }
           }
         },
@@ -1984,24 +1353,16 @@
           "id": "VariableID:4546:894",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16575"
+              "value": "color.Tori.Red.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40951"
+              "value": "color.DBA.Red.600.value"
             }
           }
         },
@@ -2009,24 +1370,16 @@
           "id": "VariableID:4546:908",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4231"
+              "value": "color.FINN.Red.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16576"
+              "value": "color.Tori.Red.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40952"
+              "value": "color.DBA.Red.700.value"
             }
           }
         },
@@ -2034,24 +1387,16 @@
           "id": "VariableID:4546:909",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4232"
+              "value": "color.FINN.Red.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4231"
+              "value": "color.FINN.Red.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16577"
+              "value": "color.Tori.Red.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40953"
+              "value": "color.DBA.Red.800.value"
             }
           }
         },
@@ -2059,24 +1404,16 @@
           "id": "VariableID:4546:899",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4227"
+              "value": "color.FINN.Red.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4231"
+              "value": "color.FINN.Red.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16572"
+              "value": "color.Tori.Red.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40948"
+              "value": "color.DBA.Red.300.value"
             }
           }
         },
@@ -2084,24 +1421,16 @@
           "id": "VariableID:4546:918",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4228"
+              "value": "color.FINN.Red.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4232"
+              "value": "color.FINN.Red.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16573"
+              "value": "color.Tori.Red.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40949"
+              "value": "color.DBA.Red.400.value"
             }
           }
         },
@@ -2109,24 +1438,16 @@
           "id": "VariableID:4546:919",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4233"
+              "value": "color.FINN.Red.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16574"
+              "value": "color.Tori.Red.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40950"
+              "value": "color.DBA.Red.500.value"
             }
           }
         },
@@ -2134,24 +1455,16 @@
           "id": "VariableID:4546:895",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4220"
+              "value": "color.FINN.Yellow.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4219"
+              "value": "color.FINN.Yellow.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16565"
+              "value": "color.Tori.Yellow.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40941"
+              "value": "color.DBA.Yellow.600.value"
             }
           }
         },
@@ -2159,24 +1472,16 @@
           "id": "VariableID:4546:910",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4221"
+              "value": "color.FINN.Yellow.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4220"
+              "value": "color.FINN.Yellow.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16566"
+              "value": "color.Tori.Yellow.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40942"
+              "value": "color.DBA.Yellow.700.value"
             }
           }
         },
@@ -2184,24 +1489,16 @@
           "id": "VariableID:4546:911",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4222"
+              "value": "color.FINN.Yellow.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4221"
+              "value": "color.FINN.Yellow.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16567"
+              "value": "color.Tori.Yellow.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40943"
+              "value": "color.DBA.Yellow.800.value"
             }
           }
         },
@@ -2209,24 +1506,16 @@
           "id": "VariableID:4546:900",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4217"
+              "value": "color.FINN.Yellow.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4221"
+              "value": "color.FINN.Yellow.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16562"
+              "value": "color.Tori.Yellow.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40938"
+              "value": "color.DBA.Yellow.300.value"
             }
           }
         },
@@ -2234,24 +1523,16 @@
           "id": "VariableID:4546:920",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4218"
+              "value": "color.FINN.Yellow.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4222"
+              "value": "color.FINN.Yellow.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16563"
+              "value": "color.Tori.Yellow.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40939"
+              "value": "color.DBA.Yellow.400.value"
             }
           }
         },
@@ -2259,24 +1540,16 @@
           "id": "VariableID:4546:921",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4219"
+              "value": "color.FINN.Yellow.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4223"
+              "value": "color.FINN.Yellow.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16564"
+              "value": "color.Tori.Yellow.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40940"
+              "value": "color.DBA.Yellow.500.value"
             }
           }
         },
@@ -2284,24 +1557,16 @@
           "id": "VariableID:4546:896",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16545"
+              "value": "color.Tori.Blue.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -2309,24 +1574,16 @@
           "id": "VariableID:4546:912",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4201"
+              "value": "color.FINN.Aqua.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16546"
+              "value": "color.Tori.Blue.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -2334,24 +1591,16 @@
           "id": "VariableID:4546:913",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4202"
+              "value": "color.FINN.Aqua.800.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4201"
+              "value": "color.FINN.Aqua.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/800.value",
-              "hex": null,
-              "id": "VariableID:4671:16547"
+              "value": "color.Tori.Blue.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40912"
+              "value": "color.DBA.Jean Blue.800.value"
             }
           }
         },
@@ -2359,24 +1608,16 @@
           "id": "VariableID:4546:901",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4197"
+              "value": "color.FINN.Aqua.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4201"
+              "value": "color.FINN.Aqua.700.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16542"
+              "value": "color.Tori.Blue.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40907"
+              "value": "color.DBA.Jean Blue.300.value"
             }
           }
         },
@@ -2384,24 +1625,16 @@
           "id": "VariableID:4546:922",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4202"
+              "value": "color.FINN.Aqua.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16543"
+              "value": "color.Tori.Blue.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40908"
+              "value": "color.DBA.Jean Blue.400.value"
             }
           }
         },
@@ -2409,24 +1642,16 @@
           "id": "VariableID:4546:923",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4203"
+              "value": "color.FINN.Aqua.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16544"
+              "value": "color.Tori.Blue.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40909"
+              "value": "color.DBA.Jean Blue.500.value"
             }
           }
         }
@@ -2436,24 +1661,16 @@
           "id": "VariableID:4546:924",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4181"
+              "value": "color.FINN.Gray.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16526"
+              "value": "color.Tori.Gray.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40962"
+              "value": "color.DBA.Gray.700.value"
             }
           }
         },
@@ -2461,24 +1678,16 @@
           "id": "VariableID:4546:934",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4175"
+              "value": "color.FINN.Gray.100.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -2486,24 +1695,16 @@
           "id": "VariableID:4546:1217",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4176"
+              "value": "color.FINN.Gray.200.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16536"
+              "value": "color.Tori.Petroleum.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -2511,24 +1712,16 @@
           "id": "VariableID:4546:925",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -2536,24 +1729,16 @@
           "id": "VariableID:4546:935",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/700.value",
-              "hex": null,
-              "id": "VariableID:3325:4191"
+              "value": "color.FINN.Blue.700.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/700.value",
-              "hex": null,
-              "id": "VariableID:4671:16536"
+              "value": "color.Tori.Petroleum.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40911"
+              "value": "color.DBA.Jean Blue.700.value"
             }
           }
         },
@@ -2561,24 +1746,16 @@
           "id": "VariableID:4546:926",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4240"
+              "value": "color.FINN.Bluegray.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -2586,24 +1763,16 @@
           "id": "VariableID:4546:927",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4238"
+              "value": "color.FINN.Bluegray.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4240"
+              "value": "color.FINN.Bluegray.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16523"
+              "value": "color.Tori.Gray.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40959"
+              "value": "color.DBA.Gray.400.value"
             }
           }
         },
@@ -2611,24 +1780,16 @@
           "id": "VariableID:4546:936",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4239"
+              "value": "color.FINN.Bluegray.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:4671:16524"
+              "value": "color.Tori.Gray.500.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/500.value",
-              "hex": null,
-              "id": "VariableID:5185:40960"
+              "value": "color.DBA.Gray.500.value"
             }
           }
         },
@@ -2636,24 +1797,16 @@
           "id": "VariableID:4546:1218",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4240"
+              "value": "color.FINN.Bluegray.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16525"
+              "value": "color.Tori.Gray.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40961"
+              "value": "color.DBA.Gray.600.value"
             }
           }
         },
@@ -2661,24 +1814,16 @@
           "id": "VariableID:4546:928",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.White.value",
-              "hex": null,
-              "id": "VariableID:4671:16517"
+              "value": "color.Tori.White.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.White.value",
-              "hex": null,
-              "id": "VariableID:5185:40902"
+              "value": "color.DBA.White.value"
             }
           }
         },
@@ -2686,24 +1831,16 @@
           "id": "VariableID:4546:937",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4235"
+              "value": "color.FINN.Bluegray.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16520"
+              "value": "color.Tori.Gray.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40956"
+              "value": "color.DBA.Gray.100.value"
             }
           }
         },
@@ -2711,24 +1848,16 @@
           "id": "VariableID:4546:938",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/900.value",
-              "hex": null,
-              "id": "VariableID:3325:4243"
+              "value": "color.FINN.Bluegray.900.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16521"
+              "value": "color.Tori.Gray.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40957"
+              "value": "color.DBA.Gray.200.value"
             }
           }
         },
@@ -2736,24 +1865,16 @@
           "id": "VariableID:4546:929",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4190"
+              "value": "color.FINN.Blue.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Blue/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4189"
+              "value": "color.FINN.Blue.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Petroleum/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16535"
+              "value": "color.Tori.Petroleum.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -2761,24 +1882,16 @@
           "id": "VariableID:5562:41327",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/600.value",
-              "hex": null,
-              "id": "VariableID:4671:20829"
+              "value": "color.Tori.Watermelon.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40920"
+              "value": "color.DBA.Phthalo Blue.600.value"
             }
           }
         },
@@ -2786,24 +1899,16 @@
           "id": "VariableID:5562:41328",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/700.value",
-              "hex": null,
-              "id": "VariableID:4671:20827"
+              "value": "color.Tori.Watermelon.700.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/700.value",
-              "hex": null,
-              "id": "VariableID:5185:40921"
+              "value": "color.DBA.Phthalo Blue.700.value"
             }
           }
         },
@@ -2811,24 +1916,16 @@
           "id": "VariableID:5562:41329",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Watermelon/800.value",
-              "hex": null,
-              "id": "VariableID:4671:20832"
+              "value": "color.Tori.Watermelon.800.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Phthalo Blue/800.value",
-              "hex": null,
-              "id": "VariableID:5185:40922"
+              "value": "color.DBA.Phthalo Blue.800.value"
             }
           }
         },
@@ -2836,24 +1933,16 @@
           "id": "VariableID:4546:930",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4209"
+              "value": "color.FINN.Green.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Green/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16555"
+              "value": "color.Tori.Green.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40931"
+              "value": "color.DBA.Green.600.value"
             }
           }
         },
@@ -2861,24 +1950,16 @@
           "id": "VariableID:4546:931",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Red/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4230"
+              "value": "color.FINN.Red.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Red/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4229"
+              "value": "color.FINN.Red.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Red/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16575"
+              "value": "color.Tori.Red.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Red/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40951"
+              "value": "color.DBA.Red.600.value"
             }
           }
         },
@@ -2886,24 +1967,16 @@
           "id": "VariableID:4546:932",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4220"
+              "value": "color.FINN.Yellow.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Yellow/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4219"
+              "value": "color.FINN.Yellow.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16565"
+              "value": "color.Tori.Yellow.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Yellow/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40941"
+              "value": "color.DBA.Yellow.600.value"
             }
           }
         },
@@ -2911,24 +1984,16 @@
           "id": "VariableID:4546:933",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4200"
+              "value": "color.FINN.Aqua.600.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/500.value",
-              "hex": null,
-              "id": "VariableID:3325:4199"
+              "value": "color.FINN.Aqua.500.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/600.value",
-              "hex": null,
-              "id": "VariableID:4671:16545"
+              "value": "color.Tori.Blue.600.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/600.value",
-              "hex": null,
-              "id": "VariableID:5185:40910"
+              "value": "color.DBA.Jean Blue.600.value"
             }
           }
         },
@@ -2936,24 +2001,16 @@
           "id": "VariableID:4546:1232",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.White.value",
-              "hex": null,
-              "id": "VariableID:3325:4172"
+              "value": "color.FINN.White.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.White.value",
-              "hex": null,
-              "id": "VariableID:4671:16517"
+              "value": "color.Tori.White.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.White.value",
-              "hex": null,
-              "id": "VariableID:5185:40902"
+              "value": "color.DBA.White.value"
             }
           }
         }
@@ -2963,24 +2020,16 @@
           "id": "VariableID:4546:939",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Aqua/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4198"
+              "value": "color.FINN.Aqua.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Aqua/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4197"
+              "value": "color.FINN.Aqua.300.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16542"
+              "value": "color.Tori.Blue.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Jean Blue/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40907"
+              "value": "color.DBA.Jean Blue.300.value"
             }
           }
         }
@@ -2990,24 +2039,16 @@
           "id": "VariableID:4546:960",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4235"
+              "value": "color.FINN.Bluegray.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4242"
+              "value": "color.FINN.Bluegray.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16520"
+              "value": "color.Tori.Gray.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40956"
+              "value": "color.DBA.Gray.100.value"
             }
           }
         },
@@ -3015,24 +2056,16 @@
           "id": "VariableID:4546:961",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Icon/Disabled.value",
-              "hex": null,
-              "id": "VariableID:4546:926"
+              "value": "color.Semantic.Icon.Disabled.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Icon/Disabled.value",
-              "hex": null,
-              "id": "VariableID:4546:926"
+              "value": "color.Semantic.Icon.Disabled.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Icon/Disabled.value",
-              "hex": null,
-              "id": "VariableID:4546:926"
+              "value": "color.Semantic.Icon.Disabled.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Icon/Disabled.value",
-              "hex": null,
-              "id": "VariableID:4546:926"
+              "value": "color.Semantic.Icon.Disabled.value"
             }
           }
         }
@@ -3043,24 +2076,16 @@
             "id": "VariableID:4546:963",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Bluegray/100.value",
-                "hex": null,
-                "id": "VariableID:3325:4235"
+                "value": "color.FINN.Bluegray.100.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Disabled-Subtle.value",
-                "hex": null,
-                "id": "VariableID:5209:53280"
+                "value": "color.Semantic.Background.Disabled-Subtle.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Gray/100.value",
-                "hex": null,
-                "id": "VariableID:4671:16520"
+                "value": "color.Tori.Gray.100.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Gray/100.value",
-                "hex": null,
-                "id": "VariableID:5185:40956"
+                "value": "color.DBA.Gray.100.value"
               }
             }
           }
@@ -3070,24 +2095,16 @@
             "id": "VariableID:4546:965",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Aqua/100.value",
-                "hex": null,
-                "id": "VariableID:3325:4195"
+                "value": "color.FINN.Aqua.100.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Aqua/700.value",
-                "hex": null,
-                "id": "VariableID:3325:4201"
+                "value": "color.FINN.Aqua.700.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Blue/100.value",
-                "hex": null,
-                "id": "VariableID:4671:16540"
+                "value": "color.Tori.Blue.100.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Jean Blue/100.value",
-                "hex": null,
-                "id": "VariableID:5185:40905"
+                "value": "color.DBA.Jean Blue.100.value"
               }
             }
           }
@@ -3097,24 +2114,16 @@
             "id": "VariableID:4546:967",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Green/100.value",
-                "hex": null,
-                "id": "VariableID:3325:4205"
+                "value": "color.FINN.Green.100.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Green/700.value",
-                "hex": null,
-                "id": "VariableID:3325:4211"
+                "value": "color.FINN.Green.700.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Green/100.value",
-                "hex": null,
-                "id": "VariableID:4671:16550"
+                "value": "color.Tori.Green.100.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Green/100.value",
-                "hex": null,
-                "id": "VariableID:5185:40926"
+                "value": "color.DBA.Green.100.value"
               }
             }
           }
@@ -3124,24 +2133,16 @@
             "id": "VariableID:4546:969",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Yellow/100.value",
-                "hex": null,
-                "id": "VariableID:3325:4215"
+                "value": "color.FINN.Yellow.100.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Yellow/700.value",
-                "hex": null,
-                "id": "VariableID:3325:4221"
+                "value": "color.FINN.Yellow.700.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Yellow/100.value",
-                "hex": null,
-                "id": "VariableID:4671:16560"
+                "value": "color.Tori.Yellow.100.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Yellow/100.value",
-                "hex": null,
-                "id": "VariableID:5185:40936"
+                "value": "color.DBA.Yellow.100.value"
               }
             }
           }
@@ -3151,24 +2152,16 @@
             "id": "VariableID:4546:971",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Red/200.value",
-                "hex": null,
-                "id": "VariableID:3325:4226"
+                "value": "color.FINN.Red.200.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Red/700.value",
-                "hex": null,
-                "id": "VariableID:3325:4231"
+                "value": "color.FINN.Red.700.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Red/200.value",
-                "hex": null,
-                "id": "VariableID:4671:16571"
+                "value": "color.Tori.Red.200.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Red/200.value",
-                "hex": null,
-                "id": "VariableID:5185:40947"
+                "value": "color.DBA.Red.200.value"
               }
             }
           }
@@ -3178,24 +2171,16 @@
             "id": "VariableID:4546:973",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Aqua/200.value",
-                "hex": null,
-                "id": "VariableID:3325:4196"
+                "value": "color.FINN.Aqua.200.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Aqua/600.value",
-                "hex": null,
-                "id": "VariableID:3325:4200"
+                "value": "color.FINN.Aqua.600.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Blue/200.value",
-                "hex": null,
-                "id": "VariableID:4671:16541"
+                "value": "color.Tori.Blue.200.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Jean Blue/200.value",
-                "hex": null,
-                "id": "VariableID:5185:40906"
+                "value": "color.DBA.Jean Blue.200.value"
               }
             }
           }
@@ -3205,24 +2190,16 @@
             "id": "VariableID:4546:977",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Black.value",
-                "hex": null,
-                "id": "VariableID:3325:4173"
+                "value": "color.FINN.Black.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Black.value",
-                "hex": null,
-                "id": "VariableID:3325:4173"
+                "value": "color.FINN.Black.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Black.value",
-                "hex": null,
-                "id": "VariableID:4671:16518"
+                "value": "color.Tori.Black.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Black.value",
-                "hex": null,
-                "id": "VariableID:5185:40965"
+                "value": "color.DBA.Black.value"
               }
             }
           }
@@ -3232,24 +2209,16 @@
             "id": "VariableID:4546:979",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Negative.value",
-                "hex": null,
-                "id": "VariableID:4546:859"
+                "value": "color.Semantic.Background.Negative.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Negative.value",
-                "hex": null,
-                "id": "VariableID:4546:859"
+                "value": "color.Semantic.Background.Negative.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Negative.value",
-                "hex": null,
-                "id": "VariableID:4546:859"
+                "value": "color.Semantic.Background.Negative.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Negative.value",
-                "hex": null,
-                "id": "VariableID:4546:859"
+                "value": "color.Semantic.Background.Negative.value"
               }
             }
           }
@@ -3261,24 +2230,16 @@
             "id": "VariableID:4546:1027",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Blue/300.value",
-                "hex": null,
-                "id": "VariableID:3325:4187"
+                "value": "color.FINN.Blue.300.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Blue/300.value",
-                "hex": null,
-                "id": "VariableID:3325:4187"
+                "value": "color.FINN.Blue.300.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Petroleum/300.value",
-                "hex": null,
-                "id": "VariableID:4671:16532"
+                "value": "color.Tori.Petroleum.300.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Jean Blue/300.value",
-                "hex": null,
-                "id": "VariableID:5185:40907"
+                "value": "color.DBA.Jean Blue.300.value"
               }
             }
           }
@@ -3289,24 +2250,16 @@
           "id": "VariableID:4546:1066",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             }
           }
         },
@@ -3314,24 +2267,16 @@
           "id": "VariableID:4546:1067",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/100.value",
-              "hex": null,
-              "id": "VariableID:3325:4205"
+              "value": "color.FINN.Green.100.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/800.value",
-              "hex": null,
-              "id": "VariableID:3325:4212"
+              "value": "color.FINN.Green.800.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/100.value",
-              "hex": null,
-              "id": "VariableID:4671:16540"
+              "value": "color.Tori.Blue.100.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/100.value",
-              "hex": null,
-              "id": "VariableID:5185:40926"
+              "value": "color.DBA.Green.100.value"
             }
           }
         },
@@ -3339,24 +2284,16 @@
           "id": "VariableID:4546:1068",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Green/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4208"
+              "value": "color.FINN.Green.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Green/600.value",
-              "hex": null,
-              "id": "VariableID:3325:4210"
+              "value": "color.FINN.Green.600.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Blue/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16543"
+              "value": "color.Tori.Blue.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Green/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40929"
+              "value": "color.DBA.Green.400.value"
             }
           }
         }
@@ -3367,24 +2304,16 @@
             "id": "VariableID:4546:1069",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               }
             }
           },
@@ -3392,24 +2321,16 @@
             "id": "VariableID:4546:1070",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               }
             }
           },
@@ -3417,24 +2338,16 @@
             "id": "VariableID:4546:1071",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               }
             }
           },
@@ -3442,24 +2355,16 @@
             "id": "VariableID:4546:1072",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               }
             }
           },
@@ -3467,24 +2372,16 @@
             "id": "VariableID:5945:9587",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               }
             }
           },
@@ -3492,24 +2389,16 @@
             "id": "VariableID:4546:1073",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               }
             }
           }
@@ -3519,24 +2408,16 @@
             "id": "VariableID:4546:1074",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Subtle.value",
-                "hex": null,
-                "id": "VariableID:4546:852"
+                "value": "color.Semantic.Background.Subtle.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:851"
+                "value": "color.Semantic.Background.Default.value"
               }
             }
           },
@@ -3544,24 +2425,16 @@
             "id": "VariableID:4546:1075",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:865"
+                "value": "color.Semantic.Background.Hover.value"
               }
             }
           },
@@ -3569,24 +2442,16 @@
             "id": "VariableID:4546:1076",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:866"
+                "value": "color.Semantic.Background.Active.value"
               }
             }
           },
@@ -3594,24 +2459,16 @@
             "id": "VariableID:4546:1077",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:854"
+                "value": "color.Semantic.Background.Selected.value"
               }
             }
           },
@@ -3619,24 +2476,16 @@
             "id": "VariableID:5945:9588",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Background/Selected-Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:869"
+                "value": "color.Semantic.Background.Selected-Hover.value"
               }
             }
           },
@@ -3644,24 +2493,16 @@
             "id": "VariableID:4546:1078",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Border/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:890"
+                "value": "color.Semantic.Border.Default.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Border/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:890"
+                "value": "color.Semantic.Border.Default.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Border/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:890"
+                "value": "color.Semantic.Border.Default.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Border/Default.value",
-                "hex": null,
-                "id": "VariableID:4546:890"
+                "value": "color.Semantic.Border.Default.value"
               }
             }
           },
@@ -3669,24 +2510,16 @@
             "id": "VariableID:4546:1079",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Border/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:902"
+                "value": "color.Semantic.Border.Hover.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Border/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:902"
+                "value": "color.Semantic.Border.Hover.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Border/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:902"
+                "value": "color.Semantic.Border.Hover.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Border/Hover.value",
-                "hex": null,
-                "id": "VariableID:4546:902"
+                "value": "color.Semantic.Border.Hover.value"
               }
             }
           },
@@ -3694,24 +2527,16 @@
             "id": "VariableID:4546:1080",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Border/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:903"
+                "value": "color.Semantic.Border.Active.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Border/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:903"
+                "value": "color.Semantic.Border.Active.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Border/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:903"
+                "value": "color.Semantic.Border.Active.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Border/Active.value",
-                "hex": null,
-                "id": "VariableID:4546:903"
+                "value": "color.Semantic.Border.Active.value"
               }
             }
           },
@@ -3719,24 +2544,16 @@
             "id": "VariableID:4546:1081",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "FINN dark": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "Tori light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               },
               "DBA light": {
-                "value": "color.brand.Semantic.Border/Selected.value",
-                "hex": null,
-                "id": "VariableID:4546:1212"
+                "value": "color.Semantic.Border.Selected.value"
               }
             }
           }
@@ -3747,24 +2564,16 @@
           "id": "VariableID:4546:1129",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             }
           }
         },
@@ -3772,24 +2581,16 @@
           "id": "VariableID:4546:1130",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Text/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:842"
+              "value": "color.Semantic.Text.Default.value"
             }
           }
         },
@@ -3797,24 +2598,16 @@
           "id": "VariableID:4546:1131",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Background/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:851"
+              "value": "color.Semantic.Background.Default.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Background/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:851"
+              "value": "color.Semantic.Background.Default.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Background/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:851"
+              "value": "color.Semantic.Background.Default.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Background/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:851"
+              "value": "color.Semantic.Background.Default.value"
             }
           }
         }
@@ -3824,24 +2617,16 @@
           "id": "VariableID:5562:19677",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Icon/Selected.value",
-              "hex": null,
-              "id": "VariableID:4546:925"
+              "value": "color.Semantic.Icon.Selected.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Icon/Selected.value",
-              "hex": null,
-              "id": "VariableID:4546:925"
+              "value": "color.Semantic.Icon.Selected.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Icon/Secondary.value",
-              "hex": null,
-              "id": "VariableID:5562:41327"
+              "value": "color.Semantic.Icon.Secondary.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Icon/Secondary.value",
-              "hex": null,
-              "id": "VariableID:5562:41327"
+              "value": "color.Semantic.Icon.Secondary.value"
             }
           }
         },
@@ -3849,24 +2634,16 @@
           "id": "VariableID:5562:19747",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Border/Selected.value",
-              "hex": null,
-              "id": "VariableID:4546:1212"
+              "value": "color.Semantic.Border.Selected.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Border/Selected.value",
-              "hex": null,
-              "id": "VariableID:4546:1212"
+              "value": "color.Semantic.Border.Selected.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Border/Secondary.value",
-              "hex": null,
-              "id": "VariableID:5562:41330"
+              "value": "color.Semantic.Border.Secondary.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Border/Secondary.value",
-              "hex": null,
-              "id": "VariableID:5562:41330"
+              "value": "color.Semantic.Border.Secondary.value"
             }
           }
         }
@@ -3876,24 +2653,16 @@
           "id": "VariableID:4546:1132",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4237"
+              "value": "color.FINN.Bluegray.300.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -3901,24 +2670,16 @@
           "id": "VariableID:4546:1133",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4238"
+              "value": "color.FINN.Bluegray.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.FINN.Bluegray/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4238"
+              "value": "color.FINN.Bluegray.400.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16523"
+              "value": "color.Tori.Gray.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40959"
+              "value": "color.DBA.Gray.400.value"
             }
           }
         }
@@ -3929,24 +2690,16 @@
             "id": "VariableID:4546:1146",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Gray/200.value",
-                "hex": null,
-                "id": "VariableID:3325:4176"
+                "value": "color.FINN.Gray.200.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Gray/600.value",
-                "hex": null,
-                "id": "VariableID:3325:4180"
+                "value": "color.FINN.Gray.600.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Gray/200.value",
-                "hex": null,
-                "id": "VariableID:4671:16521"
+                "value": "color.Tori.Gray.200.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Gray/200.value",
-                "hex": null,
-                "id": "VariableID:5185:40957"
+                "value": "color.DBA.Gray.200.value"
               }
             }
           },
@@ -3954,24 +2707,16 @@
             "id": "VariableID:4546:1147",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Gray/300.value",
-                "hex": null,
-                "id": "VariableID:3325:4177"
+                "value": "color.FINN.Gray.300.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Gray/700.value",
-                "hex": null,
-                "id": "VariableID:3325:4181"
+                "value": "color.FINN.Gray.700.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Gray/300.value",
-                "hex": null,
-                "id": "VariableID:4671:16522"
+                "value": "color.Tori.Gray.300.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Gray/300.value",
-                "hex": null,
-                "id": "VariableID:5185:40958"
+                "value": "color.DBA.Gray.300.value"
               }
             }
           },
@@ -3979,24 +2724,16 @@
             "id": "VariableID:4546:1148",
             "valuesByMode": {
               "FINN light": {
-                "value": "color.brand.FINN.Gray/400.value",
-                "hex": null,
-                "id": "VariableID:3325:4178"
+                "value": "color.FINN.Gray.400.value"
               },
               "FINN dark": {
-                "value": "color.brand.FINN.Gray/800.value",
-                "hex": null,
-                "id": "VariableID:3325:4182"
+                "value": "color.FINN.Gray.800.value"
               },
               "Tori light": {
-                "value": "color.brand.Tori.Gray/400.value",
-                "hex": null,
-                "id": "VariableID:4671:16523"
+                "value": "color.Tori.Gray.400.value"
               },
               "DBA light": {
-                "value": "color.brand.DBA.Gray/400.value",
-                "hex": null,
-                "id": "VariableID:5185:40959"
+                "value": "color.DBA.Gray.400.value"
               }
             }
           }
@@ -4007,24 +2744,16 @@
           "id": "VariableID:4546:1174",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.Semantic.Border/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:890"
+              "value": "color.Semantic.Border.Default.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Border/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:890"
+              "value": "color.Semantic.Border.Default.value"
             },
             "Tori light": {
-              "value": "color.brand.Semantic.Border/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:890"
+              "value": "color.Semantic.Border.Default.value"
             },
             "DBA light": {
-              "value": "color.brand.Semantic.Border/Default.value",
-              "hex": null,
-              "id": "VariableID:4546:890"
+              "value": "color.Semantic.Border.Default.value"
             }
           }
         }
@@ -4034,24 +2763,16 @@
           "id": "VariableID:4546:1181",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:3325:4177"
+              "value": "color.FINN.Gray.300.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Background/Subtle.value",
-              "hex": null,
-              "id": "VariableID:4546:852"
+              "value": "color.Semantic.Background.Subtle.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:4671:16522"
+              "value": "color.Tori.Gray.300.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/300.value",
-              "hex": null,
-              "id": "VariableID:5185:40958"
+              "value": "color.DBA.Gray.300.value"
             }
           }
         },
@@ -4059,24 +2780,16 @@
           "id": "VariableID:4546:1182",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:3325:4178"
+              "value": "color.FINN.Gray.400.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Background/Subtle-Hover.value",
-              "hex": null,
-              "id": "VariableID:4546:867"
+              "value": "color.Semantic.Background.Subtle-Hover.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:4671:16523"
+              "value": "color.Tori.Gray.400.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/400.value",
-              "hex": null,
-              "id": "VariableID:5185:40959"
+              "value": "color.DBA.Gray.400.value"
             }
           }
         },
@@ -4084,24 +2797,16 @@
           "id": "VariableID:4546:1185",
           "valuesByMode": {
             "FINN light": {
-              "value": "color.brand.FINN.Bluegray/200.value",
-              "hex": null,
-              "id": "VariableID:3325:4236"
+              "value": "color.FINN.Bluegray.200.value"
             },
             "FINN dark": {
-              "value": "color.brand.Semantic.Background/Disabled.value",
-              "hex": null,
-              "id": "VariableID:4546:853"
+              "value": "color.Semantic.Background.Disabled.value"
             },
             "Tori light": {
-              "value": "color.brand.Tori.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:4671:16521"
+              "value": "color.Tori.Gray.200.value"
             },
             "DBA light": {
-              "value": "color.brand.DBA.Gray/200.value",
-              "hex": null,
-              "id": "VariableID:5185:40957"
+              "value": "color.DBA.Gray.200.value"
             }
           }
         }

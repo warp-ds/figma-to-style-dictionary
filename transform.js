@@ -2,8 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const sourceData = require("./data/figma.json");
 
-// Convert RGBA object to hex. Return wity 8 numbers if transparent
-
+// Convert RGBA object to hex. Return 8 numbers if alpha/transparency is not 100%
 function rgbaToHex(r, g, b, a) {
   // Convert each component to a two-digit hexadecimal string
   const toHex = (c) =>
@@ -60,12 +59,10 @@ function resolveAlias(variable, modeId, sourceData) {
 function extractBrandColorName(aliasId) {
   const aliasedVariable = sourceData.meta.variables[aliasId];
   if (aliasedVariable) {
-    // Split the variable's name into parts
     const nameParts = aliasedVariable.name.split('/');
-    // Check if the name includes shade information
-    if (nameParts.length === 3) {
+    if (nameParts.length >= 3) {
       // Format "Brand/Color/Shade"
-      return `${nameParts[1]}/${nameParts[2]}`; // Color/Shade
+      return `${nameParts[1]}.${nameParts[2]}`; // Color.Shade
     } else if (nameParts.length === 2) {
       // Format "Brand/Color"
       return nameParts[1]; // Color only
@@ -73,6 +70,7 @@ function extractBrandColorName(aliasId) {
   }
   return 'unknown';
 }
+
 
 
 
@@ -140,19 +138,17 @@ Object.entries(sourceData.meta.variableCollections).forEach(
   
               // Resolve the alias to get the actual color value
               const resolvedValue = resolveAlias(value.id, modeId, sourceData);
-              const hexValue = rgbaToString(resolvedValue);
   
               // Extract the actual brand color name from the alias
               const brandColorName = extractBrandColorName(value.id); // Implement this function
   
               // Construct the reference string
               const brand = extractBrandFromId(value.id);
-              const referenceString = `color.brand.${brand}.${brandColorName}.value`;
+              const referenceString = `color.${brand}.${brandColorName}.value`;
   
               processedValuesByMode[modeName] = {
                 value: referenceString,
-                hex: hexValue,
-                id: value.id,
+                // ... other properties
               };
             });
   
