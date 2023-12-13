@@ -4,23 +4,20 @@ const sourceData = require("./data/figma.json");
 
 // Convert RGBA object to hex. Return 8 numbers if alpha/transparency is not 100%
 function rgbaToHex(r, g, b, a) {
-  // Convert each component to a two-digit hexadecimal string
   const toHex = (c) =>
     Math.round(c * 255)
       .toString(16)
       .padStart(2, "0");
 
-  // Convert RGB to Hex
   let hex = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
 
-  // Append alpha value in hex only if it's not 1
   if (a !== 1) {
     hex += toHex(a);
   }
-
   return hex;
 }
 
+// Process RGBA if valid
 function rgbaToString(rgba) {
   if (
     rgba &&
@@ -37,7 +34,11 @@ function rgbaToString(rgba) {
 // Resolve alias to actual value
 function resolveAlias(variable, modeId, sourceData) {
   // Check if variable and valuesByMode are defined
-  if (variable && variable.valuesByMode && typeof variable.valuesByMode === 'object') {
+  if (
+    variable &&
+    variable.valuesByMode &&
+    typeof variable.valuesByMode === "object"
+  ) {
     let value = variable.valuesByMode[modeId];
 
     if (value && value.type === "VARIABLE_ALIAS") {
@@ -54,12 +55,11 @@ function resolveAlias(variable, modeId, sourceData) {
   return null; // Return null if value is not valid or not found
 }
 
-
 // Get name of colour, to construct reference from semantic tokens to brand tokens
 function extractBrandColorName(aliasId) {
   const aliasedVariable = sourceData.meta.variables[aliasId];
   if (aliasedVariable) {
-    const nameParts = aliasedVariable.name.split('/');
+    const nameParts = aliasedVariable.name.split("/");
     if (nameParts.length >= 3) {
       // Format "Brand/Color/Shade"
       return `${nameParts[1]}.${nameParts[2]}`; // Color.Shade
@@ -68,11 +68,8 @@ function extractBrandColorName(aliasId) {
       return nameParts[1]; // Color only
     }
   }
-  return 'unknown';
+  return "unknown";
 }
-
-
-
 
 // Function to get colour from token ID
 function getColorFromId(id, sourceData) {
@@ -93,6 +90,7 @@ function getColorFromId(id, sourceData) {
 
 let modes; // array with id and name of the modes
 const semanticTokens = {};
+const componentTokens = {};
 
 // extract brand name from the variable ID
 function extractBrandFromId(id) {
@@ -131,27 +129,27 @@ Object.entries(sourceData.meta.variableCollections).forEach(
         pathSegments.forEach((segment, index) => {
           if (index === pathSegments.length - 1) {
             const processedValuesByMode = {};
-  
+
             Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
-              const modeEntry = modes.find(m => m.modeId === modeId);
+              const modeEntry = modes.find((m) => m.modeId === modeId);
               const modeName = modeEntry ? modeEntry.name : modeId;
-  
+
               // Resolve the alias to get the actual color value
               const resolvedValue = resolveAlias(value.id, modeId, sourceData);
-  
+
               // Extract the actual brand color name from the alias
               const brandColorName = extractBrandColorName(value.id); // Implement this function
-  
+
               // Construct the reference string
               const brand = extractBrandFromId(value.id);
               const referenceString = `color.${brand}.${brandColorName}.value`;
-  
+
               processedValuesByMode[modeName] = {
                 value: referenceString,
                 // ... other properties
               };
             });
-  
+
             currentLevel[segment] = {
               id: variable.id,
               valuesByMode: processedValuesByMode,
@@ -166,6 +164,56 @@ Object.entries(sourceData.meta.variableCollections).forEach(
     }
   }
 );
+
+// Process component tokens
+Object.entries(sourceData.meta.variables).forEach(([variableId, variable]) => {
+  if (
+    variable.variableCollectionId === "VariableCollectionId:4546:841" &&
+    variable.resolvedType === "COLOR"
+  ) {
+    const pathSegments = variable.name.split("/").slice(1); // ["Badge", "Sponsored", "Background"]
+
+    let currentLevel = variable.name.startsWith("Components")
+      ? componentTokens
+      : semanticTokens;
+
+    // Iterate over each segment and create nested objects if they don't exist
+    pathSegments.forEach((segment, index) => {
+      if (index === pathSegments.length - 1) {
+        const processedValuesByMode = {};
+
+        Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
+          const modeEntry = modes.find((m) => m.modeId === modeId);
+          const modeName = modeEntry ? modeEntry.name : modeId;
+
+          // Resolve the alias to get the actual color value
+          const resolvedValue = resolveAlias(value.id, modeId, sourceData);
+
+          // Extract the actual brand color name from the alias
+          const brandColorName = extractBrandColorName(value.id); // Implement this function
+
+          // Construct the reference string
+          const brand = extractBrandFromId(value.id);
+          const referenceString = `color.${brand}.${brandColorName}.value`;
+
+          processedValuesByMode[modeName] = {
+            value: referenceString,
+            // ... other properties
+          };
+        });
+
+        currentLevel[segment] = {
+          id: variable.id,
+          valuesByMode: processedValuesByMode,
+        };
+      } else {
+        // If it's not the last segment, create an object if it doesn't exist
+        currentLevel[segment] = currentLevel[segment] || {};
+        currentLevel = currentLevel[segment]; // Move to the next level
+      }
+    });
+  }
+});
 
 // Process semantic tokens
 const semanticCollection =
@@ -192,15 +240,25 @@ if (semanticCollection && !semanticCollection.remote) {
   });
 }
 
-// Write semantic tokens
-const semanticDir = path.join(__dirname, "tokens/globals");
-if (!fs.existsSync(semanticDir)) {
-  fs.mkdirSync(semanticDir, { recursive: true });
+
+// Combine semantic and component tokens into one object
+const combinedTokens = {
+  Color: {
+    Semantic: semanticTokens,
+    Components: componentTokens
+  }
+};
+
+// Write the combined tokens to a single file
+const tokensDir = path.join(__dirname, "tokens/globals");
+if (!fs.existsSync(tokensDir)) {
+  fs.mkdirSync(tokensDir, { recursive: true });
 }
 fs.writeFileSync(
-  path.join(semanticDir, "semantic.json"),
-  JSON.stringify({ Color: { Semantic: semanticTokens } }, null, 2)
+  path.join(tokensDir, "tokens.json"),
+  JSON.stringify(combinedTokens, null, 2)
 );
+
 
 //// Function to extract primitive BRAND tokens
 
