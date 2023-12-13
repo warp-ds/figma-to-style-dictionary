@@ -1,80 +1,282 @@
-const inputData = require("./data/figma.json");
-const outputDirectory = "./tokens/brands";
+const fs = require("fs");
+const path = require("path");
+const sourceData = require("./data/figma.json");
 
-const createDirectory = async (dirPath) => {
-  try {
-    await fs.mkdir(dirPath, { recursive: true })
-  } catch (err) {
-    if (err.code !== 'EEXIST') throw err
+// Convert RGBA object to hex. Return wity 8 numbers if transparent
+
+function rgbaToHex(r, g, b, a) {
+  // Convert each component to a two-digit hexadecimal string
+  const toHex = (c) =>
+    Math.round(c * 255)
+      .toString(16)
+      .padStart(2, "0");
+
+  // Convert RGB to Hex
+  let hex = `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+
+  // Append alpha value in hex only if it's not 1
+  if (a !== 1) {
+    hex += toHex(a);
   }
+
+  return hex;
 }
 
-const transformFigmaVariables = async () => {
-  const transformedData = {}
-
-  /**
-   * Loop through each variable and mode and create a new object.
-   */
-  Object.values(inputData.meta.variables).forEach((variable) => {
-    const { name, valuesByMode, variableCollectionId, resolvedType } = variable
-
-    const { defaultModeId } =
-      inputData.meta.variableCollections[variableCollectionId]
-
-    const defaultModeValue = valuesByMode && valuesByMode[defaultModeId]
-
-    /**
-     * Group variables by resolved type.
-     */
-    Object.values(
-      inputData.meta.variableCollections[variableCollectionId].modes,
-    ).forEach((mode) => {
-      const { id: modeId, name: modeName } = mode
-      const modeValue = valuesByMode && valuesByMode[modeId]
-
-      if (!transformedData[modeName]) {
-        transformedData[modeName] = {}
-      }
-
-      if (!transformedData[modeName][resolvedType]) {
-        transformedData[modeName][resolvedType] = {}
-      }
-
-      /**
-       * If a variable is not defined for a given mode, we'll fall back to the default mode.
-       */
-      transformedData[modeName][resolvedType][name.toLowerCase()] = {
-        value: modeValue || defaultModeValue,
-      }
-    })
-  })
-
-  /**
-   * Generates files for each mode and type.
-   */
-  await Promise.all(
-    Object.entries(transformedData).map(async ([modeName, modeData]) => {
-      const sanitizedModeName = modeName.toLowerCase().replace(/\s+/g, '-')
-      const modeDirectory = path.join(outputDirectory, sanitizedModeName)
-
-      await createDirectory(modeDirectory)
-
-      await Promise.all(
-        Object.entries(modeData).map(async ([resolvedType, data]) => {
-          const resolvedTypeTitle = resolvedType.toLowerCase()
-          const outputFilePath = path.join(
-            modeDirectory,
-            `${resolvedTypeTitle}.json`,
-          )
-
-          await fs.writeFile(
-            outputFilePath,
-            JSON.stringify({
-              [resolvedTypeTitle]: { ...data },
-            }),
-          )
-        }),
-      )
-    }),
-  )
+function rgbaToString(rgba) {
+  if (
+    rgba &&
+    rgba.r !== undefined &&
+    rgba.g !== undefined &&
+    rgba.b !== undefined &&
+    rgba.a !== undefined
+  ) {
+    return rgbaToHex(rgba.r, rgba.g, rgba.b, rgba.a);
+  }
+  return null;
 }
+
+// Resolve alias to actual value
+function resolveAlias(variable, modeId, sourceData) {
+  // Check if variable and valuesByMode are defined
+  if (variable && variable.valuesByMode && typeof variable.valuesByMode === 'object') {
+    let value = variable.valuesByMode[modeId];
+
+    if (value && value.type === "VARIABLE_ALIAS") {
+      const aliasedVariable = sourceData.meta.variables[value.id];
+      if (aliasedVariable && !aliasedVariable.remote) {
+        return resolveAlias(aliasedVariable, modeId, sourceData);
+      }
+    } else if (value && value.r !== undefined) {
+      // Direct RGBA value
+      return value;
+    }
+  }
+
+  return null; // Return null if value is not valid or not found
+}
+
+
+// Get name of colour, to construct reference from semantic tokens to brand tokens
+function extractBrandColorName(aliasId) {
+  const aliasedVariable = sourceData.meta.variables[aliasId];
+  if (aliasedVariable) {
+    // Split the variable's name into parts
+    const nameParts = aliasedVariable.name.split('/');
+    // Check if the name includes shade information
+    if (nameParts.length === 3) {
+      // Format "Brand/Color/Shade"
+      return `${nameParts[1]}/${nameParts[2]}`; // Color/Shade
+    } else if (nameParts.length === 2) {
+      // Format "Brand/Color"
+      return nameParts[1]; // Color only
+    }
+  }
+  return 'unknown';
+}
+
+
+
+// Function to get colour from token ID
+function getColorFromId(id, sourceData) {
+  const variable = sourceData.meta.variables[id];
+  if (!variable || variable.remote) {
+    return null; // Return null if variable is not found or is remote
+  }
+
+  if (variable.type === "VARIABLE_ALIAS") {
+    // If the variable is an alias, resolve it recursively
+    return getColorFromId(variable.id, sourceData);
+  }
+
+  // Assuming the color value is directly stored in the variable
+  // Adjust this part based on your actual data structure
+  return rgbaToString(variable.valuesByMode); // Convert RGBA object to string
+}
+
+let modes; // array with id and name of the modes
+const semanticTokens = {};
+
+// extract brand name from the variable ID
+function extractBrandFromId(id) {
+  // Example implementation (adjust as needed)
+  const variable = sourceData.meta.variables[id];
+  if (variable) {
+    return variable.name.split("/")[0]; // Assuming the brand is the first segment
+  }
+  return "unknown";
+}
+
+// Process brand-specific color tokens
+// Find the token collection in variableCollections
+Object.entries(sourceData.meta.variableCollections).forEach(
+  ([collectionId, collection]) => {
+    if (collectionId == "VariableCollectionId:4546:841") {
+      // save mode names
+      modes = collection.modes;
+
+      // Go through each variableId
+      collection.variableIds.forEach((variableId) => {
+        const variable = sourceData.meta.variables[variableId];
+
+        // console.log("Semantic token: ", variable);
+
+        // Split the token name into list with segments
+        // For example [ 'Background', 'Secondary-Hover' ]
+        const pathSegments = variable.name.split("/").slice(1);
+
+        // console.log("pathSegments ", pathSegments);
+
+        // Reference to the current position in the semanticTokens object
+        let currentLevel = semanticTokens;
+
+        // Iterate over each segment and create nested objects if they don't exist
+        pathSegments.forEach((segment, index) => {
+          if (index === pathSegments.length - 1) {
+            const processedValuesByMode = {};
+  
+            Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
+              const modeEntry = modes.find(m => m.modeId === modeId);
+              const modeName = modeEntry ? modeEntry.name : modeId;
+  
+              // Resolve the alias to get the actual color value
+              const resolvedValue = resolveAlias(value.id, modeId, sourceData);
+              const hexValue = rgbaToString(resolvedValue);
+  
+              // Extract the actual brand color name from the alias
+              const brandColorName = extractBrandColorName(value.id); // Implement this function
+  
+              // Construct the reference string
+              const brand = extractBrandFromId(value.id);
+              const referenceString = `color.brand.${brand}.${brandColorName}.value`;
+  
+              processedValuesByMode[modeName] = {
+                value: referenceString,
+                hex: hexValue,
+                id: value.id,
+              };
+            });
+  
+            currentLevel[segment] = {
+              id: variable.id,
+              valuesByMode: processedValuesByMode,
+            };
+          } else {
+            // If it's not the last segment, create an object if it doesn't exist
+            currentLevel[segment] = currentLevel[segment] || {};
+            currentLevel = currentLevel[segment]; // Move to the next level
+          }
+        });
+      });
+    }
+  }
+);
+
+// Process semantic tokens
+const semanticCollection =
+  sourceData.meta.variableCollections["VariableCollectionId:4546:841"];
+
+if (semanticCollection && !semanticCollection.remote) {
+  semanticCollection.variableIds.forEach((variableId) => {
+    const variable = sourceData.meta.variables[variableId];
+    if (variable && !variable.remote) {
+      semanticCollection.modes.forEach((mode) => {
+        const modeName = mode.name;
+        const resolvedValue = resolveAlias(variable, mode.modeId, sourceData);
+
+        if (resolvedValue) {
+          const valueString = rgbaToString(resolvedValue);
+          if (!semanticTokens[modeName]) {
+            semanticTokens[modeName] = {};
+          }
+
+          semanticTokens[modeName][variable.name] = { value: valueString };
+        }
+      });
+    }
+  });
+}
+
+// Write semantic tokens
+const semanticDir = path.join(__dirname, "tokens/globals");
+if (!fs.existsSync(semanticDir)) {
+  fs.mkdirSync(semanticDir, { recursive: true });
+}
+fs.writeFileSync(
+  path.join(semanticDir, "semantic.json"),
+  JSON.stringify({ Color: { Semantic: semanticTokens } }, null, 2)
+);
+
+//// Function to extract primitive BRAND tokens
+
+function processBrands(variableCollections, variables) {
+  const brands = {};
+
+  Object.entries(variableCollections).forEach(([collectionId, collection]) => {
+    // Process only local variables, and skip semantic tokens
+    if (
+      !collection.remote &&
+      collectionId !== "VariableCollectionId:4546:841"
+    ) {
+      collection.variableIds.forEach((variableId) => {
+        const variable = variables[variableId];
+        // only color variables
+        if (variable && variable.resolvedType === "COLOR") {
+          // Split the color name into segments
+          const nameSegments = variable.name.split("/"); // Example ["DBA", "Jean Blue", "100"]
+
+          // Start building the nested structure
+          let currentLevel = brands;
+          nameSegments.forEach((segment, index) => {
+            if (index === nameSegments.length - 1) {
+              // Last segment: assign the color value
+              currentLevel[segment] = {
+                value: rgbaToString(
+                  variable.valuesByMode[collection.defaultModeId]
+                ),
+              };
+            } else {
+              // Intermediate segments: create nested objects
+              currentLevel[segment] = currentLevel[segment] || {};
+              currentLevel = currentLevel[segment];
+            }
+          });
+        }
+      });
+    }
+  });
+
+  return brands;
+}
+
+// Function to write files with primitive colours for each brand
+function writeBrandFiles(brands) {
+  // iterate through each brand and write file
+  Object.entries(brands).forEach(([brand, colors]) => {
+    const brandDir = path.join(__dirname, "tokens/brands");
+    if (!fs.existsSync(brandDir)) {
+      fs.mkdirSync(brandDir, { recursive: true });
+    }
+
+    // Construct the data with the brand as a key under 'color'
+    const brandData = {
+      color: {
+        [brand]: colors,
+      },
+    };
+
+    fs.writeFileSync(
+      path.join(brandDir, `${brand}.json`),
+      JSON.stringify(brandData, null, 2)
+    );
+  });
+}
+
+// create an object with all primitive brand colours
+const brands = processBrands(
+  sourceData.meta.variableCollections,
+  sourceData.meta.variables
+);
+// save to files
+writeBrandFiles(brands);
+
+// console.log(brands);

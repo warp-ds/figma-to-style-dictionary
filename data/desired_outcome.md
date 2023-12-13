@@ -1,14 +1,13 @@
 # Brand-specific Color Tokens
+
 finn.json and tori.json inside a brands directory:
 
 ```
-{
-  "color": {
-    "brand": {
-      "finn": {
-        "blue-200": { "value": "#222222" },
-        "blue-800": { "value": "#111111" }
-        // ... other FINN colors
+"color": {
+    "finn": {
+      "Gray": {
+        "50": {
+          "value": "#fafafa"
       }
     }
   }
@@ -16,6 +15,7 @@ finn.json and tori.json inside a brands directory:
 ```
 
 # Semantic tokens
+
 One json file, for example tokens/globals/semantic.json:
 
 ```
@@ -59,9 +59,6 @@ One json file, for example tokens/globals/semantic.json:
             }
           }
 ```
-
-
-
 
 # Style Dictionary Configuration
 
