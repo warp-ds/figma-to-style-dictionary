@@ -1,11 +1,9 @@
 const fs = require("fs");
-
 const path = require("path");
-
 const sourceData = require("./data/figma.json");
 
 
-// Convert RGBA object to hex
+// Convert RGBA object to hex. Return wity 8 numbers if transparent
 
 function rgbaToHex(r, g, b, a) {
   // Convert each component to a two-digit hexadecimal string
@@ -35,7 +33,7 @@ function rgbaToString(rgba) {
   return null;
 }
 
-// Helper function to resolve alias to actual value
+// Resolve alias to actual value
 function resolveAlias(variable, modeId, sourceData) {
   let value = variable.valuesByMode[modeId];
 
@@ -80,14 +78,17 @@ Object.entries(sourceData.meta.variableCollections).forEach(
       // save mode names
       modes = collection.modes;
 
-      // Go through each variable
+      // Go through each variableId
       collection.variableIds.forEach((variableId) => {
         const variable = sourceData.meta.variables[variableId];
 
-        // console.log("variableID for semantic token", variable);
+        // console.log("Semantic token: ", variable);
 
-        // Split the token name into segments
+        // Split the token name into list with segments
+        // For example [ 'Background', 'Secondary-Hover' ]
         const pathSegments = variable.name.split("/").slice(1);
+
+        // console.log("pathSegments ", pathSegments);
 
         // Reference to the current position in the semanticTokens object
         let currentLevel = semanticTokens;
@@ -140,10 +141,10 @@ Object.entries(sourceData.meta.variableCollections).forEach(
 );
 
 // Process semantic tokens
-const semanticCollection =
-  sourceData.meta.variableCollections["VariableCollectionId:4546:841"];
+const semanticCollection = sourceData.meta.variableCollections["VariableCollectionId:4546:841"];
 
 if (semanticCollection && !semanticCollection.remote) {
+  
   semanticCollection.variableIds.forEach((variableId) => {
     const variable = sourceData.meta.variables[variableId];
     if (variable && !variable.remote) {
@@ -177,18 +178,20 @@ fs.writeFileSync(
 
 
 
-//// BRANDS primitive tokens
+//// Function to extract primitive BRAND tokens
 
 function processBrands(variableCollections, variables) {
   const brands = {};
 
   Object.entries(variableCollections).forEach(([collectionId, collection]) => {
+    // Process only local variables, and skip semantic tokens
     if (!collection.remote && collectionId !== "VariableCollectionId:4546:841") {
       collection.variableIds.forEach(variableId => {
         const variable = variables[variableId];
+        // only color variables
         if (variable && variable.resolvedType === 'COLOR') {
           // Split the color name into segments
-          const nameSegments = variable.name.split('/'); // ["DBA", "Jean Blue", "100"]
+          const nameSegments = variable.name.split('/'); // Example ["DBA", "Jean Blue", "100"]
 
           // Start building the nested structure
           let currentLevel = brands;
@@ -210,17 +213,30 @@ function processBrands(variableCollections, variables) {
   return brands;
 }
 
-
-
+// Function to write files with primitive colours for each brand 
 function writeBrandFiles(brands) {
+  // iterate through each brand and write file
   Object.entries(brands).forEach(([brand, colors]) => {
     const brandDir = path.join(__dirname, 'tokens/brands');
     if (!fs.existsSync(brandDir)) {
       fs.mkdirSync(brandDir, { recursive: true });
     }
-    fs.writeFileSync(path.join(brandDir, `${brand}.json`), JSON.stringify({ color: { brand: colors } }, null, 2));
+
+    // Construct the data with the brand as a key under 'color'
+    const brandData = {
+      color: {
+        [brand]: colors
+      }
+    };
+
+    fs.writeFileSync(path.join(brandDir, `${brand}.json`), JSON.stringify(brandData, null, 2));
   });
 }
 
+
+// create an object with all primitive brand colours
 const brands = processBrands(sourceData.meta.variableCollections, sourceData.meta.variables);
+// save to files
 writeBrandFiles(brands);
+
+console.log(brands);
