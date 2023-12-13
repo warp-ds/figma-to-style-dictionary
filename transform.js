@@ -313,7 +313,7 @@ function writeBrandFiles(brands) {
 
     // Construct the data with the brand as a key under 'color'
     const brandData = {
-      color: {
+      Color: {
         [brand]: colors,
       },
     };
