@@ -26,6 +26,10 @@ Scripts:
 ## Download data from Figma:
 ```
 curl -H 'X-FIGMA-TOKEN: <personal access token>' 'https://api.figma.com/v1/files/oHBCzDdJxHQ6fmFLYWUltf/variables/local' -o data/figma.json
+
+// With access token, delete before push
+curl -H 'X-FIGMA-TOKEN: figd_2xpuZLg2o28wxKJopGEWxOJuvw44mkbtvGL4TdmK' 'https://api.figma.com/v1/files/oHBCzDdJxHQ6fmFLYWUltf/variables/local' -o figma.json
+
 ```
 
 ## Run the script to transform the data
