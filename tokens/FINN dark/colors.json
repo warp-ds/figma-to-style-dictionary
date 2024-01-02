@@ -1,5 +1,8 @@
 {
   "Color": {
+    "50": {
+      "value": "#ffffff80"
+    },
     "White": {
       "value": "#ffffff"
     },
