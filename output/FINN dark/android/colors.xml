@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Wed, 03 Jan 2024 19:11:19 GMT
+-->
+<resources>
+  <color name="color_50">#80ffffff</color>
+  <color name="color_white">#ffffffff</color>
+  <color name="color_black">#ff000000</color>
+  <color name="color_gray_50">#fffafafa</color>
+  <color name="color_gray_100">#fff4f4f5</color>
+  <color name="color_gray_200">#ffe4e4e7</color>
+  <color name="color_gray_300">#ffd4d4d8</color>
+  <color name="color_gray_400">#ffa1a1aa</color>
+  <color name="color_gray_500">#ff71717a</color>
+  <color name="color_gray_600">#ff52525b</color>
+  <color name="color_gray_700">#ff3f3f46</color>
+  <color name="color_gray_800">#ff27272a</color>
+  <color name="color_gray_900">#ff18181b</color>
+  <color name="color_blue_50">#ffeff5ff</color>
+  <color name="color_blue_100">#ffe1edfe</color>
+  <color name="color_blue_200">#ffc2dafe</color>
+  <color name="color_blue_300">#ff9ac1fe</color>
+  <color name="color_blue_400">#ff5c9cff</color>
+  <color name="color_blue_500">#ff2b7eff</color>
+  <color name="color_blue_600">#ff0063fb</color>
+  <color name="color_blue_700">#ff244eb3</color>
+  <color name="color_blue_800">#ff223474</color>
+  <color name="color_blue_900">#ff191d34</color>
+  <color name="color_aqua_50">#fff1f9ff</color>
+  <color name="color_aqua_100">#ffe0f6ff</color>
+  <color name="color_aqua_200">#ffb6f0ff</color>
+  <color name="color_aqua_300">#ff66e0ff</color>
+  <color name="color_aqua_400">#ff06befb</color>
+  <color name="color_aqua_500">#ff03a3dd</color>
+  <color name="color_aqua_600">#ff0386bf</color>
+  <color name="color_aqua_700">#ff1e648a</color>
+  <color name="color_aqua_800">#ff1d435a</color>
+  <color name="color_aqua_900">#ff15242f</color>
+  <color name="color_green_50">#ffebfff6</color>
+  <color name="color_green_100">#ffcdfee5</color>
+  <color name="color_green_200">#ff9efcd1</color>
+  <color name="color_green_300">#ff67eeb8</color>
+  <color name="color_green_400">#ff2ee69f</color>
+  <color name="color_green_500">#ff18c884</color>
+  <color name="color_green_600">#ff059e6f</color>
+  <color name="color_green_700">#ff1d7454</color>
+  <color name="color_green_800">#ff1b4d39</color>
+  <color name="color_green_900">#ff14291f</color>
+  <color name="color_yellow_50">#fffff8e6</color>
+  <color name="color_yellow_100">#fffff5c8</color>
+  <color name="color_yellow_200">#fffeef90</color>
+  <color name="color_yellow_300">#fffae76b</color>
+  <color name="color_yellow_400">#ffffe11f</color>
+  <color name="color_yellow_500">#ffeeb61b</color>
+  <color name="color_yellow_600">#ffd5840b</color>
+  <color name="color_yellow_700">#ff9b621e</color>
+  <color name="color_yellow_800">#ff654118</color>
+  <color name="color_yellow_900">#ff352310</color>
+  <color name="color_red_50">#fffff5f5</color>
+  <color name="color_red_100">#ffffefef</color>
+  <color name="color_red_200">#ffffd1d1</color>
+  <color name="color_red_300">#ffff9999</color>
+  <color name="color_red_400">#ffff5844</color>
+  <color name="color_red_500">#fffa270f</color>
+  <color name="color_red_600">#ffd91f0a</color>
+  <color name="color_red_700">#ff9e2216</color>
+  <color name="color_red_800">#ff681d11</color>
+  <color name="color_red_900">#ff38140b</color>
+  <color name="color_bluegray_50">#fff8fafc</color>
+  <color name="color_bluegray_100">#fff1f4f9</color>
+  <color name="color_bluegray_200">#ffe1e6ee</color>
+  <color name="color_bluegray_300">#ffc3ccd9</color>
+  <color name="color_bluegray_400">#ff9ba8ba</color>
+  <color name="color_bluegray_500">#ff6f7d90</color>
+  <color name="color_bluegray_600">#ff4d586f</color>
+  <color name="color_bluegray_700">#ff3b4353</color>
+  <color name="color_bluegray_800">#ff292d38</color>
+  <color name="color_bluegray_900">#ff181a1f</color>
+  <color name="color_transparent">#00ffffff</color>
+  
+</resources>
