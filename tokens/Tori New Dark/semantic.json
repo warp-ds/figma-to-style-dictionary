@@ -1,0 +1,369 @@
+{
+  "semantic": {
+    "Text": {
+      "Default": {
+        "value": "Tori/White"
+      },
+      "Subtle": {
+        "value": "Tori/Gray/100"
+      },
+      "Placeholder": {
+        "value": "Tori/Gray/500"
+      },
+      "Inverted": {
+        "value": "Tori/White"
+      },
+      "Inverted-Subtle": {
+        "value": "Tori/Gray/800"
+      },
+      "Link": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Disabled": {
+        "value": "Tori/Gray/500"
+      },
+      "Negative": {
+        "value": "Tori/Red/400"
+      },
+      "Positive": {
+        "value": "Tori/Green/500"
+      }
+    },
+    "Background": {
+      "Default": {
+        "value": "Tori/Gray/900"
+      },
+      "Hover": {
+        "value": "Tori/Gray/800"
+      },
+      "Active": {
+        "value": "Tori/Gray/900"
+      },
+      "Disabled": {
+        "value": "Tori/Gray/800"
+      },
+      "Disabled-Subtle": {
+        "value": "Tori/Gray/900"
+      },
+      "Subtle": {
+        "value": "Tori/Gray/800"
+      },
+      "Subtle-Hover": {
+        "value": "Tori/Gray/800"
+      },
+      "Subtle-Active": {
+        "value": "Tori/Gray/900"
+      },
+      "Selected": {
+        "value": "Tori/Blueberry/900"
+      },
+      "Selected-Hover": {
+        "value": "Tori/Blueberry/800"
+      },
+      "Inverted": {
+        "value": "Tori/Gray/50"
+      },
+      "Primary": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Primary-Hover": {
+        "value": "Tori/Blueberry/600"
+      },
+      "Primary-Active": {
+        "value": "Tori/Blueberry/700"
+      },
+      "Primary-Subtle": {
+        "value": "Tori/Blueberry/800"
+      },
+      "Primary-Subtle-Hover": {
+        "value": "Tori/Blueberry/900"
+      },
+      "Primary-Subtle-Active": {
+        "value": "Tori/Blueberry/900"
+      },
+      "Positive": {
+        "value": "Tori/Green/500"
+      },
+      "Positive-Hover": {
+        "value": "Tori/Green/600"
+      },
+      "Positive-Active": {
+        "value": "Tori/Green/700"
+      },
+      "Positive-Subtle": {
+        "value": "Tori/Green/900"
+      },
+      "Positive-Subtle-Hover": {
+        "value": "Tori/Green/800"
+      },
+      "Positive-Subtle-Active": {
+        "value": "Tori/Green/900"
+      },
+      "Positive-Selected": {
+        "value": "Tori/Green/900"
+      },
+      "Positive-Selected-Hover": {
+        "value": "Tori/Green/800"
+      },
+      "Negative": {
+        "value": "Tori/Red/400"
+      },
+      "Negative-Hover": {
+        "value": "Tori/Red/500"
+      },
+      "Negative-Active": {
+        "value": "Tori/Red/600"
+      },
+      "Negative-Subtle": {
+        "value": "Tori/Red/900"
+      },
+      "Negative-Subtle-Hover": {
+        "value": "Tori/Red/800"
+      },
+      "Negative-Subtle-Active": {
+        "value": "Tori/Red/900"
+      },
+      "Warning": {
+        "value": "Tori/Yellow/500"
+      },
+      "Warning-Hover": {
+        "value": "Tori/Yellow/600"
+      },
+      "Warning-Active": {
+        "value": "Tori/Yellow/700"
+      },
+      "Warning-Subtle": {
+        "value": "Tori/Yellow/900"
+      },
+      "Warning-Subtle-Hover": {
+        "value": "Tori/Yellow/800"
+      },
+      "Warning-Subtle-Active": {
+        "value": "Tori/Yellow/900"
+      },
+      "Info": {
+        "value": "Tori/Blue/500"
+      },
+      "Info-Hover": {
+        "value": "Tori/Blue/600"
+      },
+      "Info-Active": {
+        "value": "Tori/Blue/700"
+      },
+      "Info-Subtle": {
+        "value": "Tori/Blue/900"
+      },
+      "Info-Subtle-Hover": {
+        "value": "Tori/Blue/800"
+      },
+      "Info-Subtle-Active": {
+        "value": "Tori/Blue/900"
+      },
+      "Transparent-0": {
+        "value": "Tori/Transparent"
+      },
+      "Notification": {
+        "value": "Tori/Watermelon/600"
+      },
+      "Overlay": {
+        "value": "Unknown Variable"
+      },
+      "Secondary": {
+        "value": "Tori/Watermelon/500"
+      },
+      "Secondary-Hover": {
+        "value": "Tori/Watermelon/600"
+      },
+      "Secondary-Active": {
+        "value": "Tori/Watermelon/700"
+      }
+    },
+    "Border": {
+      "Default": {
+        "value": "Tori/Gray/600"
+      },
+      "Hover": {
+        "value": "Tori/Gray/700"
+      },
+      "Active": {
+        "value": "Tori/Gray/800"
+      },
+      "Disabled": {
+        "value": "Tori/Gray/700"
+      },
+      "Selected": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Selected-Hover": {
+        "value": "Tori/Blueberry/600"
+      },
+      "Primary": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Primary-Hover": {
+        "value": "Tori/Blueberry/600"
+      },
+      "Primary-Active": {
+        "value": "Tori/Blueberry/700"
+      },
+      "Primary-Subtle": {
+        "value": "Tori/Blueberry/700"
+      },
+      "Primary-Subtle-Hover": {
+        "value": "Tori/Blueberry/800"
+      },
+      "Primary-Subtle-Active": {
+        "value": "Tori/Blueberry/900"
+      },
+      "Secondary": {
+        "value": "Tori/Watermelon/500"
+      },
+      "Secondary-Hover": {
+        "value": "Tori/Watermelon/600"
+      },
+      "Secondary-Active": {
+        "value": "Tori/Watermelon/700"
+      },
+      "Positive": {
+        "value": "Tori/Green/500"
+      },
+      "Positive-Hover": {
+        "value": "Tori/Green/600"
+      },
+      "Positive-Active": {
+        "value": "Tori/Green/700"
+      },
+      "Positive-Subtle": {
+        "value": "Tori/Green/700"
+      },
+      "Positive-Subtle-Hover": {
+        "value": "Tori/Green/800"
+      },
+      "Positive-Subtle-Active": {
+        "value": "Tori/Green/900"
+      },
+      "Negative": {
+        "value": "Tori/Red/400"
+      },
+      "Negative-Hover": {
+        "value": "Tori/Red/500"
+      },
+      "Negative-Active": {
+        "value": "Tori/Red/700"
+      },
+      "Negative-Subtle": {
+        "value": "Tori/Red/700"
+      },
+      "Negative-Subtle-Hover": {
+        "value": "Tori/Red/700"
+      },
+      "Negative-Subtle-Active": {
+        "value": "Tori/Red/900"
+      },
+      "Warning": {
+        "value": "Tori/Yellow/500"
+      },
+      "Warning-Hover": {
+        "value": "Tori/Yellow/600"
+      },
+      "Warning-Active": {
+        "value": "Tori/Yellow/700"
+      },
+      "Warning-Subtle": {
+        "value": "Tori/Yellow/700"
+      },
+      "Warning-Subtle-Hover": {
+        "value": "Tori/Yellow/800"
+      },
+      "Warning-Subtle-Active": {
+        "value": "Tori/Yellow/900"
+      },
+      "Info": {
+        "value": "Tori/Blue/500"
+      },
+      "Info-Hover": {
+        "value": "Tori/Blue/600"
+      },
+      "Info-Active": {
+        "value": "Tori/Blue/700"
+      },
+      "Info-Subtle": {
+        "value": "Tori/Blue/700"
+      },
+      "Info-Subtle-Hover": {
+        "value": "Tori/Blue/800"
+      },
+      "Info-Subtle-Active": {
+        "value": "Tori/Blue/900"
+      },
+      "Focus": {
+        "value": "Tori/Blue/300"
+      }
+    },
+    "Icon": {
+      "Default": {
+        "value": "Tori/White"
+      },
+      "Hover": {
+        "value": "Tori/Blueberry/100"
+      },
+      "Active": {
+        "value": "Tori/Blueberry/200"
+      },
+      "Selected": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Selected-Hover": {
+        "value": "Tori/Blueberry/600"
+      },
+      "Disabled": {
+        "value": "Tori/Gray/600"
+      },
+      "Subtle": {
+        "value": "Tori/Gray/600"
+      },
+      "Subtle-Hover": {
+        "value": "Tori/Gray/200"
+      },
+      "Subtle-Active": {
+        "value": "Tori/Gray/300"
+      },
+      "Inverted": {
+        "value": "Tori/White"
+      },
+      "Inverted-Hover": {
+        "value": "Tori/Gray/800"
+      },
+      "Inverted-Active": {
+        "value": "Tori/Gray/900"
+      },
+      "Primary": {
+        "value": "Tori/Blueberry/500"
+      },
+      "Secondary": {
+        "value": "Tori/Watermelon/500"
+      },
+      "Secondary-Hover": {
+        "value": "Tori/Watermelon/600"
+      },
+      "Secondary-Active": {
+        "value": "Tori/Watermelon/700"
+      },
+      "Positive": {
+        "value": "Tori/Green/500"
+      },
+      "Negative": {
+        "value": "Tori/Red/400"
+      },
+      "Warning": {
+        "value": "Tori/Yellow/500"
+      },
+      "Info": {
+        "value": "Tori/Blue/500"
+      },
+      "Notification": {
+        "value": "Tori/White"
+      }
+    }
+  }
+}

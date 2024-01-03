@@ -1,0 +1,190 @@
+{
+  "components": {
+    "Avatar": {
+      "Background": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Icon": {
+        "value": "Semantic/Icon/Disabled"
+      }
+    },
+    "Badge": {
+      "Neutral": {
+        "Background": {
+          "value": "Semantic/Background/Disabled-Subtle"
+        }
+      },
+      "Info": {
+        "Background": {
+          "value": "FINN/Aqua/700"
+        }
+      },
+      "Positive": {
+        "Background": {
+          "value": "FINN/Green/700"
+        }
+      },
+      "Warning": {
+        "Background": {
+          "value": "FINN/Yellow/700"
+        }
+      },
+      "Negative": {
+        "Background": {
+          "value": "FINN/Red/700"
+        }
+      },
+      "Sponsored": {
+        "Background": {
+          "value": "FINN/Aqua/600"
+        }
+      },
+      "Price": {
+        "Background": {
+          "value": "FINN/Black"
+        }
+      },
+      "Notification": {
+        "Background": {
+          "value": "Semantic/Background/Negative"
+        }
+      }
+    },
+    "Button": {
+      "Primary Button": {
+        "Primary": {
+          "value": "Semantic/Background/Primary"
+        },
+        "Primary-Hover": {
+          "value": "Semantic/Background/Primary-Hover"
+        },
+        "Primary-Active": {
+          "value": "Semantic/Background/Primary-Active"
+        }
+      },
+      "Pill": {
+        "Background-Hover": {
+          "value": "FINN/Blue/300"
+        }
+      }
+    },
+    "Callout": {
+      "Text": {
+        "value": "Semantic/Text/Default"
+      },
+      "Background": {
+        "value": "FINN/Green/800"
+      },
+      "Border": {
+        "value": "FINN/Green/600"
+      }
+    },
+    "Card": {
+      "Default": {
+        "Background": {
+          "value": "Semantic/Background/Default"
+        },
+        "Background-Hover": {
+          "value": "Semantic/Background/Hover"
+        },
+        "Background-Active": {
+          "value": "Semantic/Background/Active"
+        },
+        "Background-Selected": {
+          "value": "Semantic/Background/Selected"
+        },
+        "Background-Selected-Hover": {
+          "value": "Semantic/Background/Selected-Hover"
+        },
+        "Border-Selected": {
+          "value": "Semantic/Border/Selected"
+        }
+      },
+      "Flat": {
+        "Background": {
+          "value": "Semantic/Background/Subtle"
+        },
+        "Background-Hovert": {
+          "value": "Semantic/Background/Hover"
+        },
+        "Background-Active": {
+          "value": "Semantic/Background/Active"
+        },
+        "Background-Selected": {
+          "value": "Semantic/Background/Selected"
+        },
+        "Background-Selected-Hover": {
+          "value": "Semantic/Background/Selected-Hover"
+        },
+        "Border": {
+          "value": "Semantic/Border/Default"
+        },
+        "Border-Hover": {
+          "value": "Semantic/Border/Hover"
+        },
+        "Border-Active": {
+          "value": "Semantic/Border/Active"
+        },
+        "Border-Selected": {
+          "value": "Semantic/Border/Selected"
+        }
+      }
+    },
+    "Modal": {
+      "Text-Title": {
+        "value": "Semantic/Text/Default"
+      },
+      "Text-Paragraph": {
+        "value": "Semantic/Text/Default"
+      },
+      "Background": {
+        "value": "Semantic/Background/Default"
+      }
+    },
+    "Navbar": {
+      "Icon-Selected": {
+        "value": "Semantic/Icon/Selected"
+      },
+      "Border-Selected": {
+        "value": "Semantic/Border/Selected"
+      }
+    },
+    "Page Indicator": {
+      "Background": {
+        "value": "FINN/Bluegray/300"
+      },
+      "Background-Hover": {
+        "value": "FINN/Bluegray/400"
+      }
+    },
+    "Pill": {
+      "Suggestion": {
+        "Background": {
+          "value": "FINN/Gray/600"
+        },
+        "Background-Hover": {
+          "value": "FINN/Gray/700"
+        },
+        "Background-Active": {
+          "value": "FINN/Gray/800"
+        }
+      }
+    },
+    "Step Indicator": {
+      "Background-Track": {
+        "value": "Semantic/Border/Default"
+      }
+    },
+    "Switch": {
+      "Background-Track": {
+        "value": "Semantic/Background/Subtle"
+      },
+      "Background-Track-Hover": {
+        "value": "Semantic/Background/Subtle-Hover"
+      },
+      "Background-Track-Disabled": {
+        "value": "Semantic/Background/Disabled"
+      }
+    }
+  }
+}

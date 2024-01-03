@@ -1,0 +1,369 @@
+{
+  "semantic": {
+    "Text": {
+      "Default": {
+        "value": "FINN/White"
+      },
+      "Subtle": {
+        "value": "FINN/Gray/100"
+      },
+      "Placeholder": {
+        "value": "FINN/Bluegray/500"
+      },
+      "Inverted": {
+        "value": "FINN/White"
+      },
+      "Inverted-Subtle": {
+        "value": "FINN/Gray/800"
+      },
+      "Link": {
+        "value": "FINN/Blue/500"
+      },
+      "Disabled": {
+        "value": "FINN/Bluegray/500"
+      },
+      "Negative": {
+        "value": "FINN/Red/500"
+      },
+      "Positive": {
+        "value": "FINN/Green/500"
+      }
+    },
+    "Background": {
+      "Default": {
+        "value": "FINN/Bluegray/900"
+      },
+      "Hover": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Active": {
+        "value": "FINN/Bluegray/900"
+      },
+      "Disabled": {
+        "value": "FINN/Bluegray/700"
+      },
+      "Disabled-Subtle": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Subtle": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Subtle-Hover": {
+        "value": "FINN/Bluegray/700"
+      },
+      "Subtle-Active": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Selected": {
+        "value": "FINN/Blue/900"
+      },
+      "Selected-Hover": {
+        "value": "FINN/Blue/800"
+      },
+      "Inverted": {
+        "value": "FINN/Gray/50"
+      },
+      "Primary": {
+        "value": "FINN/Blue/500"
+      },
+      "Primary-Hover": {
+        "value": "FINN/Blue/600"
+      },
+      "Primary-Active": {
+        "value": "FINN/Blue/700"
+      },
+      "Primary-Subtle": {
+        "value": "FINN/Blue/800"
+      },
+      "Primary-Subtle-Hover": {
+        "value": "FINN/Blue/900"
+      },
+      "Primary-Subtle-Active": {
+        "value": "FINN/Blue/900"
+      },
+      "Positive": {
+        "value": "FINN/Green/500"
+      },
+      "Positive-Hover": {
+        "value": "FINN/Green/600"
+      },
+      "Positive-Active": {
+        "value": "FINN/Green/700"
+      },
+      "Positive-Subtle": {
+        "value": "FINN/Green/900"
+      },
+      "Positive-Subtle-Hover": {
+        "value": "FINN/Green/800"
+      },
+      "Positive-Subtle-Active": {
+        "value": "FINN/Green/900"
+      },
+      "Positive-Selected": {
+        "value": "FINN/Green/900"
+      },
+      "Positive-Selected-Hover": {
+        "value": "FINN/Green/800"
+      },
+      "Negative": {
+        "value": "FINN/Red/500"
+      },
+      "Negative-Hover": {
+        "value": "FINN/Red/600"
+      },
+      "Negative-Active": {
+        "value": "FINN/Red/700"
+      },
+      "Negative-Subtle": {
+        "value": "FINN/Red/900"
+      },
+      "Negative-Subtle-Hover": {
+        "value": "FINN/Red/800"
+      },
+      "Negative-Subtle-Active": {
+        "value": "FINN/Red/900"
+      },
+      "Warning": {
+        "value": "FINN/Yellow/500"
+      },
+      "Warning-Hover": {
+        "value": "FINN/Yellow/600"
+      },
+      "Warning-Active": {
+        "value": "FINN/Yellow/700"
+      },
+      "Warning-Subtle": {
+        "value": "FINN/Yellow/900"
+      },
+      "Warning-Subtle-Hover": {
+        "value": "FINN/Yellow/800"
+      },
+      "Warning-Subtle-Active": {
+        "value": "FINN/Yellow/900"
+      },
+      "Info": {
+        "value": "FINN/Aqua/500"
+      },
+      "Info-Hover": {
+        "value": "FINN/Aqua/600"
+      },
+      "Info-Active": {
+        "value": "FINN/Aqua/700"
+      },
+      "Info-Subtle": {
+        "value": "FINN/Aqua/900"
+      },
+      "Info-Subtle-Hover": {
+        "value": "FINN/Aqua/800"
+      },
+      "Info-Subtle-Active": {
+        "value": "FINN/Aqua/900"
+      },
+      "Transparent-0": {
+        "value": "FINN/Transparent"
+      },
+      "Notification": {
+        "value": "FINN/Red/500"
+      },
+      "Overlay": {
+        "value": "FINN/Bluegray/700"
+      },
+      "Secondary": {
+        "value": "FINN/Aqua/400"
+      },
+      "Secondary-Hover": {
+        "value": "FINN/Aqua/500"
+      },
+      "Secondary-Active": {
+        "value": "FINN/Aqua/600"
+      }
+    },
+    "Border": {
+      "Default": {
+        "value": "FINN/Bluegray/600"
+      },
+      "Hover": {
+        "value": "FINN/Bluegray/700"
+      },
+      "Active": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Disabled": {
+        "value": "FINN/Bluegray/700"
+      },
+      "Selected": {
+        "value": "FINN/Blue/500"
+      },
+      "Selected-Hover": {
+        "value": "FINN/Blue/600"
+      },
+      "Primary": {
+        "value": "FINN/Blue/500"
+      },
+      "Primary-Hover": {
+        "value": "FINN/Blue/600"
+      },
+      "Primary-Active": {
+        "value": "FINN/Blue/700"
+      },
+      "Primary-Subtle": {
+        "value": "FINN/Blue/700"
+      },
+      "Primary-Subtle-Hover": {
+        "value": "FINN/Blue/800"
+      },
+      "Primary-Subtle-Active": {
+        "value": "FINN/Blue/900"
+      },
+      "Secondary": {
+        "value": "FINN/Aqua/400"
+      },
+      "Secondary-Hover": {
+        "value": "FINN/Aqua/500"
+      },
+      "Secondary-Active": {
+        "value": "FINN/Aqua/600"
+      },
+      "Positive": {
+        "value": "FINN/Green/500"
+      },
+      "Positive-Hover": {
+        "value": "FINN/Green/600"
+      },
+      "Positive-Active": {
+        "value": "FINN/Green/700"
+      },
+      "Positive-Subtle": {
+        "value": "FINN/Green/700"
+      },
+      "Positive-Subtle-Hover": {
+        "value": "FINN/Green/800"
+      },
+      "Positive-Subtle-Active": {
+        "value": "FINN/Green/900"
+      },
+      "Negative": {
+        "value": "FINN/Red/500"
+      },
+      "Negative-Hover": {
+        "value": "FINN/Red/600"
+      },
+      "Negative-Active": {
+        "value": "FINN/Red/700"
+      },
+      "Negative-Subtle": {
+        "value": "FINN/Red/700"
+      },
+      "Negative-Subtle-Hover": {
+        "value": "FINN/Red/800"
+      },
+      "Negative-Subtle-Active": {
+        "value": "FINN/Red/900"
+      },
+      "Warning": {
+        "value": "FINN/Yellow/500"
+      },
+      "Warning-Hover": {
+        "value": "FINN/Yellow/600"
+      },
+      "Warning-Active": {
+        "value": "FINN/Yellow/700"
+      },
+      "Warning-Subtle": {
+        "value": "FINN/Yellow/700"
+      },
+      "Warning-Subtle-Hover": {
+        "value": "FINN/Yellow/800"
+      },
+      "Warning-Subtle-Active": {
+        "value": "FINN/Yellow/900"
+      },
+      "Info": {
+        "value": "FINN/Aqua/500"
+      },
+      "Info-Hover": {
+        "value": "FINN/Aqua/600"
+      },
+      "Info-Active": {
+        "value": "FINN/Aqua/700"
+      },
+      "Info-Subtle": {
+        "value": "FINN/Aqua/700"
+      },
+      "Info-Subtle-Hover": {
+        "value": "FINN/Aqua/800"
+      },
+      "Info-Subtle-Active": {
+        "value": "FINN/Aqua/900"
+      },
+      "Focus": {
+        "value": "FINN/Aqua/300"
+      }
+    },
+    "Icon": {
+      "Default": {
+        "value": "FINN/White"
+      },
+      "Hover": {
+        "value": "FINN/Gray/100"
+      },
+      "Active": {
+        "value": "FINN/Gray/200"
+      },
+      "Selected": {
+        "value": "FINN/Blue/500"
+      },
+      "Selected-Hover": {
+        "value": "FINN/Blue/600"
+      },
+      "Disabled": {
+        "value": "FINN/Bluegray/600"
+      },
+      "Subtle": {
+        "value": "FINN/Bluegray/600"
+      },
+      "Subtle-Hover": {
+        "value": "FINN/Bluegray/200"
+      },
+      "Subtle-Active": {
+        "value": "FINN/Bluegray/300"
+      },
+      "Inverted": {
+        "value": "FINN/White"
+      },
+      "Inverted-Hover": {
+        "value": "FINN/Bluegray/800"
+      },
+      "Inverted-Active": {
+        "value": "FINN/Bluegray/900"
+      },
+      "Primary": {
+        "value": "FINN/Blue/500"
+      },
+      "Secondary": {
+        "value": "FINN/Aqua/400"
+      },
+      "Secondary-Hover": {
+        "value": "FINN/Aqua/500"
+      },
+      "Secondary-Active": {
+        "value": "FINN/Aqua/600"
+      },
+      "Positive": {
+        "value": "FINN/Green/500"
+      },
+      "Negative": {
+        "value": "FINN/Red/500"
+      },
+      "Warning": {
+        "value": "FINN/Yellow/500"
+      },
+      "Info": {
+        "value": "FINN/Aqua/500"
+      },
+      "Notification": {
+        "value": "FINN/White"
+      }
+    }
+  }
+}

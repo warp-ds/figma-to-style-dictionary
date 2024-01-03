@@ -1,0 +1,190 @@
+{
+  "components": {
+    "Avatar": {
+      "Background": {
+        "value": "DBA/Gray/100"
+      },
+      "Icon": {
+        "value": "Semantic/Icon/Disabled"
+      }
+    },
+    "Badge": {
+      "Neutral": {
+        "Background": {
+          "value": "DBA/Gray/100"
+        }
+      },
+      "Info": {
+        "Background": {
+          "value": "DBA/Jean Blue/100"
+        }
+      },
+      "Positive": {
+        "Background": {
+          "value": "DBA/Green/100"
+        }
+      },
+      "Warning": {
+        "Background": {
+          "value": "DBA/Yellow/100"
+        }
+      },
+      "Negative": {
+        "Background": {
+          "value": "DBA/Red/200"
+        }
+      },
+      "Sponsored": {
+        "Background": {
+          "value": "DBA/Jean Blue/200"
+        }
+      },
+      "Price": {
+        "Background": {
+          "value": "DBA/Black"
+        }
+      },
+      "Notification": {
+        "Background": {
+          "value": "Semantic/Background/Negative"
+        }
+      }
+    },
+    "Button": {
+      "Primary Button": {
+        "Primary": {
+          "value": "Semantic/Background/Primary"
+        },
+        "Primary-Hover": {
+          "value": "Semantic/Background/Primary-Hover"
+        },
+        "Primary-Active": {
+          "value": "Semantic/Background/Primary-Active"
+        }
+      },
+      "Pill": {
+        "Background-Hover": {
+          "value": "DBA/Jean Blue/300"
+        }
+      }
+    },
+    "Callout": {
+      "Text": {
+        "value": "Semantic/Text/Default"
+      },
+      "Background": {
+        "value": "DBA/Green/100"
+      },
+      "Border": {
+        "value": "DBA/Green/400"
+      }
+    },
+    "Card": {
+      "Default": {
+        "Background": {
+          "value": "Semantic/Background/Default"
+        },
+        "Background-Hover": {
+          "value": "Semantic/Background/Hover"
+        },
+        "Background-Active": {
+          "value": "Semantic/Background/Active"
+        },
+        "Background-Selected": {
+          "value": "Semantic/Background/Selected"
+        },
+        "Background-Selected-Hover": {
+          "value": "Semantic/Background/Selected-Hover"
+        },
+        "Border-Selected": {
+          "value": "Semantic/Border/Selected"
+        }
+      },
+      "Flat": {
+        "Background": {
+          "value": "Semantic/Background/Default"
+        },
+        "Background-Hovert": {
+          "value": "Semantic/Background/Hover"
+        },
+        "Background-Active": {
+          "value": "Semantic/Background/Active"
+        },
+        "Background-Selected": {
+          "value": "Semantic/Background/Selected"
+        },
+        "Background-Selected-Hover": {
+          "value": "Semantic/Background/Selected-Hover"
+        },
+        "Border": {
+          "value": "Semantic/Border/Default"
+        },
+        "Border-Hover": {
+          "value": "Semantic/Border/Hover"
+        },
+        "Border-Active": {
+          "value": "Semantic/Border/Active"
+        },
+        "Border-Selected": {
+          "value": "Semantic/Border/Selected"
+        }
+      }
+    },
+    "Modal": {
+      "Text-Title": {
+        "value": "Semantic/Text/Default"
+      },
+      "Text-Paragraph": {
+        "value": "Semantic/Text/Default"
+      },
+      "Background": {
+        "value": "Semantic/Background/Default"
+      }
+    },
+    "Navbar": {
+      "Icon-Selected": {
+        "value": "Semantic/Icon/Secondary"
+      },
+      "Border-Selected": {
+        "value": "Semantic/Border/Secondary"
+      }
+    },
+    "Page Indicator": {
+      "Background": {
+        "value": "DBA/Gray/300"
+      },
+      "Background-Hover": {
+        "value": "DBA/Gray/400"
+      }
+    },
+    "Pill": {
+      "Suggestion": {
+        "Background": {
+          "value": "DBA/Gray/200"
+        },
+        "Background-Hover": {
+          "value": "DBA/Gray/300"
+        },
+        "Background-Active": {
+          "value": "DBA/Gray/400"
+        }
+      }
+    },
+    "Step Indicator": {
+      "Background-Track": {
+        "value": "Semantic/Border/Default"
+      }
+    },
+    "Switch": {
+      "Background-Track": {
+        "value": "DBA/Gray/300"
+      },
+      "Background-Track-Hover": {
+        "value": "DBA/Gray/400"
+      },
+      "Background-Track-Disabled": {
+        "value": "DBA/Gray/200"
+      }
+    }
+  }
+}

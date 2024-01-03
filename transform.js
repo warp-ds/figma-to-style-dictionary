@@ -12,4 +12,4 @@ const modes = sourceData.meta.variableCollections["VariableCollectionId:4546:841
 processAndWriteBrandColors(sourceData, sourceData.meta.variableCollections, sourceData.meta.variables);
 
 // Process and write semantic and component tokens
-// processAndWriteSemanticAndComponentTokens(sourceData, sourceData.meta.variables, modes);
+processAndWriteSemanticAndComponentTokens(sourceData, sourceData.meta.variables, modes);

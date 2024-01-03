@@ -1,144 +1,94 @@
 const fs = require("fs");
 const path = require("path");
 
-// Resolve alias to actual value
-// Used when processing semantic and component tokens (not colors I think)
-function resolveAlias(variable, modeId, sourceData) {
-    if (variable && variable.valuesByMode && typeof variable.valuesByMode === "object") {
-      let value = variable.valuesByMode[modeId];
-  
-      if (value && value.type === "VARIABLE_ALIAS") {
-        const aliasedVariable = sourceData.meta.variables[value.id];
-        if (aliasedVariable && !aliasedVariable.remote) {
-          console.log("Resolving alias for:", value.id); // Log the alias being resolved
-          return resolveAlias(aliasedVariable, modeId, sourceData);
-        } else {
-          console.log("Aliased variable not found or remote:", value.id); // Log if alias not found or remote
-        }
-      } else if (value && value.r !== undefined) {
-        // Direct RGBA value
-        return value;
-      } else {
-        console.log("Value not valid for modeId:", modeId); // Log if value not valid
-      }
-    } else {
-      console.log("Variable or valuesByMode not defined:", variable ? variable.id : 'undefined'); // Log if variable or valuesByMode not defined
-    }
-  
-    return null; // Return null if value is not valid or not found
-  }
-  
-  
+// Go through all component and semantic tokens in all modes
+function processAndWriteSemanticAndComponentTokens(sourceData) {
+  // Extract modes and variables from sourceData
+  // Example: "FINN Light" and "FINN dark"
+  const modes =
+    sourceData.meta.variableCollections["VariableCollectionId:4546:841"].modes;
+  const variables = sourceData.meta.variables;
 
+  // Initialize objects for each mode
+  const modeObjects = modes.reduce((acc, mode) => {
+    acc[mode.name] = { modeId: mode.modeId, semantic: {}, components: {} };
+    return acc;
+  }, {});
 
-// Get name of colour, to construct reference from semantic tokens to brand tokens
-// Function to extract brand color name from alias ID
-function extractBrandColorName(aliasId) {
-    const aliasedVariable = sourceData.meta.variables[aliasId];
-    if (aliasedVariable) {
-      const nameParts = aliasedVariable.name.split("/");
-      if (nameParts.length >= 3) {
-        // Format "Brand/Color/Shade"
-        return `${nameParts[1]}.${nameParts[2]}`; // Color.Shade
-      } else if (nameParts.length === 2) {
-        // Format "Brand/Color"
-        return nameParts[1]; // Color only
-      }
-    }
-    return "unknown";
-  }
-  
+  // Process tokens for each mode
+  // Only use the VariableCollection that contains component and semantic tokens
+  sourceData.meta.variableCollections[
+    "VariableCollectionId:4546:841"
+  ].variableIds.forEach((variableId) => {
+    // get the data for the specific component or semantic token
+    const variable = variables[variableId];
+    if (variable && variable.resolvedType === "COLOR") {
+      const tokenType = variable.name.startsWith("Components")
+        ? "components"
+        : "semantic";
+      Object.values(modeObjects).forEach((modeObject) => {
+        // Get the name of the token the variable refers to, for example "DBA/Gray/200" or "Semantic/Background/Disabled"
+        const value = extractValueForMode(
+          variable,
+          modeObject.modeId,
+          sourceData
+        );
 
-// Process and write semantic and component tokens
-function processAndWriteSemanticAndComponentTokens(sourceData, variables, modes) {
-    const allTokens = {};
-  
-    Object.entries(variables).forEach(([variableId, variable]) => {
-      if (
-        variable.variableCollectionId === "VariableCollectionId:4546:841" &&
-        variable.resolvedType === "COLOR"
-      ) {
-        const tokenType = variable.name.startsWith("Components")
-          ? "components"
-          : "semantic";
+        console.log(variable.name, "              ", value);
+
+        // The path to the current semantic or component token
         const pathSegments = variable.name.split("/").slice(1);
-  
-        console.log("tokenType:", tokenType);
-        console.log("pathSegments:",pathSegments);
-  
-        modes.forEach((modeEntry) => {
-          const modeName = modeEntry.name; // e.g., "FINN light"
-          const brandName = modeName.split(" ")[0]; // e.g., "FINN"
-  
-          console.log("modeName:", modeName);
-          // console.log("brandName:",brandName);  
-  
-          allTokens[brandName] = allTokens[brandName] || {};
-          allTokens[brandName][tokenType] = allTokens[brandName][tokenType] || {};
-  
-          let currentLevel = allTokens[brandName][tokenType];
-  
-          // console.log("currentLevel:",currentLevel);  
-  
-          pathSegments.forEach((segment, index) => {
-            if (index === pathSegments.length - 1) {
-              const processedValuesByMode = {};
-  
-              Object.entries(variable.valuesByMode).forEach(([modeId, value]) => {
-                if (value.type === "VARIABLE_ALIAS") {
-                  const aliasedVariable = sourceData.meta.variables[value.id];
-                  if (aliasedVariable && !aliasedVariable.remote) {
-                    const resolvedValue = resolveAlias(aliasedVariable, modeId, sourceData);
-  
-                    console.log("resolvedValue:",resolvedValue);  
-  
-                    if (resolvedValue) {
-                      const brandColorName = extractBrandColorName(value.id); // Extract brand color name
-                      processedValuesByMode[modeId] = { value: `color.${brand}.${brandColorName}.value` };
-                    }
-                  }
-                }
-              });
-  
-              currentLevel[segment] = { valuesByMode: processedValuesByMode };
-            } else {
-              currentLevel[segment] = currentLevel[segment] || {};
-              currentLevel = currentLevel[segment];
-            }
-          });
+        let currentLevel = modeObject[tokenType];
+
+        pathSegments.forEach((segment, index) => {
+          if (index === pathSegments.length - 1) {
+            currentLevel[segment] = { value };
+          } else {
+            currentLevel[segment] = currentLevel[segment] || {};
+            currentLevel = currentLevel[segment];
+          }
         });
-      }
-    });
-  
-    // Write semantic and component tokens for each brand and mode
-    Object.entries(allTokens).forEach(([brand, tokens]) => {
-      modes.forEach((modeEntry) => {
-        const modeName = modeEntry.name.split(" ")[1]; // Extract mode name (light/dark)
-  
-        const dirPath = path.join(__dirname, `tokens/${brand} ${modeName}`);
-        if (!fs.existsSync(dirPath)) {
-          fs.mkdirSync(dirPath, { recursive: true });
-        }
-        fs.writeFileSync(
-          path.join(dirPath, "semantic.json"),
-          JSON.stringify({ semantic: tokens.semantic }, null, 2)
-        );
-        fs.writeFileSync(
-          path.join(dirPath, "components.json"),
-          JSON.stringify({ components: tokens.components }, null, 2)
-        );
       });
-    });
+    }
+  });
+
+  // Write the files for each mode
+  Object.entries(modeObjects).forEach(([modeName, modeObject]) => {
+    const dirPath = path.join(__dirname, `tokens/${modeName}`);
+    if (!fs.existsSync(dirPath)) {
+      fs.mkdirSync(dirPath, { recursive: true });
+    }
+    fs.writeFileSync(
+      path.join(dirPath, "semantic.json"),
+      JSON.stringify({ semantic: modeObject.semantic }, null, 2)
+    );
+    fs.writeFileSync(
+      path.join(dirPath, "components.json"),
+      JSON.stringify({ components: modeObject.components }, null, 2)
+    );
+  });
+}
+
+// Get the value name for a given component or semantic token and mode (eg FINN Light)
+function extractValueForMode(variable, modeId, sourceData) {
+  // Find the ID 
+  const variableID = variable.valuesByMode[modeId].id;
+  
+  // Get the name
+  const variableName = getVariableNameById(variableID, sourceData);
+  
+  return variableName;
+}
+
+// Get the name of the variable referred to, bet it a Primitive value, semantic or component token
+function getVariableNameById(variableId, sourceData) {
+  const variable = sourceData.meta.variables[variableId];
+  if (variable) {
+    return variable.name;
   }
-  
-  
+  return "Unknown Variable";
+}
 
-
-
-
-
-
-// Export the main function for processing tokens
 module.exports = {
-  processAndWriteSemanticAndComponentTokens
+  processAndWriteSemanticAndComponentTokens,
 };
