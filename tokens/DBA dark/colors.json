@@ -1,6 +1,6 @@
 {
-  "Color": {
-    "Jean Blue": {
+  "color": {
+    "jean blue": {
       "50": {
         "value": "#f3f6fc"
       },
@@ -32,7 +32,7 @@
         "value": "#070f1d"
       }
     },
-    "Phthalo Blue": {
+    "phthalo blue": {
       "50": {
         "value": "#f0f1ff"
       },
@@ -64,7 +64,7 @@
         "value": "#000324"
       }
     },
-    "Green": {
+    "green": {
       "50": {
         "value": "#f3fcf9"
       },
@@ -96,7 +96,7 @@
         "value": "#072719"
       }
     },
-    "Yellow": {
+    "yellow": {
       "50": {
         "value": "#fef7f1"
       },
@@ -128,7 +128,7 @@
         "value": "#221102"
       }
     },
-    "Red": {
+    "red": {
       "50": {
         "value": "#fff0f1"
       },
@@ -160,7 +160,7 @@
         "value": "#230103"
       }
     },
-    "Gray": {
+    "gray": {
       "50": {
         "value": "#fafafa"
       },

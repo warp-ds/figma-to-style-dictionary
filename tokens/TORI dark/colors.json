@@ -1,6 +1,6 @@
 {
-  "Color": {
-    "Blueberry": {
+  "color": {
+    "blueberry": {
       "50": {
         "value": "#f7f9fd"
       },
@@ -38,7 +38,7 @@
     "Black": {
       "value": "#000000"
     },
-    "Watermelon": {
+    "watermelon": {
       "50": {
         "value": "#fff3f2"
       },
@@ -70,7 +70,7 @@
         "value": "#29080c"
       }
     },
-    "Blue": {
+    "blue": {
       "50": {
         "value": "#ecf7fe"
       },
@@ -102,7 +102,7 @@
         "value": "#021622"
       }
     },
-    "Green": {
+    "green": {
       "50": {
         "value": "#f3fcf9"
       },
@@ -134,7 +134,7 @@
         "value": "#072719"
       }
     },
-    "Yellow": {
+    "yellow": {
       "50": {
         "value": "#fef7f1"
       },
@@ -166,7 +166,7 @@
         "value": "#221102"
       }
     },
-    "Red": {
+    "red": {
       "50": {
         "value": "#fef6f7"
       },
@@ -198,7 +198,7 @@
         "value": "#27070d"
       }
     },
-    "Gray": {
+    "gray": {
       "50": {
         "value": "#fafafa"
       },

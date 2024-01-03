@@ -1,368 +1,368 @@
 {
   "semantic": {
-    "Text": {
-      "Default": {
-        "value": "DBA/Gray/700"
+    "text": {
+      "default": {
+        "value": "{color.gray.700}"
       },
-      "Subtle": {
-        "value": "DBA/Gray/500"
+      "subtle": {
+        "value": "{color.gray.500}"
       },
-      "Placeholder": {
-        "value": "DBA/Gray/300"
+      "placeholder": {
+        "value": "{color.gray.300}"
       },
-      "Inverted": {
-        "value": "DBA/White"
+      "inverted": {
+        "value": "{color.white}"
       },
-      "Inverted-Subtle": {
-        "value": "DBA/Gray/50"
+      "inverted-subtle": {
+        "value": "{color.gray.50}"
       },
-      "Link": {
-        "value": "DBA/Jean Blue/600"
+      "link": {
+        "value": "{color.jean blue.600}"
       },
-      "Disabled": {
-        "value": "DBA/Gray/300"
+      "disabled": {
+        "value": "{color.gray.300}"
       },
-      "Negative": {
-        "value": "DBA/Red/600"
+      "negative": {
+        "value": "{color.red.600}"
       },
-      "Positive": {
-        "value": "DBA/Green/600"
+      "positive": {
+        "value": "{color.green.600}"
       }
     },
-    "Background": {
-      "Default": {
-        "value": "DBA/White"
+    "background": {
+      "default": {
+        "value": "{color.white}"
       },
-      "Hover": {
-        "value": "DBA/Gray/100"
+      "hover": {
+        "value": "{color.gray.100}"
       },
-      "Active": {
-        "value": "DBA/Gray/200"
+      "active": {
+        "value": "{color.gray.200}"
       },
-      "Disabled": {
-        "value": "DBA/Gray/300"
+      "disabled": {
+        "value": "{color.gray.300}"
       },
-      "Disabled-Subtle": {
-        "value": "DBA/Gray/200"
+      "disabled-subtle": {
+        "value": "{color.gray.200}"
       },
-      "Subtle": {
-        "value": "DBA/Gray/50"
+      "subtle": {
+        "value": "{color.gray.50}"
       },
-      "Subtle-Hover": {
-        "value": "DBA/Gray/100"
+      "subtle-hover": {
+        "value": "{color.gray.100}"
       },
-      "Subtle-Active": {
-        "value": "DBA/Gray/200"
+      "subtle-active": {
+        "value": "{color.gray.200}"
       },
-      "Selected": {
-        "value": "DBA/Jean Blue/50"
+      "selected": {
+        "value": "{color.jean blue.50}"
       },
-      "Selected-Hover": {
-        "value": "DBA/Jean Blue/100"
+      "selected-hover": {
+        "value": "{color.jean blue.100}"
       },
-      "Inverted": {
-        "value": "DBA/Gray/900"
+      "inverted": {
+        "value": "{color.gray.900}"
       },
-      "Primary": {
-        "value": "DBA/Jean Blue/600"
+      "primary": {
+        "value": "{color.jean blue.600}"
       },
-      "Primary-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "primary-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Primary-Active": {
-        "value": "DBA/Jean Blue/800"
+      "primary-active": {
+        "value": "{color.jean blue.800}"
       },
-      "Primary-Subtle": {
-        "value": "DBA/Jean Blue/50"
+      "primary-subtle": {
+        "value": "{color.jean blue.50}"
       },
-      "Primary-Subtle-Hover": {
-        "value": "DBA/Jean Blue/100"
+      "primary-subtle-hover": {
+        "value": "{color.jean blue.100}"
       },
-      "Primary-Subtle-Active": {
-        "value": "DBA/Jean Blue/200"
+      "primary-subtle-active": {
+        "value": "{color.jean blue.200}"
       },
-      "Positive": {
-        "value": "DBA/Green/600"
+      "positive": {
+        "value": "{color.green.600}"
       },
-      "Positive-Hover": {
-        "value": "DBA/Green/700"
+      "positive-hover": {
+        "value": "{color.green.700}"
       },
-      "Positive-Active": {
-        "value": "DBA/Green/800"
+      "positive-active": {
+        "value": "{color.green.800}"
       },
-      "Positive-Subtle": {
-        "value": "DBA/Green/50"
+      "positive-subtle": {
+        "value": "{color.green.50}"
       },
-      "Positive-Subtle-Hover": {
-        "value": "DBA/Green/100"
+      "positive-subtle-hover": {
+        "value": "{color.green.100}"
       },
-      "Positive-Subtle-Active": {
-        "value": "DBA/Green/200"
+      "positive-subtle-active": {
+        "value": "{color.green.200}"
       },
-      "Positive-Selected": {
-        "value": "DBA/Green/50"
+      "positive-selected": {
+        "value": "{color.green.50}"
       },
-      "Positive-Selected-Hover": {
-        "value": "DBA/Green/100"
+      "positive-selected-hover": {
+        "value": "{color.green.100}"
       },
-      "Negative": {
-        "value": "DBA/Red/600"
+      "negative": {
+        "value": "{color.red.600}"
       },
-      "Negative-Hover": {
-        "value": "DBA/Red/700"
+      "negative-hover": {
+        "value": "{color.red.700}"
       },
-      "Negative-Active": {
-        "value": "DBA/Red/800"
+      "negative-active": {
+        "value": "{color.red.800}"
       },
-      "Negative-Subtle": {
-        "value": "DBA/Red/50"
+      "negative-subtle": {
+        "value": "{color.red.50}"
       },
-      "Negative-Subtle-Hover": {
-        "value": "DBA/Red/100"
+      "negative-subtle-hover": {
+        "value": "{color.red.100}"
       },
-      "Negative-Subtle-Active": {
-        "value": "DBA/Red/200"
+      "negative-subtle-active": {
+        "value": "{color.red.200}"
       },
-      "Warning": {
-        "value": "DBA/Yellow/600"
+      "warning": {
+        "value": "{color.yellow.600}"
       },
-      "Warning-Hover": {
-        "value": "DBA/Yellow/700"
+      "warning-hover": {
+        "value": "{color.yellow.700}"
       },
-      "Warning-Active": {
-        "value": "DBA/Yellow/800"
+      "warning-active": {
+        "value": "{color.yellow.800}"
       },
-      "Warning-Subtle": {
-        "value": "DBA/Yellow/50"
+      "warning-subtle": {
+        "value": "{color.yellow.50}"
       },
-      "Warning-Subtle-Hover": {
-        "value": "DBA/Yellow/100"
+      "warning-subtle-hover": {
+        "value": "{color.yellow.100}"
       },
-      "Warning-Subtle-Active": {
-        "value": "DBA/Yellow/200"
+      "warning-subtle-active": {
+        "value": "{color.yellow.200}"
       },
-      "Info": {
-        "value": "DBA/Jean Blue/600"
+      "info": {
+        "value": "{color.jean blue.600}"
       },
-      "Info-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "info-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Info-Active": {
-        "value": "DBA/Jean Blue/800"
+      "info-active": {
+        "value": "{color.jean blue.800}"
       },
-      "Info-Subtle": {
-        "value": "DBA/Jean Blue/50"
+      "info-subtle": {
+        "value": "{color.jean blue.50}"
       },
-      "Info-Subtle-Hover": {
-        "value": "DBA/Jean Blue/100"
+      "info-subtle-hover": {
+        "value": "{color.jean blue.100}"
       },
-      "Info-Subtle-Active": {
-        "value": "DBA/Jean Blue/200"
+      "info-subtle-active": {
+        "value": "{color.jean blue.200}"
       },
-      "Transparent-0": {
-        "value": "DBA/Transparent"
+      "transparent-0": {
+        "value": "{color.transparent}"
       },
-      "Notification": {
-        "value": "DBA/Red/600"
+      "notification": {
+        "value": "{color.red.600}"
       },
-      "Overlay": {
-        "value": "DBA/White"
+      "overlay": {
+        "value": "{color.white}"
       },
-      "Secondary": {
-        "value": "DBA/Phthalo Blue/600"
+      "secondary": {
+        "value": "{color.phthalo blue.600}"
       },
-      "Secondary-Hover": {
-        "value": "DBA/Phthalo Blue/700"
+      "secondary-hover": {
+        "value": "{color.phthalo blue.700}"
       },
-      "Secondary-Active": {
-        "value": "DBA/Phthalo Blue/800"
+      "secondary-active": {
+        "value": "{color.phthalo blue.800}"
       }
     },
-    "Border": {
-      "Default": {
-        "value": "DBA/Gray/300"
+    "border": {
+      "default": {
+        "value": "{color.gray.300}"
       },
-      "Hover": {
-        "value": "DBA/Gray/400"
+      "hover": {
+        "value": "{color.gray.400}"
       },
-      "Active": {
-        "value": "DBA/Gray/500"
+      "active": {
+        "value": "{color.gray.500}"
       },
-      "Disabled": {
-        "value": "DBA/Gray/700"
+      "disabled": {
+        "value": "{color.gray.700}"
       },
-      "Selected": {
-        "value": "DBA/Jean Blue/600"
+      "selected": {
+        "value": "{color.jean blue.600}"
       },
-      "Selected-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "selected-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Primary": {
-        "value": "DBA/Jean Blue/600"
+      "primary": {
+        "value": "{color.jean blue.600}"
       },
-      "Primary-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "primary-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Primary-Active": {
-        "value": "DBA/Jean Blue/800"
+      "primary-active": {
+        "value": "{color.jean blue.800}"
       },
-      "Primary-Subtle": {
-        "value": "DBA/Jean Blue/300"
+      "primary-subtle": {
+        "value": "{color.jean blue.300}"
       },
-      "Primary-Subtle-Hover": {
-        "value": "DBA/Jean Blue/400"
+      "primary-subtle-hover": {
+        "value": "{color.jean blue.400}"
       },
-      "Primary-Subtle-Active": {
-        "value": "DBA/Jean Blue/500"
+      "primary-subtle-active": {
+        "value": "{color.jean blue.500}"
       },
-      "Secondary": {
-        "value": "DBA/Phthalo Blue/600"
+      "secondary": {
+        "value": "{color.phthalo blue.600}"
       },
-      "Secondary-Hover": {
-        "value": "DBA/Phthalo Blue/700"
+      "secondary-hover": {
+        "value": "{color.phthalo blue.700}"
       },
-      "Secondary-Active": {
-        "value": "DBA/Phthalo Blue/800"
+      "secondary-active": {
+        "value": "{color.phthalo blue.800}"
       },
-      "Positive": {
-        "value": "DBA/Green/600"
+      "positive": {
+        "value": "{color.green.600}"
       },
-      "Positive-Hover": {
-        "value": "DBA/Green/700"
+      "positive-hover": {
+        "value": "{color.green.700}"
       },
-      "Positive-Active": {
-        "value": "DBA/Green/800"
+      "positive-active": {
+        "value": "{color.green.800}"
       },
-      "Positive-Subtle": {
-        "value": "DBA/Green/300"
+      "positive-subtle": {
+        "value": "{color.green.300}"
       },
-      "Positive-Subtle-Hover": {
-        "value": "DBA/Green/400"
+      "positive-subtle-hover": {
+        "value": "{color.green.400}"
       },
-      "Positive-Subtle-Active": {
-        "value": "DBA/Green/500"
+      "positive-subtle-active": {
+        "value": "{color.green.500}"
       },
-      "Negative": {
-        "value": "DBA/Red/600"
+      "negative": {
+        "value": "{color.red.600}"
       },
-      "Negative-Hover": {
-        "value": "DBA/Red/700"
+      "negative-hover": {
+        "value": "{color.red.700}"
       },
-      "Negative-Active": {
-        "value": "DBA/Red/800"
+      "negative-active": {
+        "value": "{color.red.800}"
       },
-      "Negative-Subtle": {
-        "value": "DBA/Red/300"
+      "negative-subtle": {
+        "value": "{color.red.300}"
       },
-      "Negative-Subtle-Hover": {
-        "value": "DBA/Red/400"
+      "negative-subtle-hover": {
+        "value": "{color.red.400}"
       },
-      "Negative-Subtle-Active": {
-        "value": "DBA/Red/500"
+      "negative-subtle-active": {
+        "value": "{color.red.500}"
       },
-      "Warning": {
-        "value": "DBA/Yellow/600"
+      "warning": {
+        "value": "{color.yellow.600}"
       },
-      "Warning-Hover": {
-        "value": "DBA/Yellow/700"
+      "warning-hover": {
+        "value": "{color.yellow.700}"
       },
-      "Warning-Active": {
-        "value": "DBA/Yellow/800"
+      "warning-active": {
+        "value": "{color.yellow.800}"
       },
-      "Warning-Subtle": {
-        "value": "DBA/Yellow/300"
+      "warning-subtle": {
+        "value": "{color.yellow.300}"
       },
-      "Warning-Subtle-Hover": {
-        "value": "DBA/Yellow/400"
+      "warning-subtle-hover": {
+        "value": "{color.yellow.400}"
       },
-      "Warning-Subtle-Active": {
-        "value": "DBA/Yellow/500"
+      "warning-subtle-active": {
+        "value": "{color.yellow.500}"
       },
-      "Info": {
-        "value": "DBA/Jean Blue/600"
+      "info": {
+        "value": "{color.jean blue.600}"
       },
-      "Info-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "info-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Info-Active": {
-        "value": "DBA/Jean Blue/800"
+      "info-active": {
+        "value": "{color.jean blue.800}"
       },
-      "Info-Subtle": {
-        "value": "DBA/Jean Blue/300"
+      "info-subtle": {
+        "value": "{color.jean blue.300}"
       },
-      "Info-Subtle-Hover": {
-        "value": "DBA/Jean Blue/400"
+      "info-subtle-hover": {
+        "value": "{color.jean blue.400}"
       },
-      "Info-Subtle-Active": {
-        "value": "DBA/Jean Blue/500"
+      "info-subtle-active": {
+        "value": "{color.jean blue.500}"
       },
-      "Focus": {
-        "value": "DBA/Jean Blue/300"
+      "focus": {
+        "value": "{color.jean blue.300}"
       }
     },
-    "Icon": {
-      "Default": {
-        "value": "DBA/Gray/700"
+    "icon": {
+      "default": {
+        "value": "{color.gray.700}"
       },
-      "Hover": {
-        "value": "DBA/Jean Blue/600"
+      "hover": {
+        "value": "{color.jean blue.600}"
       },
-      "Active": {
-        "value": "DBA/Jean Blue/700"
+      "active": {
+        "value": "{color.jean blue.700}"
       },
-      "Selected": {
-        "value": "DBA/Jean Blue/600"
+      "selected": {
+        "value": "{color.jean blue.600}"
       },
-      "Selected-Hover": {
-        "value": "DBA/Jean Blue/700"
+      "selected-hover": {
+        "value": "{color.jean blue.700}"
       },
-      "Disabled": {
-        "value": "DBA/Gray/300"
+      "disabled": {
+        "value": "{color.gray.300}"
       },
-      "Subtle": {
-        "value": "DBA/Gray/400"
+      "subtle": {
+        "value": "{color.gray.400}"
       },
-      "Subtle-Hover": {
-        "value": "DBA/Gray/500"
+      "subtle-hover": {
+        "value": "{color.gray.500}"
       },
-      "Subtle-Active": {
-        "value": "DBA/Gray/600"
+      "subtle-active": {
+        "value": "{color.gray.600}"
       },
-      "Inverted": {
-        "value": "DBA/White"
+      "inverted": {
+        "value": "{color.white}"
       },
-      "Inverted-Hover": {
-        "value": "DBA/Gray/100"
+      "inverted-hover": {
+        "value": "{color.gray.100}"
       },
-      "Inverted-Active": {
-        "value": "DBA/Gray/200"
+      "inverted-active": {
+        "value": "{color.gray.200}"
       },
-      "Primary": {
-        "value": "DBA/Jean Blue/600"
+      "primary": {
+        "value": "{color.jean blue.600}"
       },
-      "Secondary": {
-        "value": "DBA/Phthalo Blue/600"
+      "secondary": {
+        "value": "{color.phthalo blue.600}"
       },
-      "Secondary-Hover": {
-        "value": "DBA/Phthalo Blue/700"
+      "secondary-hover": {
+        "value": "{color.phthalo blue.700}"
       },
-      "Secondary-Active": {
-        "value": "DBA/Phthalo Blue/800"
+      "secondary-active": {
+        "value": "{color.phthalo blue.800}"
       },
-      "Positive": {
-        "value": "DBA/Green/600"
+      "positive": {
+        "value": "{color.green.600}"
       },
-      "Negative": {
-        "value": "DBA/Red/600"
+      "negative": {
+        "value": "{color.red.600}"
       },
-      "Warning": {
-        "value": "DBA/Yellow/600"
+      "warning": {
+        "value": "{color.yellow.600}"
       },
-      "Info": {
-        "value": "DBA/Jean Blue/600"
+      "info": {
+        "value": "{color.jean blue.600}"
       },
-      "Notification": {
-        "value": "DBA/White"
+      "notification": {
+        "value": "{color.white}"
       }
     }
   }

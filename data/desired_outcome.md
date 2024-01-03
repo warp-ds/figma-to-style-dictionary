@@ -1,73 +1,72 @@
-# Brand-specific Color Tokens
-
-finn.json and tori.json inside a brands directory:
-
-```
-"color": {
-    "finn": {
-      "Gray": {
-        "50": {
-          "value": "#fafafa"
-      }
-    }
-  }
-}
-```
-
-# Semantic tokens
-
-One json file, for example tokens/globals/semantic.json:
+# colors.json
 
 ```
 {
   "color": {
-    "semantic": {
-      "background": {
-        "primary": {
-          "FINN light": { "value": "{color.brand.finn.blue-200.value}" },
-          "FINN dark": { "value": "{color.brand.finn.blue-800.value}" },
-          "Tori light": { "value": "{color.brand.tori.gray-100.value}" }
-        }
-        // ... other semantic tokens
-      }
-    }
+    "Blue": {
+      "100": { "value": "#D2E1F5" },
+      "200": { "value": "#A9C4EB" },
+      "300": { "value": "#7FA7E1" }
+      // ... more shades of blue
+    },
+    "Gray": {
+      "50": { "value": "#FAFAFA" },
+      "100": { "value": "#F4F4F5" },
+      "200": { "value": "#E1E3E5" }
+      // ... more shades of gray
+    },
+    // ... more color categories
   }
 }
-```
 
 ```
-  "Color": {
-    "Semantic": {
-      "Text": {
-        "Default": {
-          "id": "VariableID:4546:842",
-          "valuesByMode": {
-            "FINN light": {
-              "value": "color.brand.finn.blue-200.value",
-              "hex": "#222222",
-              "id": "VariableID:3325:4181"
-            },
-            "FINN dark": {
-              "value": "color.brand.finn.blue-800.value",
-              "hex": "#222222",
-              "id": "VariableID:3325:4172"
-            },
-            "Tori light": {
-              "value": "color.brand.tori.gray-100.value",
-              "hex": "#222222",
-              "id": "VariableID:4671:16527"
-            }
-          }
-```
 
-# Style Dictionary Configuration
+# semantic.json
 
 ```
 {
-  "source": [
-    "tokens/brands/*.json",
-    "tokens/globals/*.json"
-  ],
-  // ... other configuration settings
+{
+  "color": {
+    "text": {
+      "primary": { "value": "{color.blue.300.value}" },
+      "secondary": { "value": "{color.gray.200.value}" },
+      "disabled": { "value": "{color.gray.100.value}" }
+    },
+    "background": {
+      "default": { "value": "{color.gray.100.value}" },
+      "inverse": { "value": "{color.blue.300.value}" }
+    },
+    // ... more semantic tokens
+  }
 }
+
 ```
+
+# components.json
+
+
+```
+ {
+  "color": {
+    "button": {
+      "background": {
+        "default": { "value": "{color.text.primary.value}" },
+        "hover": { "value": "{color.blue.200.value}" },
+        "disabled": { "value": "{color.text.disabled.value}" }
+      },
+      "text": {
+        "default": { "value": "{color.background.default.value}" },
+        "hover": { "value": "{color.background.inverse.value}" }
+      }
+    },
+    "link": {
+      "default": { "value": "{color.text.primary.value}" },
+      "hover": { "value": "{color.blue.200.value}" }
+    },
+    // ... more component tokens
+  }
+}
+
+```
+
+# Style Dictionary Configuration

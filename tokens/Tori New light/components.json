@@ -1,189 +1,189 @@
 {
   "components": {
-    "Avatar": {
-      "Background": {
-        "value": "Tori/Gray/100"
+    "avatar": {
+      "background": {
+        "value": "{color.gray.100}"
       },
-      "Icon": {
-        "value": "Semantic/Icon/Disabled"
+      "icon": {
+        "value": "{semantic.icon.disabled}"
       }
     },
-    "Badge": {
-      "Neutral": {
-        "Background": {
-          "value": "Tori/Gray/100"
+    "badge": {
+      "neutral": {
+        "background": {
+          "value": "{color.gray.100}"
         }
       },
-      "Info": {
-        "Background": {
-          "value": "Tori/Blue/100"
+      "info": {
+        "background": {
+          "value": "{color.blue.100}"
         }
       },
-      "Positive": {
-        "Background": {
-          "value": "Tori/Green/100"
+      "positive": {
+        "background": {
+          "value": "{color.green.100}"
         }
       },
-      "Warning": {
-        "Background": {
-          "value": "Tori/Yellow/100"
+      "warning": {
+        "background": {
+          "value": "{color.yellow.100}"
         }
       },
-      "Negative": {
-        "Background": {
-          "value": "Tori/Red/200"
+      "negative": {
+        "background": {
+          "value": "{color.red.200}"
         }
       },
-      "Sponsored": {
-        "Background": {
-          "value": "Tori/Blue/200"
+      "sponsored": {
+        "background": {
+          "value": "{color.blue.200}"
         }
       },
-      "Price": {
-        "Background": {
-          "value": "Tori/Black"
+      "price": {
+        "background": {
+          "value": "{color.black}"
         }
       },
-      "Notification": {
-        "Background": {
-          "value": "Semantic/Background/Negative"
-        }
-      }
-    },
-    "Button": {
-      "Primary Button": {
-        "Primary": {
-          "value": "Tori/Watermelon/600"
-        },
-        "Primary-Hover": {
-          "value": "Tori/Watermelon/700"
-        },
-        "Primary-Active": {
-          "value": "Tori/Watermelon/800"
-        }
-      },
-      "Pill": {
-        "Background-Hover": {
-          "value": "Tori/Blueberry/300"
+      "notification": {
+        "background": {
+          "value": "{semantic.background.negative}"
         }
       }
     },
-    "Callout": {
-      "Text": {
-        "value": "Semantic/Text/Default"
-      },
-      "Background": {
-        "value": "Tori/Blue/100"
-      },
-      "Border": {
-        "value": "Tori/Blue/400"
-      }
-    },
-    "Card": {
-      "Default": {
-        "Background": {
-          "value": "Semantic/Background/Default"
+    "button": {
+      "primary button": {
+        "primary": {
+          "value": "{color.watermelon.600}"
         },
-        "Background-Hover": {
-          "value": "Semantic/Background/Hover"
+        "primary-hover": {
+          "value": "{color.watermelon.700}"
         },
-        "Background-Active": {
-          "value": "Semantic/Background/Active"
-        },
-        "Background-Selected": {
-          "value": "Semantic/Background/Selected"
-        },
-        "Background-Selected-Hover": {
-          "value": "Semantic/Background/Selected-Hover"
-        },
-        "Border-Selected": {
-          "value": "Semantic/Border/Selected"
+        "primary-active": {
+          "value": "{color.watermelon.800}"
         }
       },
-      "Flat": {
-        "Background": {
-          "value": "Semantic/Background/Default"
-        },
-        "Background-Hovert": {
-          "value": "Semantic/Background/Hover"
-        },
-        "Background-Active": {
-          "value": "Semantic/Background/Active"
-        },
-        "Background-Selected": {
-          "value": "Semantic/Background/Selected"
-        },
-        "Background-Selected-Hover": {
-          "value": "Semantic/Background/Selected-Hover"
-        },
-        "Border": {
-          "value": "Semantic/Border/Default"
-        },
-        "Border-Hover": {
-          "value": "Semantic/Border/Hover"
-        },
-        "Border-Active": {
-          "value": "Semantic/Border/Active"
-        },
-        "Border-Selected": {
-          "value": "Semantic/Border/Selected"
+      "pill": {
+        "background-hover": {
+          "value": "{color.blueberry.300}"
         }
       }
     },
-    "Modal": {
-      "Text-Title": {
-        "value": "Semantic/Text/Default"
+    "callout": {
+      "text": {
+        "value": "{semantic.text.default}"
       },
-      "Text-Paragraph": {
-        "value": "Semantic/Text/Default"
+      "background": {
+        "value": "{color.blue.100}"
       },
-      "Background": {
-        "value": "Semantic/Background/Default"
+      "border": {
+        "value": "{color.blue.400}"
       }
     },
-    "Navbar": {
-      "Icon-Selected": {
-        "value": "Semantic/Icon/Secondary"
-      },
-      "Border-Selected": {
-        "value": "Semantic/Border/Secondary"
-      }
-    },
-    "Page Indicator": {
-      "Background": {
-        "value": "Tori/Gray/300"
-      },
-      "Background-Hover": {
-        "value": "Tori/Gray/400"
-      }
-    },
-    "Pill": {
-      "Suggestion": {
-        "Background": {
-          "value": "Tori/Gray/200"
+    "card": {
+      "default": {
+        "background": {
+          "value": "{semantic.background.default}"
         },
-        "Background-Hover": {
-          "value": "Tori/Gray/300"
+        "background-hover": {
+          "value": "{semantic.background.hover}"
         },
-        "Background-Active": {
-          "value": "Tori/Gray/400"
+        "background-active": {
+          "value": "{semantic.background.active}"
+        },
+        "background-selected": {
+          "value": "{semantic.background.selected}"
+        },
+        "background-selected-hover": {
+          "value": "{semantic.background.selected-hover}"
+        },
+        "border-selected": {
+          "value": "{semantic.border.selected}"
+        }
+      },
+      "flat": {
+        "background": {
+          "value": "{semantic.background.default}"
+        },
+        "background-hovert": {
+          "value": "{semantic.background.hover}"
+        },
+        "background-active": {
+          "value": "{semantic.background.active}"
+        },
+        "background-selected": {
+          "value": "{semantic.background.selected}"
+        },
+        "background-selected-hover": {
+          "value": "{semantic.background.selected-hover}"
+        },
+        "border": {
+          "value": "{semantic.border.default}"
+        },
+        "border-hover": {
+          "value": "{semantic.border.hover}"
+        },
+        "border-active": {
+          "value": "{semantic.border.active}"
+        },
+        "border-selected": {
+          "value": "{semantic.border.selected}"
         }
       }
     },
-    "Step Indicator": {
-      "Background-Track": {
-        "value": "Semantic/Border/Default"
+    "modal": {
+      "text-title": {
+        "value": "{semantic.text.default}"
+      },
+      "text-paragraph": {
+        "value": "{semantic.text.default}"
+      },
+      "background": {
+        "value": "{semantic.background.default}"
       }
     },
-    "Switch": {
-      "Background-Track": {
-        "value": "Tori/Gray/300"
+    "navbar": {
+      "icon-selected": {
+        "value": "{semantic.icon.secondary}"
       },
-      "Background-Track-Hover": {
-        "value": "Tori/Gray/400"
+      "border-selected": {
+        "value": "{semantic.border.secondary}"
+      }
+    },
+    "page indicator": {
+      "background": {
+        "value": "{color.gray.300}"
       },
-      "Background-Track-Disabled": {
-        "value": "Tori/Gray/200"
+      "background-hover": {
+        "value": "{color.gray.400}"
+      }
+    },
+    "pill": {
+      "suggestion": {
+        "background": {
+          "value": "{color.gray.200}"
+        },
+        "background-hover": {
+          "value": "{color.gray.300}"
+        },
+        "background-active": {
+          "value": "{color.gray.400}"
+        }
+      }
+    },
+    "step indicator": {
+      "background-track": {
+        "value": "{semantic.border.default}"
+      }
+    },
+    "switch": {
+      "background-track": {
+        "value": "{color.gray.300}"
+      },
+      "background-track-hover": {
+        "value": "{color.gray.400}"
+      },
+      "background-track-disabled": {
+        "value": "{color.gray.200}"
       }
     }
   }

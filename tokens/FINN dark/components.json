@@ -1,189 +1,189 @@
 {
   "components": {
-    "Avatar": {
-      "Background": {
-        "value": "FINN/Bluegray/800"
+    "avatar": {
+      "background": {
+        "value": "{color.bluegray.800}"
       },
-      "Icon": {
-        "value": "Semantic/Icon/Disabled"
+      "icon": {
+        "value": "{semantic.icon.disabled}"
       }
     },
-    "Badge": {
-      "Neutral": {
-        "Background": {
-          "value": "Semantic/Background/Disabled-Subtle"
+    "badge": {
+      "neutral": {
+        "background": {
+          "value": "{semantic.background.disabled-subtle}"
         }
       },
-      "Info": {
-        "Background": {
-          "value": "FINN/Aqua/700"
+      "info": {
+        "background": {
+          "value": "{color.aqua.700}"
         }
       },
-      "Positive": {
-        "Background": {
-          "value": "FINN/Green/700"
+      "positive": {
+        "background": {
+          "value": "{color.green.700}"
         }
       },
-      "Warning": {
-        "Background": {
-          "value": "FINN/Yellow/700"
+      "warning": {
+        "background": {
+          "value": "{color.yellow.700}"
         }
       },
-      "Negative": {
-        "Background": {
-          "value": "FINN/Red/700"
+      "negative": {
+        "background": {
+          "value": "{color.red.700}"
         }
       },
-      "Sponsored": {
-        "Background": {
-          "value": "FINN/Aqua/600"
+      "sponsored": {
+        "background": {
+          "value": "{color.aqua.600}"
         }
       },
-      "Price": {
-        "Background": {
-          "value": "FINN/Black"
+      "price": {
+        "background": {
+          "value": "{color.black}"
         }
       },
-      "Notification": {
-        "Background": {
-          "value": "Semantic/Background/Negative"
-        }
-      }
-    },
-    "Button": {
-      "Primary Button": {
-        "Primary": {
-          "value": "Semantic/Background/Primary"
-        },
-        "Primary-Hover": {
-          "value": "Semantic/Background/Primary-Hover"
-        },
-        "Primary-Active": {
-          "value": "Semantic/Background/Primary-Active"
-        }
-      },
-      "Pill": {
-        "Background-Hover": {
-          "value": "FINN/Blue/300"
+      "notification": {
+        "background": {
+          "value": "{semantic.background.negative}"
         }
       }
     },
-    "Callout": {
-      "Text": {
-        "value": "Semantic/Text/Default"
-      },
-      "Background": {
-        "value": "FINN/Green/800"
-      },
-      "Border": {
-        "value": "FINN/Green/600"
-      }
-    },
-    "Card": {
-      "Default": {
-        "Background": {
-          "value": "Semantic/Background/Default"
+    "button": {
+      "primary button": {
+        "primary": {
+          "value": "{semantic.background.primary}"
         },
-        "Background-Hover": {
-          "value": "Semantic/Background/Hover"
+        "primary-hover": {
+          "value": "{semantic.background.primary-hover}"
         },
-        "Background-Active": {
-          "value": "Semantic/Background/Active"
-        },
-        "Background-Selected": {
-          "value": "Semantic/Background/Selected"
-        },
-        "Background-Selected-Hover": {
-          "value": "Semantic/Background/Selected-Hover"
-        },
-        "Border-Selected": {
-          "value": "Semantic/Border/Selected"
+        "primary-active": {
+          "value": "{semantic.background.primary-active}"
         }
       },
-      "Flat": {
-        "Background": {
-          "value": "Semantic/Background/Subtle"
-        },
-        "Background-Hovert": {
-          "value": "Semantic/Background/Hover"
-        },
-        "Background-Active": {
-          "value": "Semantic/Background/Active"
-        },
-        "Background-Selected": {
-          "value": "Semantic/Background/Selected"
-        },
-        "Background-Selected-Hover": {
-          "value": "Semantic/Background/Selected-Hover"
-        },
-        "Border": {
-          "value": "Semantic/Border/Default"
-        },
-        "Border-Hover": {
-          "value": "Semantic/Border/Hover"
-        },
-        "Border-Active": {
-          "value": "Semantic/Border/Active"
-        },
-        "Border-Selected": {
-          "value": "Semantic/Border/Selected"
+      "pill": {
+        "background-hover": {
+          "value": "{color.blue.300}"
         }
       }
     },
-    "Modal": {
-      "Text-Title": {
-        "value": "Semantic/Text/Default"
+    "callout": {
+      "text": {
+        "value": "{semantic.text.default}"
       },
-      "Text-Paragraph": {
-        "value": "Semantic/Text/Default"
+      "background": {
+        "value": "{color.green.800}"
       },
-      "Background": {
-        "value": "Semantic/Background/Default"
+      "border": {
+        "value": "{color.green.600}"
       }
     },
-    "Navbar": {
-      "Icon-Selected": {
-        "value": "Semantic/Icon/Selected"
-      },
-      "Border-Selected": {
-        "value": "Semantic/Border/Selected"
-      }
-    },
-    "Page Indicator": {
-      "Background": {
-        "value": "FINN/Bluegray/300"
-      },
-      "Background-Hover": {
-        "value": "FINN/Bluegray/400"
-      }
-    },
-    "Pill": {
-      "Suggestion": {
-        "Background": {
-          "value": "FINN/Gray/600"
+    "card": {
+      "default": {
+        "background": {
+          "value": "{semantic.background.default}"
         },
-        "Background-Hover": {
-          "value": "FINN/Gray/700"
+        "background-hover": {
+          "value": "{semantic.background.hover}"
         },
-        "Background-Active": {
-          "value": "FINN/Gray/800"
+        "background-active": {
+          "value": "{semantic.background.active}"
+        },
+        "background-selected": {
+          "value": "{semantic.background.selected}"
+        },
+        "background-selected-hover": {
+          "value": "{semantic.background.selected-hover}"
+        },
+        "border-selected": {
+          "value": "{semantic.border.selected}"
+        }
+      },
+      "flat": {
+        "background": {
+          "value": "{semantic.background.subtle}"
+        },
+        "background-hovert": {
+          "value": "{semantic.background.hover}"
+        },
+        "background-active": {
+          "value": "{semantic.background.active}"
+        },
+        "background-selected": {
+          "value": "{semantic.background.selected}"
+        },
+        "background-selected-hover": {
+          "value": "{semantic.background.selected-hover}"
+        },
+        "border": {
+          "value": "{semantic.border.default}"
+        },
+        "border-hover": {
+          "value": "{semantic.border.hover}"
+        },
+        "border-active": {
+          "value": "{semantic.border.active}"
+        },
+        "border-selected": {
+          "value": "{semantic.border.selected}"
         }
       }
     },
-    "Step Indicator": {
-      "Background-Track": {
-        "value": "Semantic/Border/Default"
+    "modal": {
+      "text-title": {
+        "value": "{semantic.text.default}"
+      },
+      "text-paragraph": {
+        "value": "{semantic.text.default}"
+      },
+      "background": {
+        "value": "{semantic.background.default}"
       }
     },
-    "Switch": {
-      "Background-Track": {
-        "value": "Semantic/Background/Subtle"
+    "navbar": {
+      "icon-selected": {
+        "value": "{semantic.icon.selected}"
       },
-      "Background-Track-Hover": {
-        "value": "Semantic/Background/Subtle-Hover"
+      "border-selected": {
+        "value": "{semantic.border.selected}"
+      }
+    },
+    "page indicator": {
+      "background": {
+        "value": "{color.bluegray.300}"
       },
-      "Background-Track-Disabled": {
-        "value": "Semantic/Background/Disabled"
+      "background-hover": {
+        "value": "{color.bluegray.400}"
+      }
+    },
+    "pill": {
+      "suggestion": {
+        "background": {
+          "value": "{color.gray.600}"
+        },
+        "background-hover": {
+          "value": "{color.gray.700}"
+        },
+        "background-active": {
+          "value": "{color.gray.800}"
+        }
+      }
+    },
+    "step indicator": {
+      "background-track": {
+        "value": "{semantic.border.default}"
+      }
+    },
+    "switch": {
+      "background-track": {
+        "value": "{semantic.background.subtle}"
+      },
+      "background-track-hover": {
+        "value": "{semantic.background.subtle-hover}"
+      },
+      "background-track-disabled": {
+        "value": "{semantic.background.disabled}"
       }
     }
   }

@@ -33,11 +33,10 @@ function processAndWriteSemanticAndComponentTokens(sourceData) {
           modeObject.modeId,
           sourceData
         );
-
-        console.log(variable.name, "              ", value);
-
+       
         // The path to the current semantic or component token
-        const pathSegments = variable.name.split("/").slice(1);
+        const pathSegments = variable.name.split("/").slice(1).map(segment => segment.toLowerCase()); // Convert segments to lowercase
+
         let currentLevel = modeObject[tokenType];
 
         pathSegments.forEach((segment, index) => {
@@ -71,14 +70,29 @@ function processAndWriteSemanticAndComponentTokens(sourceData) {
 
 // Get the value name for a given component or semantic token and mode (eg FINN Light)
 function extractValueForMode(variable, modeId, sourceData) {
-  // Find the ID 
+  // Find the ID
   const variableID = variable.valuesByMode[modeId].id;
   
   // Get the name
   const variableName = getVariableNameById(variableID, sourceData);
-  
-  return variableName;
+
+  // Determine if the variable is a semantic token or not
+  let formattedName;
+  if (variableName.startsWith("Semantic")) {
+    // For semantic tokens, keep the name as is
+    const nameParts = variableName.split("/");
+    formattedName = nameParts.join(".").toLowerCase();
+  } else {
+    // For non-semantic tokens, replace the first segment with "Color"
+    const nameParts = variableName.split("/");
+    nameParts[0] = "color";
+    formattedName = nameParts.join(".").toLowerCase();
+  }
+
+  // Wrap with curly braces
+  return `{${formattedName}}`;
 }
+
 
 // Get the name of the variable referred to, bet it a Primitive value, semantic or component token
 function getVariableNameById(variableId, sourceData) {
