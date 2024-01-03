@@ -166,7 +166,7 @@
         "value": "{color.red.600}"
       },
       "overlay": {
-        "value": "{color.white}"
+        "value": "{color}"
       },
       "secondary": {
         "value": "{color.aqua.400}"

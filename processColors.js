@@ -62,7 +62,7 @@ function processAndWriteBrandColors(sourceData, variableCollections, variables) 
                 };
               } else if (colorNameParts.length === 2) {
                 // Color does not belong to a group
-                const colorName = colorNameParts[1];
+                const colorName = colorNameParts[1].toLowerCase();
                 brandColors[colorName] = { value: rgbaToString(colorValue) };
               }
             }

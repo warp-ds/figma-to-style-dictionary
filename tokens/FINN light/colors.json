@@ -3,10 +3,10 @@
     "50": {
       "value": "#ffffff80"
     },
-    "White": {
+    "white": {
       "value": "#ffffff"
     },
-    "Black": {
+    "black": {
       "value": "#000000"
     },
     "gray": {
@@ -233,7 +233,7 @@
         "value": "#181a1f"
       }
     },
-    "Transparent": {
+    "transparent": {
       "value": "#ffffff00"
     }
   }

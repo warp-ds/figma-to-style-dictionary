@@ -32,14 +32,17 @@ curl -H 'X-FIGMA-TOKEN: figd_2xpuZLg2o28wxKJopGEWxOJuvw44mkbtvGL4TdmK' 'https://
 
 ```
 
-## Run the script to transform the data
+## Run the script to transform the data to something Style Dictionary can understand
 ```
 node transform.js
 ```
 
 The output files are placed in the `tokens` directory.
 
-## To build to different platforms using style dictionary
+## Run the script for Style Dictionary to build to different platforms
 ```
-npm run build-tokens
+node styledictionary.js
 ```
+
+The output files are placed in the `output` directory.
+

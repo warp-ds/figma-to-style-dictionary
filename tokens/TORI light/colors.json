@@ -32,10 +32,10 @@
         "value": "#06101e"
       }
     },
-    "White": {
+    "white": {
       "value": "#ffffff"
     },
-    "Black": {
+    "black": {
       "value": "#000000"
     },
     "watermelon": {
@@ -230,7 +230,7 @@
         "value": "#1a1a1a"
       }
     },
-    "Transparent": {
+    "transparent": {
       "value": "#ffffff00"
     }
   }
