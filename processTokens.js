@@ -2,11 +2,11 @@ const fs = require("fs");
 const path = require("path");
 
 // Go through all component and semantic tokens in all modes
-function processAndWriteSemanticAndComponentTokens(sourceData) {
+function processAndWriteSemanticAndComponentTokens(sourceData, tokenVariableCollection) {
   // Extract modes and variables from sourceData
   // Example: "FINN Light" and "FINN dark"
   const modes =
-    sourceData.meta.variableCollections["VariableCollectionId:4546:841"].modes;
+    sourceData.meta.variableCollections[tokenVariableCollection].modes;
   const variables = sourceData.meta.variables;
 
   // Initialize objects for each mode
@@ -18,7 +18,7 @@ function processAndWriteSemanticAndComponentTokens(sourceData) {
   // Process tokens for each mode
   // Only use the VariableCollection that contains component and semantic tokens
   sourceData.meta.variableCollections[
-    "VariableCollectionId:4546:841"
+    tokenVariableCollection
   ].variableIds.forEach((variableId) => {
     // get the data for the specific component or semantic token
     const variable = variables[variableId];
