@@ -52,7 +52,7 @@ The output files are placed in the `output` directory.
 
 ## The structure of the data from Figma
 
-Figma organises variables and tokens in *collections*. In order to correctly parse the data it is necessary to identify the main collection, where all the component and semantic tokens are places. For the current Figma file this collection is `"VariableCollectionId:4546:841"`. The variables from this collection are placed in `semantic.json` and `components.json`. The other collections contain primitive colour variables, and are placed in corresponding `colors.json` files. See structure below.
+Figma organises variables and tokens in *collections*. In order to correctly parse the data it is necessary to identify the main collection, where all the component and semantic tokens are placed. For the current Figma file this collection is `"VariableCollectionId:4546:841"`. The variables from this collection are placed in `semantic.json` and `components.json`. The other collections contain primitive colour variables, and are placed in corresponding `colors.json` files. See structure below.
 
 
 ## colors.json
@@ -66,7 +66,7 @@ Figma organises variables and tokens in *collections*. In order to correctly par
       "300": { "value": "#7FA7E1" }
       // ... more shades of blue
     },
-    "bray": {
+    "gray": {
       "50": { "value": "#FAFAFA" },
       "100": { "value": "#F4F4F5" },
       "200": { "value": "#E1E3E5" }
