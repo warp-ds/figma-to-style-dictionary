@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Jan 2024 10:04:03 GMT
+ * Generated on Thu, 04 Jan 2024 13:54:11 GMT
  */
 
 :root {
@@ -142,7 +142,7 @@
   --semantic-background-secondary-active: var(--color-aqua-600);
   --semantic-background-secondary-hover: var(--color-aqua-500);
   --semantic-background-secondary: var(--color-aqua-400);
-  --semantic-background-overlay: {color};
+  --semantic-background-overlay: var(--color-white);
   --semantic-background-notification: var(--color-red-600);
   --semantic-background-transparent-0: var(--color-transparent);
   --semantic-background-info-subtle-active: var(--color-aqua-200);

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 04 Jan 2024 10:04:03 GMT
+// Generated on Thu, 04 Jan 2024 13:54:11 GMT
 
 
 #import ".h"
@@ -195,7 +195,7 @@
 [UIColor colorWithRed:0.714f green:0.941f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:0.000f],
 [UIColor colorWithRed:0.851f green:0.122f blue:0.039f alpha:1.000f],
-[object Object],
+[UIColor colorWithRed:1.000f green:1.000f blue:1.000f alpha:1.000f],
 [UIColor colorWithRed:0.024f green:0.745f blue:0.984f alpha:1.000f],
 [UIColor colorWithRed:0.012f green:0.639f blue:0.867f alpha:1.000f],
 [UIColor colorWithRed:0.012f green:0.525f blue:0.749f alpha:1.000f],

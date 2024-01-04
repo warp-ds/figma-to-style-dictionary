@@ -2,35 +2,6 @@ const StyleDictionary = require("style-dictionary");
 const fs = require("fs");
 const path = require("path");
 
-// Custom Transform for renaming 'background' to 'bg'
-StyleDictionary.registerTransform({
-  name: 'name/replaceBg',
-  type: 'name',
-  matcher: (token) => token.name.includes('background'),
-  transformer: (token) => {
-    console.log('Transforming background in:', token.name);
-    return token.name.replace('background', 'bg');
-  }
-});
-
-// Custom Transform for removing '-default'
-StyleDictionary.registerTransform({
-  name: 'name/removeDefault',
-  type: 'name',
-  matcher: (token) => token.name.endsWith('-default'),
-  transformer: (token) => {
-    console.log('Removing -default from:', token.name);
-    return token.name.replace('-default', '');
-  }
-});
-
-// Register a custom transform group with specific transforms
-StyleDictionary.registerTransformGroup({
-  name: 'custom',
-  transforms: ['name/replaceBg', 'name/removeDefault', 'attribute/cti', 'name/cti/kebab']
-});
-
-
 const tokensPath = "./tokens";
 const brandModes = fs
   .readdirSync(tokensPath)
@@ -41,7 +12,7 @@ brandModes.forEach((brandMode) => {
     source: [path.join(tokensPath, brandMode, "*.json")],
     platforms: {
       scss: {
-        transformGroup: 'custom',
+        transformGroup: 'scss',
         buildPath: `output/${brandMode}/web/`,
         files: [{
           destination: "_variables.scss",
