@@ -1,20 +1,17 @@
 # Readme
 
-This is a project to test:
-1. Export colour variables/tokens from Figma using Figma's API
-2. Use style dictionary to convert those tokens to SCSS, Android and iOS
-
-Inspiration:
-https://jamesiv.es/blog/frontend/design/2023/08/01/syncing-figma-variables-with-github-actions-and-styledictionary
+This repo imports colour variables/tokens from Figma using Figma's API, and uses Style Dictionary to transform those tokens to CSS, Android and iOS. Inspired by [this blogpost](https://jamesiv.es/blog/frontend/design/2023/08/01/syncing-figma-variables-with-github-actions-and-styledictionary).
 
 
-Data:
-- **data/figma.json**: the json you get from the Figma API
-- **data/figma_extract.json**: is small selection from the full file, to see the structure of the json you get from the Figma API
-- **tokens/**: transformed data, ready for Style Dictionary
-- **output/**: files produced by Style Dictionary for web, iOS and Android
+## Data
 
-Scripts:
+- **/data/figma.json** is the raw data we get from the Figma API
+- **/data/figma_extract.json** contains a small selection of the above file, to more easily see the structure of the json you get from the Figma API
+- **/tokens/** contains the cleaned up data sorted into brands and modes, ready for Style Dictionary
+- **/output/** contains the the files produced by Style Dictionary for web, iOS and Android
+
+## Scripts
+
 - **transform.js**: script to transform data from Figma to something Style Dictionary can understand. Can run locally without any build process
 - **processColors.js**: called by transform.js to build the primitive colour files
 - **processTokens.js**: called by transform.js to build the semantic tokens and component tokens colour files
@@ -27,13 +24,17 @@ Scripts:
 `npm install`
 
 ## Download data from Figma:
+
+You need a Figma personal access token. Visit your [account settings](https://www.figma.com/settings) in Figma and click the "Personal Access Tokens" tab. From here, click "Create a new personal access token". Run the following from the terminal: 
+
 ```
 curl -H 'X-FIGMA-TOKEN: <personal access token>' 'https://api.figma.com/v1/files/oHBCzDdJxHQ6fmFLYWUltf/variables/local' -o data/figma.json
 ```
 
-Data is saved in `data/figma.json`.
+The data is saved in `data/figma.json`.
 
 ## Transform the data to something Style Dictionary can understand
+
 ```
 node transform.js
 ```
@@ -46,7 +47,6 @@ node styledictionary.js
 ```
 
 The output files are placed in the `output` directory.
-
 
 # About the data
 
@@ -75,13 +75,11 @@ Figma organises variables and tokens in *collections*. In order to correctly par
     // ... more color categories
   }
 }
-
 ```
 
 ## semantic.json
 
 ```
-
 {
   "color": {
     "text": {
@@ -96,7 +94,6 @@ Figma organises variables and tokens in *collections*. In order to correctly par
     // ... more semantic tokens
   }
 }
-
 ```
 
 ## components.json
@@ -124,5 +121,4 @@ Note that component tokens can refer either semantic tokens or primitive colours
     // ... more component tokens
   }
 }
-
 ```
