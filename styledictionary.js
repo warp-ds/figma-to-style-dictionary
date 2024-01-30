@@ -13,7 +13,7 @@ brandModes.forEach((brandMode) => {
     platforms: {
       scss: {
         transformGroup: "scss",
-        buildPath: `output/${brandMode}/web/`,
+        buildPath: `output/web/${brandMode}/`,
         files: [
           {
             destination: "_variables.scss",
@@ -26,7 +26,7 @@ brandModes.forEach((brandMode) => {
       },
       css: {
         transformGroup: "css",
-        buildPath: `output/${brandMode}/web/`,
+        buildPath: `output/web/${brandMode}/`,
         files: [
           {
             destination: "variables.css",
@@ -39,24 +39,19 @@ brandModes.forEach((brandMode) => {
       },
       compose: {
         transformGroup: "compose",
-        buildPath: `output/${brandMode}/android/`,
+        buildPath: `output/android/${brandMode}/`,
         files: [
           {
             destination: "StyleDictionaryColor.kt",
             format: "compose/object",
             className: "WarpColors",
             packageName: "com.schibsted.nmp.warp.theme",
-            // filter: {
-            //   attributes: {
-            //     category: "color",
-            //   },
-            // },
           },
         ],
       },
       ios: {
         transformGroup: "ios-swift",
-        buildPath: `output/${brandMode}/ios/`,
+        buildPath: `output/ios/${brandMode}/`,
         files: [
           {
             destination: "StyleDictionary+Class.swift",

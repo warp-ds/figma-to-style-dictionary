@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "assets": "node dist.mjs",
     "build-tokens": "style-dictionary build",
-    "build": "node styledictionary.js"
+    "build": "node styledictionary.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "style-dictionary": "^3.9.1"
-  } 
+    "style-dictionary": "^3.9.1",
+    "zip-a-folder": "^3.1.6"
+  }
 }

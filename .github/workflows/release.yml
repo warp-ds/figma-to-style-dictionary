@@ -20,6 +20,8 @@ jobs:
           run_install: true
       - name: Build
         run: pnpm build
+      - name: Assets
+        run: pnpm assets
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -27,4 +29,4 @@ jobs:
           prerelease: true
           title: "WARP Token assets"
           files: |
-            output/
+            dist/
