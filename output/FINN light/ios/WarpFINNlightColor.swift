@@ -1,15 +1,15 @@
 
 //
-// StyleDictionaryColor.swift
+// WarpFINNlightColor.swift
 //
 
 // Do not edit directly
-// Generated on Tue, 30 Jan 2024 11:45:16 GMT
+// Generated on Tue, 30 Jan 2024 12:25:10 GMT
 
 
 import UIKit
 
-struct StyleDictionaryColor {
+struct WarpFINNlightColor {
     static let color50 = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.5019607843137255)
     static let colorAqua100 = UIColor(red: 0.878, green: 0.965, blue: 1.000, alpha: 1)
     static let colorAqua200 = UIColor(red: 0.714, green: 0.941, blue: 1.000, alpha: 1)

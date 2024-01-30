@@ -71,9 +71,9 @@ brandModes.forEach((brandMode) => {
             filter: {},
           },
           {
-            destination: "StyleDictionaryColor.swift",
+            destination: `Warp${brandMode.replace(' ', '')}Color.swift`,
             format: "ios-swift/enum.swift",
-            className: "StyleDictionaryColor",
+            className: `Warp${brandMode.replace(' ', '')}Color`,
             options: {
               imports: "SwiftUI",
               objectType: "struct",

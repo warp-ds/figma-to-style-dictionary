@@ -1,15 +1,15 @@
 
 //
-// StyleDictionaryColor.swift
+// WarpTORIlightColor.swift
 //
 
 // Do not edit directly
-// Generated on Tue, 30 Jan 2024 11:45:16 GMT
+// Generated on Tue, 30 Jan 2024 12:25:10 GMT
 
 
 import UIKit
 
-struct StyleDictionaryColor {
+struct WarpTORIlightColor {
     static let colorBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     static let colorBlue100 = UIColor(red: 0.780, green: 0.906, blue: 0.984, alpha: 1)
     static let colorBlue200 = UIColor(red: 0.635, green: 0.835, blue: 0.961, alpha: 1)

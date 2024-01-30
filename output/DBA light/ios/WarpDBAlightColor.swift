@@ -1,15 +1,15 @@
 
 //
-// StyleDictionaryColor.swift
+// WarpDBAlightColor.swift
 //
 
 // Do not edit directly
-// Generated on Tue, 30 Jan 2024 11:45:16 GMT
+// Generated on Tue, 30 Jan 2024 12:25:10 GMT
 
 
 import UIKit
 
-struct StyleDictionaryColor {
+struct WarpDBAlightColor {
     static let colorBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     static let colorGray100 = UIColor(red: 0.961, green: 0.961, blue: 0.961, alpha: 1)
     static let colorGray200 = UIColor(red: 0.902, green: 0.902, blue: 0.902, alpha: 1)
