@@ -12,34 +12,45 @@ brandModes.forEach((brandMode) => {
     source: [path.join(tokensPath, brandMode, "*.json")],
     platforms: {
       scss: {
-        transformGroup: 'scss',
+        transformGroup: "scss",
         buildPath: `output/${brandMode}/web/`,
-        files: [{
-          destination: "_variables.scss",
-          format: "scss/variables",
-          options: {
-            outputReferences: true,
-          }
-        }]
+        files: [
+          {
+            destination: "_variables.scss",
+            format: "scss/variables",
+            options: {
+              outputReferences: true,
+            },
+          },
+        ],
       },
       css: {
-        transformGroup: 'css',
+        transformGroup: "css",
         buildPath: `output/${brandMode}/web/`,
-        files: [{
-          destination: 'variables.css',
-          format: 'css/variables',
-          options: {
-            outputReferences: true,
+        files: [
+          {
+            destination: "variables.css",
+            format: "css/variables",
+            options: {
+              outputReferences: true,
+            },
           },
-        }]
+        ],
       },
-      android: {
-        transformGroup: "android",
+      compose: {
+        transformGroup: "compose",
         buildPath: `output/${brandMode}/android/`,
         files: [
           {
-            destination: "colors.xml",
-            format: "android/colors",
+            destination: "StyleDictionaryColor.kt",
+            format: "compose/object",
+            className: "WarpColors",
+            packageName: "com.schibsted.nmp.warp.theme",
+            // filter: {
+            //   attributes: {
+            //     category: "color",
+            //   },
+            // },
           },
         ],
       },
@@ -56,7 +67,7 @@ brandModes.forEach((brandMode) => {
             format: "ios/colors.m",
           },
         ],
-      }  
+      },
     },
   };
 
