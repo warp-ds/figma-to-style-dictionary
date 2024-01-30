@@ -25,11 +25,11 @@ This repo imports colour variables/tokens from Figma using Figma's API, and uses
 
 ## Download data from Figma:
 
-You need a Figma personal access token. Visit your [account settings](https://www.figma.com/settings) in Figma and click the "Personal Access Tokens" tab. From here, click "Create a new personal access token". Run the following from the terminal: 
+You need the Figma Project ID and a Figma personal access token. Visit your [account settings](https://www.figma.com/settings) in Figma and click the "Personal Access Tokens" tab. From here, click "Create a new personal access token".
 
-```
-curl -H 'X-FIGMA-TOKEN: <personal access token>' 'https://api.figma.com/v1/files/oHBCzDdJxHQ6fmFLYWUltf/variables/local' -o data/figma.json
-```
+Run the following from the terminal:
+
+`npm run import`
 
 The data is saved in `data/figma.json`.
 
