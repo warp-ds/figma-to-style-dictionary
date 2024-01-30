@@ -77,7 +77,7 @@ brandModes.forEach((brandMode) => {
             options: {
               imports: "SwiftUI",
               objectType: "struct",
-              accessControl: "internal",
+              accessControl: "",
             },
           },
         ],
