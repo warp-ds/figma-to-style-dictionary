@@ -20,8 +20,8 @@ function processAndWriteBrandColors(sourceData, variableCollections, variables, 
           if (colorValue) {
             if (colorNameParts.length === 3) {
               // Color belongs to a group
-              const colorCategory = colorNameParts[1].toLowerCase();;
-              const colorShade = colorNameParts[2].toLowerCase();;
+              const colorCategory = colorNameParts[1].toLowerCase();
+              const colorShade = colorNameParts[2].toLowerCase();
 
               if (!brandColors[colorCategory]) {
                 brandColors[colorCategory] = {};
@@ -47,7 +47,7 @@ function processAndWriteBrandColors(sourceData, variableCollections, variables, 
           }
           fs.writeFileSync(
             path.join(dirPath, "colors.json"),
-            JSON.stringify({ color: brandColors }, null, 2)
+            JSON.stringify({ w: brandColors }, null, 2)
           );
         });
       }

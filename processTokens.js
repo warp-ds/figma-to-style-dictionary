@@ -59,11 +59,11 @@ function processAndWriteSemanticAndComponentTokens(sourceData, tokenVariableColl
     }
     fs.writeFileSync(
       path.join(dirPath, "semantic.json"),
-      JSON.stringify({ semantic: modeObject.semantic }, null, 2)
+      JSON.stringify({ w: { s: { color: modeObject.semantic }}}, null, 2)
     );
     fs.writeFileSync(
       path.join(dirPath, "components.json"),
-      JSON.stringify({ components: modeObject.components }, null, 2)
+      JSON.stringify({ w: { color: modeObject.components }}, null, 2)
     );
   });
 }
@@ -79,14 +79,18 @@ function extractValueForMode(variable, modeId, sourceData) {
   // Determine if the variable is a semantic token or not
   let formattedName;
   if (variableName.startsWith("Semantic")) {
-    // For semantic tokens, keep the name as is
     const nameParts = variableName.split("/");
-    formattedName = nameParts.join(".").toLowerCase();
+//    formattedName = `w.s.color.${nameParts.slice(1).join(".").toLowerCase().replace(/\.default$/, '')}`;
+    formattedName = `w.s.color.${nameParts.slice(1).join(".").toLowerCase()}`;
   } else {
     // For non-semantic tokens, replace the first segment with "Color"
-    const nameParts = variableName.split("/");
-    nameParts[0] = "color";
-    formattedName = nameParts.join(".").toLowerCase();
+    let nameParts = variableName.split("/");
+    if (nameParts[0] === 'Components') {
+      nameParts[0] = "color";
+    }  else {
+      nameParts = nameParts.slice(1);
+    }
+    formattedName = `w.${nameParts.join(".").toLowerCase()}`;
   }
 
   // Wrap with curly braces
@@ -96,11 +100,7 @@ function extractValueForMode(variable, modeId, sourceData) {
 
 // Get the name of the variable referred to, bet it a Primitive value, semantic or component token
 function getVariableNameById(variableId, sourceData) {
-  const variable = sourceData.meta.variables[variableId];
-  if (variable) {
-    return variable.name;
-  }
-  return "Unknown Variable";
+  return sourceData?.meta?.variables?.[variableId]?.name ?? "Unknown Variable";
 }
 
 module.exports = {
