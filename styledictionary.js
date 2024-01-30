@@ -55,16 +55,30 @@ brandModes.forEach((brandMode) => {
         ],
       },
       ios: {
-        transformGroup: "ios",
+        transformGroup: "ios-swift",
         buildPath: `output/${brandMode}/ios/`,
         files: [
           {
-            destination: "StyleDictionaryColor.h",
-            format: "ios/colors.h",
+            destination: "StyleDictionary+Class.swift",
+            format: "ios-swift/class.swift",
+            className: "StyleDictionaryClass",
+            filter: {},
           },
           {
-            destination: "StyleDictionaryColor.m",
-            format: "ios/colors.m",
+            destination: "StyleDictionary+Enum.swift",
+            format: "ios-swift/enum.swift",
+            className: "StyleDictionaryEnum",
+            filter: {},
+          },
+          {
+            destination: "StyleDictionaryColor.swift",
+            format: "ios-swift/enum.swift",
+            className: "StyleDictionaryColor",
+            options: {
+              imports: "SwiftUI",
+              objectType: "struct",
+              accessControl: "internal",
+            },
           },
         ],
       },
