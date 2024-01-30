@@ -7,6 +7,20 @@ const brandModes = fs
   .readdirSync(tokensPath)
   .filter((item) => fs.statSync(path.join(tokensPath, item)).isDirectory());
 
+  StyleDictionary.registerTransform({
+    name: 'default/remove',
+    type: 'name',
+    transitive: true,
+    transformer: function(prop) {
+      if (prop.original.value.indexOf("default") !== -1) {
+        console.log("prop: ", prop.original.value.replace(/\.default}$/g, '}').replace(/\./g, '-'));
+      }
+      return prop.original.value.replace(/\.default}$/g, '}').replace(/\./g, '-');
+      // replace(/\.default$/, '')
+
+    }
+  });
+
 brandModes.forEach((brandMode) => {
   const config = {
     source: [path.join(tokensPath, brandMode, "*.json")],
@@ -24,6 +38,7 @@ brandModes.forEach((brandMode) => {
       },
       css: {
         transformGroup: 'css',
+        // transforms: ['attribute/cti', 'default/remove', 'time/seconds', 'content/icon', 'size/rem', 'color/css'],
         buildPath: `output/${brandMode}/web/`,
         files: [{
           destination: 'variables.css',
