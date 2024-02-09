@@ -7,13 +7,17 @@
     "assets": "node dist.mjs",
     "build-tokens": "style-dictionary build",
     "build": "node styledictionary.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "import": "node ./scripts/import.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ora": "^8.0.1",
+    "prompts": "^2.4.2",
     "style-dictionary": "^3.9.1",
-    "zip-a-folder": "^3.1.6"
+    "zip-a-folder": "^3.1.6",
+    "dotenv": "^16.4.1"
   }
 }
