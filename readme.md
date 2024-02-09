@@ -21,7 +21,7 @@ This repo imports colour variables/tokens from Figma using Figma's API, and uses
 # How to run locally
 
 ## Install packages
-`npm install`
+`pnpm install`
 
 ## Download data from Figma:
 
@@ -29,7 +29,7 @@ You need the Figma Project ID and a Figma personal access token. Visit your [acc
 
 Run the following from the terminal:
 
-`npm run import`
+`pnpm run import`
 
 The data is saved in `data/figma.json`.
 
